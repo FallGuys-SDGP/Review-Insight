@@ -1,0 +1,29 @@
+/* -----------------------------css to the navigation bar----------------------------- */
+.top-nav {
+  background-color: #adad85;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 50px; 
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+li a:hover {
+  background-color:  #737373;
+} 
