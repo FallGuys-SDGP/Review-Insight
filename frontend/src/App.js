@@ -4,6 +4,8 @@ import link1 from "./components/link1";
 import "./App.css";
 import "./components/Tabs.css";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import logIn from "./components/log-in/login";
+import register from "./components/register/register";
 
 function App(){
   return(
@@ -13,17 +15,18 @@ function App(){
         <div class="top-nav">
           <nav>
             <ul class="nav-links">
-              <Link to="/link4">
-                <li><a>link 4</a></li>
+              
+              <Link to="/register">
+                <li><a>Register</a></li>
               </Link>
-              <Link to="/link3">
-                <li><a>link 3</a></li>
-              </Link>
-              <Link to="/link2">
-                <li><a>link 2</a></li>
+              <Link to="/login"> 
+                <li><a>Log In</a></li>
               </Link>
               <Link to="/link1">
-                <li><a>link 1</a></li>
+                <li><a>link1</a></li>
+              </Link>
+              <Link to="/">
+                <li><a>Home</a></li>
               </Link>
             </ul>
           </nav>
@@ -32,7 +35,8 @@ function App(){
         <Switch>
           <Route path="/" exact component={Result}/>
           <Route path="/link1" exact component={link1}/>
-          {/* <Route path="/link2" exact component={link2}/> */}
+          <Route path="/login" exact component={logIn}/>
+          <Route path="/register" exact component={register}/>
         </Switch>
       </div> 
     </Router>
