@@ -6,6 +6,11 @@ import "./components/Tabs.css";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import logIn from "./components/log-in/login";
 import register from "./components/register/register";
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import { AmplifySignOut, withAuthenticator } from '@aws-amplify/ui-react';
+
+Amplify.configure(awsconfig)
 
 function App(){
   return(
@@ -13,9 +18,10 @@ function App(){
       <div className="app">
 
         <div class="top-nav">
+          
           <nav>
             <ul class="nav-links">
-              
+             
               <Link to="/register">
                 <li><a>Register</a></li>
               </Link>
@@ -28,6 +34,8 @@ function App(){
               <Link to="/">
                 <li><a>Home</a></li>
               </Link>
+              <AmplifySignOut/>
+             
             </ul>
           </nav>
         </div>
@@ -43,4 +51,4 @@ function App(){
   );
 }
 
-export default App;
+export default withAuthenticator(App);
