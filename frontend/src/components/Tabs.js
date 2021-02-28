@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "../components/Tabs.css";
+import Report from "./result/Report.js";
 
 function Tabs() {
   const [toggleState, setToggleState] = useState(1);
@@ -27,7 +28,8 @@ function Tabs() {
 
       <div className="content-tabs">
         <div className={toggleState === 1 ? "content  active-content" : "content"}>
-          <p>Report Content Here</p>
+          {/* <p>Report Content Here</p> */}
+          <Report></Report>
         </div>
 
         <div className={toggleState === 2 ? "content  active-content" : "content"}>
