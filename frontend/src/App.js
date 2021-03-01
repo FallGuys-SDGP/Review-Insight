@@ -1,39 +1,41 @@
 import React from "react";
-import Result from "./components/Result";
-import link1 from "./components/link1";
+import Home from "./components/home/Home";
+import Result from "./components/results/Result";
 import "./App.css";
-import "./components/Tabs.css";
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import "./components/results/Tabs.css";
+import "./components/home/Home.css";
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+
 
 function App(){
   return(
     <Router>
       <div className="app">
-
         <div class="top-nav">
           <nav>
             <ul class="nav-links">
               <Link to="/link4">
-                <li><a>link 4</a></li>
+                <li><a>Log In</a></li>
               </Link>
               <Link to="/link3">
-                <li><a>link 3</a></li>
+                <li><a>Contact</a></li>
               </Link>
               <Link to="/link2">
-                <li><a>link 2</a></li>
+                <li><a>About Us</a></li>
               </Link>
-              <Link to="/link1">
-                <li><a>link 1</a></li>
+              <Link to="/home">
+                <li><a>Home</a></li>
               </Link>
             </ul>
           </nav>
         </div>
 
         <Switch>
-          <Route path="/" exact component={Result}/>
-          <Route path="/link1" exact component={link1}/>
-          {/* <Route path="/link2" exact component={link2}/> */}
+          <Route path="/" exact component={Home}/>
+          <Route path="/home" exact component={Home}/>
+          <Route path="/result" exact component={Result}/>
         </Switch>
+
       </div> 
     </Router>
   );
