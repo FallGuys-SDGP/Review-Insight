@@ -1,9 +1,11 @@
 import React from "react";
 import Home from "./components/home/Home";
+import Result from "./components/results/Result";
 import "./App.css";
 import "./components/results/Tabs.css";
 import "./components/home/Home.css";
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+
 
 function App(){
   return(
@@ -21,7 +23,7 @@ function App(){
               <Link to="/link2">
                 <li><a>About Us</a></li>
               </Link>
-              <Link to="/Home">
+              <Link to="/home">
                 <li><a>Home</a></li>
               </Link>
             </ul>
@@ -30,8 +32,8 @@ function App(){
 
         <Switch>
           <Route path="/" exact component={Home}/>
-          <Route path="/Home" exact component={Home}/>
-          {/* <Route path="/link2" exact component={link2}/> */}
+          <Route path="/home" exact component={Home}/>
+          <Route path="/result" exact component={Result}/>
         </Switch>
 
       </div> 
