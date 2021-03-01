@@ -1,31 +1,29 @@
 import React from "react";
-import Result from "./components/Result";
-import link1 from "./components/link1";
+import Home from "./components/home/Home";
+import Result from "./components/results/Result";
 import "./App.css";
-import "./components/Tabs.css";
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import logIn from "./components/log-in/login";
-import register from "./components/register/register";
+import "./components/results/Tabs.css";
+import "./components/home/Home.css";
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import LogIn from './components/log-in/login';
 
 function App(){
   return(
     <Router>
       <div className="app">
-
         <div class="top-nav">
           <nav>
             <ul class="nav-links">
-              
-              <Link to="/register">
-                <li><a>Register</a></li>
-              </Link>
-              <Link to="/login"> 
+              <Link to="/login">
                 <li><a>Log In</a></li>
               </Link>
-              <Link to="/link1">
-                <li><a>link1</a></li>
+              <Link to="/link3">
+                <li><a>Contact</a></li>
               </Link>
-              <Link to="/">
+              <Link to="/link2">
+                <li><a>About Us</a></li>
+              </Link>
+              <Link to="/home">
                 <li><a>Home</a></li>
               </Link>
             </ul>
@@ -33,11 +31,13 @@ function App(){
         </div>
 
         <Switch>
-          <Route path="/" exact component={Result}/>
-          <Route path="/link1" exact component={link1}/>
-          <Route path="/login" exact component={logIn}/>
-          <Route path="/register" exact component={register}/>
+          <Route path="/" exact component={Home}/>
+          <Route path="/home" exact component={Home}/>
+          <Route path="/result" exact component={Result}/>
+          <Route path="/login" exact component={LogIn}/>
+
         </Switch>
+
       </div> 
     </Router>
   );
