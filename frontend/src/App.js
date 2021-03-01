@@ -1,9 +1,7 @@
 import React from "react";
-// import Result from "./components/Result";
 import Home from "./components/home/Home";
-import link1 from "./components/link1";
 import "./App.css";
-import "./components/Tabs.css";
+import "./components/results/Tabs.css";
 import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
@@ -23,7 +21,7 @@ function App(){
               <Link to="/link2">
                 <li><a>About Us</a></li>
               </Link>
-              <Link to="/link1">
+              <Link to="/Home">
                 <li><a>Home</a></li>
               </Link>
             </ul>
@@ -32,7 +30,7 @@ function App(){
 
         <Switch>
           <Route path="/" exact component={Home}/>
-          <Route path="/link1" exact component={link1}/>
+          <Route path="/Home" exact component={Home}/>
           {/* <Route path="/link2" exact component={link2}/> */}
         </Switch>
 
