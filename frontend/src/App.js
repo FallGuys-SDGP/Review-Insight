@@ -6,7 +6,7 @@ import "./components/results/Tabs.css";
 import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import LogIn from './components/log-in/login';
-import register from "./components/register/register"
+import Register from "./components/register/register"
 
 
 function App(){
@@ -37,7 +37,7 @@ function App(){
           <Route path="/home" exact component={Home}/>
           <Route path="/result" exact component={Result}/>
           <Route path="/login" exact component={LogIn}/>
-          <Route path="/register" exact component={register}/>
+          <Route path="/register" exact component={Register}/>
 
         </Switch>
 

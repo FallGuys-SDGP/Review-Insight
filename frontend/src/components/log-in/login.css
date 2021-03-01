@@ -14,15 +14,15 @@
     flex-direction: column;
    
     /* align-items: center; */
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 100px;
    
 
 }
-.container-login > * {
+/* .container-login > * {
   margin-bottom: 100px;
 
-}
+} */
 
 
 .btn-submit{
@@ -38,7 +38,7 @@
 
 }
 .card-login{
-  margin-top: 15%;
+  margin-top: 5%;
   width: 80%;
 
   
