@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "login7740f7f4": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
