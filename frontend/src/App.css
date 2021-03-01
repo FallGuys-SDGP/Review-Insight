@@ -1,6 +1,6 @@
 /* -----------------------------css to the navigation bar----------------------------- */
 .top-nav {
-  background-color: #adad85;
+  background-color: #3333cc;
 }
 
 ul {
@@ -16,7 +16,7 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 20px 50px; 
   text-decoration: none;
@@ -25,5 +25,5 @@ li a {
 }
 
 li a:hover {
-  background-color:  #737373;
+  background-color:   #4d88ff;
 } 
