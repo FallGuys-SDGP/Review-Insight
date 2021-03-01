@@ -17,7 +17,7 @@ function App(){
           <nav>
             <ul class="nav-links">
               <Link to="/login">
-                <li><a>Log In</a></li>
+                <li><a>Log In / Register </a></li>
               </Link>
               <Link to="/link3">
                 <li><a>Contact</a></li>
