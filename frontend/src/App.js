@@ -5,6 +5,8 @@ import "./App.css";
 import "./components/results/Tabs.css";
 import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import LogIn from './components/log-in/login';
+import Register from "./components/register/register"
 
 
 function App(){
@@ -14,8 +16,8 @@ function App(){
         <div class="top-nav">
           <nav>
             <ul class="nav-links">
-              <Link to="/link4">
-                <li><a>Log In</a></li>
+              <Link to="/login">
+                <li><a>Log In / Register </a></li>
               </Link>
               <Link to="/link3">
                 <li><a>Contact</a></li>
@@ -34,6 +36,9 @@ function App(){
           <Route path="/" exact component={Home}/>
           <Route path="/home" exact component={Home}/>
           <Route path="/result" exact component={Result}/>
+          <Route path="/login" exact component={LogIn}/>
+          <Route path="/register" exact component={Register}/>
+
         </Switch>
 
       </div> 
