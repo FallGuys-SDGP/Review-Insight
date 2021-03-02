@@ -9,7 +9,7 @@ function Home(){
         {/* <input class="search" placeholder="Search..." type="text" />
         <button type="submit" >Submit</button> */}
         <TextField className="Searchbar" id="outlined-basic" label="" variant="outlined" />
-        <Button id="outlined-basic" label="Outlined" variant="contained" > Search </Button>
+        <Button id="outlined-basic" label="Outlined" variant="contained" href="/Result"> Search </Button>
       </div> 
     </div>
   );
