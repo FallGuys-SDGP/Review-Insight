@@ -6,11 +6,13 @@ import "../results/Result.css";
 function Result(){
   return(
     <div>
-      <div className="home">
-        <Tabs />
-      </div> 
-      <div className="summary">
-        <h1 className="summary-title"> Summary </h1>
+      <div lassName="container">
+        <div className="summary">
+          <h1 className="summary-title"> Summary </h1>
+        </div>
+        <div className="home">
+          <Tabs />
+        </div> 
       </div>
 
     </div>
