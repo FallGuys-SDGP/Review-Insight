@@ -1,0 +1,16 @@
+.reviewBox {
+    width: 80%;
+    height: 'auto';
+    background-Color: skyblue;
+    border-Radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.reviewText {
+    width: 'auto';
+    height: 'auto';
+    background-Color: lightblue;
+    border-Radius: 25px;
+    padding: 10px
+
+}
