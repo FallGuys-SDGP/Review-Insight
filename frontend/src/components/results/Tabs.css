@@ -6,10 +6,10 @@ button {
     float: right;
     position: absolute;
     top: 90px;
-    left: 800px;
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
+    right: 20px;
+    color: rgb(255, 255, 255);
+    /* padding-left: 20px;
+    padding-right: 20px; */
 }
 
 .bloc-tabs {
@@ -20,7 +20,8 @@ button {
     padding: 15px;
     text-align: center;
     width: 50%;
-    background: #ff8c1a;
+    background: #0b64ca;
+    color: rgb(255, 255, 255);
     line-height: 1.5em;
     position: relative;
     outline: none;
@@ -28,9 +29,9 @@ button {
 }
   
 .active-tabs  {
-    background: #ffff66;
+    background: #317bdd;
     border: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
   
 .content {
@@ -46,8 +47,8 @@ button {
 }
 
 .content-tabs{
-    background-color: #ffff66;
-    height: 400px;
-    width: 400px;
+    background-color: #317bdd;
+    height: 1000px;
+    width: 1100px;
     padding: 100px 0px 10px 150px;
 }

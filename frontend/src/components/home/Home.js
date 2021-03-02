@@ -11,9 +11,6 @@ function Home(){
         <TextField className="Searchbar" id="outlined-basic" label="" variant="outlined" />
         <Button id="outlined-basic" label="Outlined" variant="contained" > Search </Button>
       </div> 
-
-
-      
     </div>
   );
 }
