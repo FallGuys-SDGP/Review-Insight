@@ -29,9 +29,6 @@ function Tabs() {
       <div className="content-tabs">
         <div className={toggleState === 1 ? "content  active-content" : "content"}>
           <p>Report Content Here</p>
-          <div>
-            <ReviewContainer/>
-          </div>
         </div>
 
         <div className={toggleState === 2 ? "content  active-content" : "content"}>
@@ -44,6 +41,11 @@ function Tabs() {
                     <p>Yes, it fits, but the product was mis-represented as a folding plug. It has fixed prongs which diminish the ability of me to put it in my thin laptop bag. It would not be worth the postage to ship this thing back considering the cost but I am extremely disappointed with this company.</p>
                   </div>
                 </div>  */}
+          <div>
+            <ReviewContainer/>
+            <ReviewContainer/>
+            <ReviewContainer/>
+          </div>
         </div>
 
         <div className={toggleState === 3 ? "content  active-content" : "content"}>
