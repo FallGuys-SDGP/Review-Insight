@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "../components/Tabs.css";
+import "../results/Tabs.css";
 
 function Tabs() {
   const [toggleState, setToggleState] = useState(1);

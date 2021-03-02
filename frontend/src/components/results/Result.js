@@ -1,10 +1,10 @@
 import React from "react";
-import Tabs from "../components/Tabs";
+import Tabs from "./Tabs";
 
 function Result(){
   return(
     <div className="home">
-       <Tabs />
+      <Tabs />
     </div> 
   );
 }
