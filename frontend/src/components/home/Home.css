@@ -2,8 +2,8 @@
   position: relative;
   display: flex;
   min-width: 30px;
-  left: 27%;
-  margin-top: 15%;
+  left: 30%;
+  margin-top: 20%;
 }
 
 .search-icon {
@@ -28,3 +28,8 @@
   border: 1.5px solid #009688;
   background-color: white;
 }
+
+.Searchbar{
+  width: 600px;
+}
+
