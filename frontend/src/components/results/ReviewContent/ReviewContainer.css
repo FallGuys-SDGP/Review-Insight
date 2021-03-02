@@ -1,0 +1,11 @@
+.reviewBox {
+    width: '300px';
+    height: '100px';
+    background-color: 'grey';
+}
+.reviewText {
+    width: '290px';
+    height: '55px';
+    background-color: 'green'; 
+    margin-Left:'5px';
+}
