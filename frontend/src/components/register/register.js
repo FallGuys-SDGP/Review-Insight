@@ -9,7 +9,8 @@ function Register(){
 
     <Card className = "card-login">
 
-    <Typography variant="h3" component="h3" gutterBottom> Create Account  </Typography>
+    <Typography variant="h3" component="h3" gutterBottom> Create An Account  </Typography>
+    
 
       <div className = "container-login">
 
