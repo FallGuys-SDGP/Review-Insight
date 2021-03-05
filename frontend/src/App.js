@@ -4,6 +4,7 @@ import Result from "./components/results/Result";
 import "./App.css";
 import "./components/results/Tabs.css";
 import "./components/home/Home.css";
+import TestApi from "./TestApi";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import LogIn from './components/log-in/login';
 import Register from "./components/register/register"
@@ -38,6 +39,7 @@ function App(){
           <Route path="/result" exact component={Result}/>
           <Route path="/login" exact component={LogIn}/>
           <Route path="/register" exact component={Register}/>
+          <Route path="/link2" exact component={TestApi}/>
 
         </Switch>
 
