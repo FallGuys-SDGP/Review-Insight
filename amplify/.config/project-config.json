@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "ReviewInsightfronten",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "backend",
+      "DistributionDir": "Build\\backend",
+      "BuildCommand": "npm run ",
+      "StartCommand": "npm start"
+    }
+  }
+}
