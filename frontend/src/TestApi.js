@@ -18,25 +18,12 @@ class TestApi extends Component {
   }
   
   callApi = async () => {
-    
-    
-
-    try {
+  
       const response = await fetch('/staging/getProduct-staging');
-      console.log("api error");
-      console.log(response);
       const body = await response.json();
-      console.log("fetch error");
-      console.log(response);
-      console.log(body);
       if (response.status !== 200) throw Error(body.message);
+      console.log(body)
       return body;
-    }catch (error){
-      console.log("fetch error");
-    }finally{
-      
-    }
-
   };
   
   handleSubmit = async e => {
