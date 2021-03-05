@@ -19,9 +19,11 @@ class TestApi extends Component {
   
   callApi = async () => {
   
-      const response = await fetch('/staging/getProduct-staging');
+      const response = await fetch('https://kbdelooz8g.execute-api.ap-south-1.amazonaws.com/staging/getProduct-staging');
       const body = await response.json();
+      console.log(response);
       if (response.status !== 200) throw Error(body.message);
+
       console.log(body)
       return body;
   };
