@@ -1,39 +1,48 @@
 import React from "react";
-import Result from "./components/Result";
-import link1 from "./components/link1";
+import Home from "./components/home/Home";
+import Result from "./components/results/Result";
 import "./App.css";
-import "./components/Tabs.css";
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import "./components/results/Tabs.css";
+import "./components/home/Home.css";
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import LogIn from './components/log-in/login';
+import Register from "./components/register/register";
+import BackendTest from './BackendTest'
+
 
 function App(){
   return(
     <Router>
       <div className="app">
-
         <div class="top-nav">
           <nav>
             <ul class="nav-links">
-              <Link to="/link4">
-                <li><a>link 4</a></li>
+              <Link to="/login">
+                <li><a>Log In / Register </a></li>
               </Link>
               <Link to="/link3">
-                <li><a>link 3</a></li>
+                <li><a>Contact</a></li>
               </Link>
               <Link to="/link2">
-                <li><a>link 2</a></li>
+                <li><a>About Us</a></li>
               </Link>
-              <Link to="/link1">
-                <li><a>link 1</a></li>
+              <Link to="/home">
+                <li><a>Home</a></li>
               </Link>
             </ul>
           </nav>
         </div>
 
         <Switch>
-          <Route path="/" exact component={Result}/>
-          <Route path="/link1" exact component={link1}/>
-          {/* <Route path="/link2" exact component={link2}/> */}
+          <Route path="/" exact component={Home}/>
+          <Route path="/home" exact component={Home}/>
+          <Route path="/result" exact component={Result}/>
+          <Route path="/login" exact component={LogIn}/>
+          <Route path="/register" exact component={Register}/>
+          <Route path="/link2" exact component={BackendTest}/>
+
         </Switch>
+
       </div> 
     </Router>
   );
