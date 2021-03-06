@@ -6,7 +6,8 @@ import "./components/results/Tabs.css";
 import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import LogIn from './components/log-in/login';
-import Register from "./components/register/register"
+import Register from "./components/register/register";
+import BackendTest from './BackendTest'
 
 
 function App(){
@@ -38,6 +39,7 @@ function App(){
           <Route path="/result" exact component={Result}/>
           <Route path="/login" exact component={LogIn}/>
           <Route path="/register" exact component={Register}/>
+          <Route path="/link2" exact component={BackendTest}/>
 
         </Switch>
 
