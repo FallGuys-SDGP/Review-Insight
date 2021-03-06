@@ -19,8 +19,8 @@ class BackendTest extends Component {
     const response = await fetch('https://kbdelooz8g.execute-api.ap-south-1.amazonaws.com/staging/getProduct-staging');
     const body = await response.json();
     if (response.status !== 200) throw Error(body.message);
-    
-    return response;
+    console.log(body);
+    return body;
   };
   
   handleSubmit = async e => {
