@@ -11,7 +11,7 @@ class BackendTest extends Component {
   
   componentDidMount() {
     this.callApi()
-      .then(res => this.setState({ response: res.express }))
+      .then(res => this.setState({ response: res }))
       .catch(err => console.log(err));
   }
   
