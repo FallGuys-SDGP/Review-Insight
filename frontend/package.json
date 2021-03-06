@@ -2,8 +2,6 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kbdelooz8g.execute-api.ap-south-1.amazonaws.com",
-  "proxy": "https://kbdelooz8g.execute-api.ap-south-1.amazonaws.com",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.9",
