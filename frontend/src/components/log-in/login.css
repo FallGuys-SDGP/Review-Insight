@@ -1,47 +1,38 @@
-  .wrapper-login {
+/* Lgg in Regster Componet CSS File */
+ 
+ 
+ .wrapper-login {
     display: flex;
     text-align: center;
     justify-content: center;
-    
-   
   }
-
 
 .container-login{
   text-align: center;
     display :flex ;
     justify-content: center;
     flex-direction: column;
-   
-    /* align-items: center; */
     margin-top: 5%;
     margin-bottom: 100px;
-    /* margin: 100px; */
-
-   
-
 }
+
 /* .container-login > * {
   margin-bottom: 100px;
 
 } */
-
 
 .btn-submit{
    padding: 100px;
   background-color: blue;
   color: aliceblue;
   font-size: medium;
-   
 }
 
 .tf-login{
   margin-bottom : 30px;
-
 }
+
 .card-login{
   margin-top: 5%;
   width: 80%;
-
-  
 }

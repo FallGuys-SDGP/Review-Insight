@@ -1,48 +1,67 @@
-import React from "react";
+import React, { Component } from "react";
 import "../log-in/login.css";
 import { TextField, Button , Card } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 
-function Register(){
-  return(
-    <div  className = "wrapper-login" >
+// import { Auth } from '@aws-amplify/auth';
 
-    <Card className = "card-login">
+class Register extends Component{
+  state= { username: '',password: '',email: '',authenication: '',step: 0 } 
 
-    <Typography variant="h3" component="h3" gutterBottom> Create An Account  </Typography>
-    
+  onChange = e => {
+    this.setState({ [e.target.name]: e.target.value });
+  }
 
-      <div className = "container-login">
+  // signUp = async () => {
+  //   const { firstName , password, email }
 
-          <div className = "tf-login" >
-             <TextField  id="first-name"   label="First Name"    variant="outlined"    color="secondary"  />
-          </div>
+  // }
 
-          <div className = "tf-login" >
-             <TextField  id="last-name"   label="Last Name"    variant="outlined"    color="secondary"  />
-          </div>
+  render(){
+      return(
 
-          <div className = "tf-login" >
-             <TextField  id="username"   label="Email"    variant="outlined"    color="secondary"  />
-          </div>
+      <div  className = "wrapper-login" >
 
-          <div className = "tf-login" >
-              <TextField    id="password"    label="Password"    variant="outlined"    color="secondary"  />
-          </div>   
+        <Card className = "card-login">
 
-          <div className = "tf-login" >
-              <TextField    id="password"    label="Confirm Password"    variant="outlined"    color="secondary"  />
-          </div> 
+          <Typography variant="h3" component="h3" gutterBottom> Create An Account  </Typography>
+        
+
+          <div className = "container-login">
+
+              <div className = "tf-login" >
+                <TextField onChange = {this.onChange} id="first-name" name = "firstName" label="First Name"    variant="outlined"    color="secondary"  />
+              </div>
+
+              <div className = "tf-login" >
+                <TextField onChange = {this.onChange} id="last-name" name = "lastName" label="Last Name"    variant="outlined"    color="secondary"  />
+              </div>
+
+              <div className = "tf-login" >
+                <TextField  onChange = {this.onChange} id="email"  name = "email"  label="Email"    variant="outlined"    color="secondary"  />
+              </div>
+
+              <div className = "tf-login" >
+                  <TextField  onChange = {this.onChange}  id="password"  name = "password"  type = "password" label="Password"    variant="outlined"    color="secondary"  />
+              </div>   
+
+              <div className = "tf-login" >
+                  <TextField  onChange = {this.onChange}  id="password"  name = "password" type = "password"  label="Confirm Password"    variant="outlined"    color="secondary"  />
+              </div> 
+          
+              <div className = "tf-login" >
+                  <Button  id= "btn-submit"  variant="contained" color="primary" href="#outlined-buttons">  Create Account </Button>
+              </div>  
       
-          <div className = "tf-login" >
-              <Button  id= "btn-submit"  variant="contained" color="primary" href="#outlined-buttons">  Create Account </Button>
           </div>  
-   
-      </div>  
-    </Card>
-         
-</div> 
-  );
-}
+        </Card>
+            
+      </div> 
+    );
+  }
+} 
+
+
+
 
 export default Register;
