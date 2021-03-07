@@ -5,19 +5,14 @@ import "../results/Result.css";
 
 function Result(){
   return(
-    <div>
-      <div lassName="container">
+    <div className="result-container">
         <div className="summary">
           <h1 className="summary-title"> Summary </h1>
         </div>
-        <div className="home">
+        <div>
           <Tabs />
-        </div> 
-      </div>
-
+        </div>
     </div>
-
-
   );
 }
 

@@ -1,0 +1,24 @@
+.report-container {
+}
+
+.report-detail-card {
+	display: flex;
+	flex-direction: row;
+	/* width: 100%; */
+	height: 100%;
+	background-color: #317bdd;
+	color: black;
+	justify-content: space-evenly;
+}
+
+.report-box-card {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	background-color: skyblue;
+	color: white;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	justify-content: center;
+	align-items: center;
+}

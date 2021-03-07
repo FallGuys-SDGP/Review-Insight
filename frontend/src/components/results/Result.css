@@ -1,3 +1,9 @@
+.result-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
 .summary{
     background-color: #317bdd;
     height: 870px;
@@ -5,12 +11,9 @@
     margin-left: 20px;
     border-radius: 25px;
     margin-top: 1%;
-    position: absolute;
+    /* position: absolute; */
 }
 .summary-title{
     margin-left: 33%;
-}
-.container{
-    display: 'flex';
-    flex-direction: 'row';
+    color: white;
 }
