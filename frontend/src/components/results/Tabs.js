@@ -49,7 +49,7 @@ function Tabs() {
         </div>
 
         <div className={toggleState === 3 ? "content  active-content" : "content"}>
-          <p>Specification Content Here</p>
+          <p>test 1</p>
         </div>
       </div>
     </div>
