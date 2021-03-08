@@ -10,6 +10,17 @@
       "StackName": "amplify-amplify7dad7946189a4-staging-193320",
       "StackId": "arn:aws:cloudformation:ap-south-1:559461057135:stack/amplify-amplify7dad7946189a4-staging-193320/24158160-8045-11eb-bcdf-0a6bf64f2864",
       "AmplifyAppId": "dehbk4p0y1521"
+    },
+    "categories": {
+      "storage": {
+        "Product": {
+          "tableName": "Product",
+          "region": "ap-south-1",
+          "arn": "arn:aws:dynamodb:ap-south-1:559461057135:table/Product",
+          "partitionKeyName": "asin",
+          "partitionKeyType": "S"
+        }
+      }
     }
   }
 }

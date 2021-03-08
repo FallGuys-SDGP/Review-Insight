@@ -1,1 +1,10 @@
-{}
+{
+  "storage": {
+    "Product": {
+      "service": "DynamoDB",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": []
+    }
+  }
+}
