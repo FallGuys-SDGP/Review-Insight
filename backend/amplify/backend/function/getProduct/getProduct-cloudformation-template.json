@@ -78,7 +78,7 @@
             "Arn"
           ]
         },
-        "Runtime": "nodejs12.x",
+        "Runtime": "nodejs14.x",
         "Layers": [],
         "Timeout": "25"
       }
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "reviewinsightfrontenLambdaRoled5cd4b7d",
+            "reviewinsightLambdaRole3633d814",
             {
               "Fn::Join": [
                 "",
                 [
-                  "reviewinsightfrontenLambdaRoled5cd4b7d",
+                  "reviewinsightLambdaRole3633d814",
                   "-",
                   {
                     "Ref": "env"
