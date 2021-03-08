@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import "../../components/home/Home.css";
 import { TextField,Button } from '@material-ui/core';
+import SearchBar from '../../components/home/SearchBar';
 
 function Home(){
   return(
     <div className="home">
-      <div className="wrapper">
-        {/* <input class="search" placeholder="Search..." type="text" />
-        <button type="submit" >Submit</button> */}
-        <TextField className="Searchbar" id="outlined-basic" label="" variant="outlined" />
-        <Button id="outlined-basic" label="Outlined" variant="contained" href="/Result"> Search </Button>
-      </div> 
+      <div className="intro">
+        A tool to predict the reliability of online reviews using machine learning
+      </div>
+      {/* <div className="search-container">
+        Enter a product from Amazon.com to the search bar.
+        
+      </div> */}
+      <SearchBar />
     </div>
   );
 }
