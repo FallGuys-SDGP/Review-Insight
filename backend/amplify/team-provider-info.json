@@ -17,6 +17,19 @@
           "deploymentBucketName": "amplify-amplify6366e1b846f84-staging-161058-deployment",
           "s3Key": "amplify-builds/getProduct-574973546363542b3171-build.zip"
         }
+      },
+      "auth": {
+        "AmplifyLogin": {},
+        "reviewinsightfronten6898050e": {}
+      },
+      "storage": {
+        "Product": {
+          "tableName": "Product",
+          "region": "ap-south-1",
+          "arn": "arn:aws:dynamodb:ap-south-1:559461057135:table/Product",
+          "partitionKeyName": "ProductId",
+          "partitionKeyType": "N"
+        }
       }
     }
   }
