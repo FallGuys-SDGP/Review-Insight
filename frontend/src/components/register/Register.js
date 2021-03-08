@@ -1,11 +1,21 @@
-import React from "react";
-import "../log-in/login.css";
+import { Component ,React } from "react";
+import "../log-in/LogIn.css";
 import { TextField, Button , Card } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 
-function Register(){
-  return(
-    <div  className = "wrapper-login" >
+class Register extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { 
+      firstName: '',
+      LastName: '',
+      email: '',
+      password: ''
+     }
+  }
+  render() { 
+    return ( 
+      <div  className = "wrapper-login" >
 
     <Card className = "card-login">
 
@@ -43,6 +53,11 @@ function Register(){
          
 </div> 
   );
+    
+  }
 }
-
+ 
 export default Register;
+
+
+

@@ -28,7 +28,7 @@
 
 
 .btn-submit{
-   padding: 100px;
+  padding: 100px;
   background-color: blue;
   color: aliceblue;
   font-size: medium;
@@ -37,8 +37,8 @@
 
 .tf-login{
   margin-bottom : 30px;
-
 }
+
 .card-login{
   margin-top: 5%;
   width: 80%;

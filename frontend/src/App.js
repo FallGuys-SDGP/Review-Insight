@@ -5,8 +5,8 @@ import "./App.css";
 import "./components/results/Tabs.css";
 import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
-import LogIn from './components/log-in/login';
-import Register from "./components/register/register";
+import LogIn from './components/log-in/LogIn';
+import Register from "./components/register/Register";
 import BackendTest from './BackendTest'
 
 

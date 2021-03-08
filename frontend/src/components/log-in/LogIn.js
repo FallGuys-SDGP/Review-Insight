@@ -1,7 +1,8 @@
 import React from "react";
 import { TextField, Button , Card } from '@material-ui/core';
-import "./login.css";
+import "./LogIn.css";
 import Typography from '@material-ui/core/Typography';
+import userIcon from '../asserts/log-in/userIcon.jpg';
 
 
 
@@ -14,12 +15,14 @@ function LogIn(){
       <Typography variant="h3" component="h3" gutterBottom> Review Insight  </Typography>
 
         <div className = "container-login">
+          <div className= 'tf-login'><img src={userIcon} alt="userIcon" height="150px" /></div>
+
           <div className = "tf-login" >
             <TextField  id="username"   label="User Name"    variant="outlined"    color="secondary"  />
           </div>
     
           <div className = "tf-login" >
-            <TextField    id="password"    label="Password"    variant="outlined"    color="secondary"  />
+            <TextField    id="password"  type="password"  label="Password"    variant="outlined"    color="secondary"  />
           </div>   
       
           <div className = "tf-login" >
