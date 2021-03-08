@@ -15,6 +15,9 @@ function App(){
     <Router>
       <div className="app">
         <div class="top-nav">
+          <dic className="title">
+            <b>Review Insight</b>
+          </dic>
           <nav>
             <ul class="nav-links">
               <Link to="/login">
