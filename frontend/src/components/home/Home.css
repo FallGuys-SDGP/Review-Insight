@@ -1,10 +1,29 @@
+.intro {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+  font-size: 30px;
+  /* font-weight: bolder; */
+  color: #3333cc;
+}
+
+.search-intro {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 18px;
+  /* font-weight: bolder; */
+}
+
 .wrapper {
   position: relative;
   display: flex;
   min-width: 30px;
   /* left: 30%; */
   justify-content: center;
-  margin-top: 20%;
+  /* margin-top: 10%; */
 }
 
 .search-icon {
@@ -19,7 +38,8 @@
   border-radius: 5px;
   height: 20px;
   width: 30%;
-  padding: 2px 23px 2px 30px;
+  /* padding: 2px 23px 2px 30px; */
+  padding: 0px 23px 2px 30px;
   outline: 0;
   background-color: #f5f5f5;
   text-align: center;
