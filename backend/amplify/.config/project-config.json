@@ -11,7 +11,7 @@
       "SourceDir": "src",
       "DistributionDir": "build",
       "BuildCommand": "npm run build",
-      "StartCommand": "npm run run"
+      "StartCommand": "npm run start"
     }
   }
 }
