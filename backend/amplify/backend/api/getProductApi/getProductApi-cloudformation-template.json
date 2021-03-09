@@ -45,16 +45,16 @@
         
         
         
-      "apiLabel": {
+      "getProductApi": {
         "Type": "AWS::ApiGateway::RestApi",
         "Properties": {
           "Description": "",
-          "Name": "apiLabel",
+          "Name": "getProductApi",
           "Body": {
             "swagger": "2.0",
             "info": {
               "version": "2018-05-24T17:52:00Z",
-              "title": "apiLabel"
+              "title": "getProductApi"
             },
             "host": {
                 "Fn::Join": [
@@ -90,7 +90,7 @@
             ],
             "paths": {
               
-              "/product": {
+              "/product/{asin}": {
                 "options": {
                   "consumes": [
                     "application/json"
@@ -189,7 +189,7 @@
                   }
                 }
               },
-              "/product/{proxy+}": {
+              "/product/{asin}/{proxy+}": {
                 "options": {
                   "consumes": [
                     "application/json"
@@ -332,7 +332,7 @@
                   
         
         
-        "functiongetProductPermissionapiLabel": {
+        "functiongetProductPermissiongetProductApi": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
                 "FunctionName": 
@@ -356,7 +356,7 @@
                             },
                             ":",
                             {
-                                "Ref": "apiLabel"
+                                "Ref": "getProductApi"
                             },
                             "/*/*/*"
                         ]
@@ -367,7 +367,7 @@
         
         
         
-      "DeploymentAPIGWapiLabel": {
+      "DeploymentAPIGWgetProductApi": {
         "Type": "AWS::ApiGateway::Deployment",
         "Properties": {
           "Description": "The Development stage deployment of your API.",
@@ -381,7 +381,7 @@
             ]
           },
           "RestApiId": {
-            "Ref": "apiLabel"
+            "Ref": "getProductApi"
           }
         }
       }
@@ -389,15 +389,15 @@
     "Outputs": {
         "RootUrl": {
             "Description": "Root URL of the API gateway",
-            "Value": {"Fn::Join": ["", ["https://", {"Ref": "apiLabel"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
+            "Value": {"Fn::Join": ["", ["https://", {"Ref": "getProductApi"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
         },
         "ApiName": {
           "Description": "API Friendly name",
-          "Value": "apiLabel"
+          "Value": "getProductApi"
         },
         "ApiId": {
           "Description": "API ID (prefix of API URL)",
-          "Value": {"Ref": "apiLabel"}
+          "Value": {"Ref": "getProductApi"}
         }
     }
   }
