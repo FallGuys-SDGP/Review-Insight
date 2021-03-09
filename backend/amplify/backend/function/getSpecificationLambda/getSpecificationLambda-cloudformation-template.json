@@ -15,6 +15,14 @@
     },
     "s3Key": {
       "Type": "String"
+    },
+    "storageProductName": {
+      "Type": "String",
+      "Default": "storageProductName"
+    },
+    "storageProductArn": {
+      "Type": "String",
+      "Default": "storageProductArn"
     }
   },
   "Conditions": {
@@ -47,12 +55,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "getProduct",
+            "getSpecificationLambda",
             {
               "Fn::Join": [
                 "",
                 [
-                  "getProduct",
+                  "getSpecificationLambda",
                   "-",
                   {
                     "Ref": "env"
@@ -78,7 +86,7 @@
             "Arn"
           ]
         },
-        "Runtime": "nodejs14.x",
+        "Runtime": "nodejs12.x",
         "Layers": [],
         "Timeout": "25"
       }
@@ -89,12 +97,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "reviewinsightLambdaRole3633d814",
+            "reviewinsightfrontenLambdaRole1796366e",
             {
               "Fn::Join": [
                 "",
                 [
-                  "reviewinsightLambdaRole3633d814",
+                  "reviewinsightfrontenLambdaRole1796366e",
                   "-",
                   {
                     "Ref": "env"
@@ -160,6 +168,34 @@
                   }
                 ]
               }
+            },
+            {
+              "Effect": "Allow",
+              "Action": [
+                "dynamodb:DescribeTable",
+                "dynamodb:GetItem",
+                "dynamodb:Query",
+                "dynamodb:Scan",
+                "dynamodb:PutItem",
+                "dynamodb:UpdateItem",
+                "dynamodb:DeleteItem"
+              ],
+              "Resource": [
+                {
+                  "Ref": "storageProductArn"
+                },
+                {
+                  "Fn::Join": [
+                    "/",
+                    [
+                      {
+                        "Ref": "storageProductArn"
+                      },
+                      "index/*"
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }

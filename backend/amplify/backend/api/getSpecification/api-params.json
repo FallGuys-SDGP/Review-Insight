@@ -1,19 +1,19 @@
 {
     "paths": [
         {
-            "name": "/product",
-            "lambdaFunction": "getProduct",
+            "name": "/specification/{asin}",
+            "lambdaFunction": "getSpecificationLambda",
             "privacy": {
                 "open": true
             },
-            "policyResourceName": "/product"
+            "policyResourceName": "/specification/*"
         }
     ],
-    "resourceName": "apiLabel",
-    "apiName": "apiLabel",
+    "resourceName": "getSpecification",
+    "apiName": "getSpecification",
     "functionArns": [
         {
-            "lambdaFunction": "getProduct"
+            "lambdaFunction": "getSpecificationLambda"
         }
     ],
     "privacy": {
@@ -25,7 +25,7 @@
     "dependsOn": [
         {
             "category": "function",
-            "resourceName": "getProduct",
+            "resourceName": "getSpecificationLambda",
             "attributes": [
                 "Name",
                 "Arn"
