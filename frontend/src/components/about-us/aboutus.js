@@ -23,17 +23,17 @@ function AboutUs(){
                 <h1 class = "nameMembers">Team Members</h1>
                 <div class = "uwin">
                     <img src = {uwin} alt="Uwin" />
-                    <p class = "fontType">uwin</p>
+                    <p class = "fontType">Uwin</p>
                 </div>
 
                 <div class = "navod">
                     <img src = "images/members/navod.jpg"   alt="Navod"/>
-                    <p class = "fontType">navod</p>
+                    <p class = "fontType">Navod</p>
 				</div>
 
 				<div class = "shanthosh">
                     <img src = "images/members/shanthosh.jpg"   alt="Shanthosh"/>
-                    <p class = "fontType">shanthosh</p>
+                    <p class = "fontType">Shanthosh</p>
                 </div>
 
         
