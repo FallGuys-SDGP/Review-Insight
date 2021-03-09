@@ -5,10 +5,21 @@
       "serviceType": "imported",
       "providerPlugin": "awscloudformation",
       "dependsOn": []
+    },
+    "User": {
+      "service": "DynamoDB",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": []
     }
   },
   "function": {
     "getProduct": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "getUser": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
@@ -29,19 +40,28 @@
         }
       ]
     },
+<<<<<<< Updated upstream
     "getSpecification": {
+=======
+    "getUserApi": {
+>>>>>>> Stashed changes
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
+<<<<<<< Updated upstream
           "resourceName": "getSpecificationLambda",
+=======
+          "resourceName": "getUser",
+>>>>>>> Stashed changes
           "attributes": [
             "Name",
             "Arn"
           ]
         }
       ]
+<<<<<<< Updated upstream
     }
   },
   "auth": {
@@ -64,6 +84,8 @@
       "serviceType": "imported",
       "providerPlugin": "awscloudformation",
       "dependsOn": []
+=======
+>>>>>>> Stashed changes
     }
   }
 }
