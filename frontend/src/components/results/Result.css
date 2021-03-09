@@ -4,6 +4,27 @@
     height: 100vh;
 }
 
+.result-sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+.res-product-summary{
+    background-color: #317bdd;
+    height: 300px;
+    width: 550px;
+    margin-left: 20px;
+    border-radius: 25px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.res-product-summary-title {
+    margin-left: 33%;
+    color: white;
+}
+
 .summary{
     background-color: #317bdd;
     height: 870px;
@@ -11,7 +32,6 @@
     margin-left: 20px;
     border-radius: 25px;
     margin-top: 1%;
-    /* position: absolute; */
 }
 .summary-title{
     margin-left: 33%;
