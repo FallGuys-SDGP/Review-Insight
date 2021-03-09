@@ -14,15 +14,15 @@
         },
     
     
-          "functiongetSpecificationLambdaName": {
+          "functiongetUserName": {
             "Type": "String",
-            "Default": "functiongetSpecificationLambdaName"
+            "Default": "functiongetUserName"
           },
         
           
-          "functiongetSpecificationLambdaArn": {
+          "functiongetUserArn": {
             "Type": "String",
-            "Default": "functiongetSpecificationLambdaArn"
+            "Default": "functiongetUserArn"
           }
         
           
@@ -45,16 +45,16 @@
         
         
         
-      "getSpecification": {
+      "getUserApi": {
         "Type": "AWS::ApiGateway::RestApi",
         "Properties": {
           "Description": "",
-          "Name": "getSpecification",
+          "Name": "getUserApi",
           "Body": {
             "swagger": "2.0",
             "info": {
               "version": "2018-05-24T17:52:00Z",
-              "title": "getSpecification"
+              "title": "getUserApi"
             },
             "host": {
                 "Fn::Join": [
@@ -90,7 +90,7 @@
             ],
             "paths": {
               
-              "/specification/{asin}": {
+              "/user/{userId}": {
                 "options": {
                   "consumes": [
                     "application/json"
@@ -176,7 +176,7 @@
                             
                             {
                                 
-                                "Ref": "functiongetSpecificationLambdaArn"
+                                "Ref": "functiongetUserArn"
                             },
                             
                             "/invocations"
@@ -189,7 +189,7 @@
                   }
                 }
               },
-              "/specification/{asin}/{proxy+}": {
+              "/user/{userId}/{proxy+}": {
                 "options": {
                   "consumes": [
                     "application/json"
@@ -275,7 +275,7 @@
                           
                           {
                             
-                            "Ref": "functiongetSpecificationLambdaArn"
+                            "Ref": "functiongetUserArn"
                           },
                           
                           "/invocations"
@@ -332,12 +332,12 @@
                   
         
         
-        "functiongetSpecificationLambdaPermissiongetSpecification": {
+        "functiongetUserPermissiongetUserApi": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
                 "FunctionName": 
                     {
-                        "Ref":  "functiongetSpecificationLambdaName"
+                        "Ref":  "functiongetUserName"
                     },
                     
                     "Action": "lambda:InvokeFunction",
@@ -356,7 +356,7 @@
                             },
                             ":",
                             {
-                                "Ref": "getSpecification"
+                                "Ref": "getUserApi"
                             },
                             "/*/*/*"
                         ]
@@ -367,7 +367,7 @@
         
         
         
-      "DeploymentAPIGWgetSpecification": {
+      "DeploymentAPIGWgetUserApi": {
         "Type": "AWS::ApiGateway::Deployment",
         "Properties": {
           "Description": "The Development stage deployment of your API.",
@@ -381,7 +381,7 @@
             ]
           },
           "RestApiId": {
-            "Ref": "getSpecification"
+            "Ref": "getUserApi"
           }
         }
       }
@@ -389,15 +389,15 @@
     "Outputs": {
         "RootUrl": {
             "Description": "Root URL of the API gateway",
-            "Value": {"Fn::Join": ["", ["https://", {"Ref": "getSpecification"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
+            "Value": {"Fn::Join": ["", ["https://", {"Ref": "getUserApi"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
         },
         "ApiName": {
           "Description": "API Friendly name",
-          "Value": "getSpecification"
+          "Value": "getUserApi"
         },
         "ApiId": {
           "Description": "API ID (prefix of API URL)",
-          "Value": {"Ref": "getSpecification"}
+          "Value": {"Ref": "getUserApi"}
         }
     }
   }
