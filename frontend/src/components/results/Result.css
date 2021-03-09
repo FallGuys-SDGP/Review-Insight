@@ -12,7 +12,7 @@
 
 .res-product-summary{
     background-color: #317bdd;
-    height: 550px;
+    height: 400px;
     width: 550px;
     margin-left: 20px;
     border-radius: 25px;
@@ -36,13 +36,21 @@
 
 .summary{
     background-color: #317bdd;
-    height: 870px;
-    width: 550px;
+    height: 400px;
+    width: 500px;
     margin-left: 20px;
     border-radius: 25px;
     margin-top: 1%;
+    padding: 25px;
 }
 .summary-title{
     margin-left: 33%;
     color: white;
+}
+
+.summary-chart-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
 }
