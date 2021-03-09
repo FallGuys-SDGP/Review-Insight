@@ -3,12 +3,17 @@ import Tabs from "./Tabs";
 import { Card } from '@material-ui/core';
 import "../results/Result.css";
 
+const productName = "Apple iPhone 12";
+const productImage = "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-r1.jpg"
+
 function Result(){
   return(
     <div className="result-container">
         <div className="result-sidebar">
           <div className="res-product-summary">
             <h1 className="res-product-summary-title">Product</h1>
+            <h3 style={{color: "white", marginLeft: "30%"}}>{productName}</h3>
+            <img className="res-product-img" src={productImage}/>
           </div>
           <div className="summary">
             <h1 className="summary-title"> Summary </h1>
