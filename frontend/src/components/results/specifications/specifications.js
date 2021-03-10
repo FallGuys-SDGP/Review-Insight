@@ -1,48 +1,65 @@
 import React from "react";
 import "../Specifications/Specifications.css"
 
-const reviewTitle = "I ordered a folding plug. I did NOT get a folding"
-const reviewText = "Yes, it fits, but the product was mis-represented, but the product was mis-represented,but the product was mis-represented as a folding plug. It has fixed prongs which diminish the ability of me to put it in my thin laptop bag. It would not be worth the postage to ship this thing back considering the cost but I am extremely disappointed with this company."
-const rating = 2.5
-const score = "5%"
+const Brand="Apple"
+const Model="AirPods Max Wireless Headphones"
+const Price="₹59,900"
+const Launch_Date="December 2020"
+const Model_Number="AirPods Max"
+const Type="Headphones"
+const Headphone_Type="Over-Ear"
+const Connectivity="Wireless"
+const Microphone="Yes"
+const Driver_Type="Dynamic"
+const Driver_Size="40"
+const Number_of_Drivers="1"
+const Water_Resistant="No"
+const Weight="385.00"
+const Bluetooth="Yes"
+const Bluetooth_Version="5"
+const Bluetooth_Codec_Support="SBC,AAC"
+const Battery="features"
+const Charging_Port="Proprietary"
+const Battery_Life="20"
+
 
 function SpecificationContainer(){
   return(
     <div >
-              <table>
+          <table>
             <h2>General</h2>
 
             <tr>
               <th>Brand</th>
-              <td>Apple</td>
+              <td>{Brand}</td>
             </tr>
             <tr>
               <th>Model</th>
-              <td>AirPods Max Wireless Headphones</td>
+              <td>{}</td>
             </tr>
             <tr>
               <th>Price</th>
-              <td>₹59,900</td>
+              <td>{}</td>
             </tr>
             <tr>
               <th>Launch Date</th>
-              <td>December 2020</td>
+              <td>{}</td>
             </tr>
             <tr>
               <th>Model Number</th>
-              <td>AirPods Max</td>
+              <td>{}</td>
             </tr>
             <tr>
               <th>Type</th>
-              <td>Headphones</td>
+              <td>{}</td>
             </tr>
             <tr>
               <th>Headphone Type</th>
-              <td>Over-Ear</td>
+              <td>{}</td>
             </tr>
             <tr>
               <th>Connectivity</th>
-              <td>Wireless</td>
+              <td>{}</td>
             </tr>
 
 
@@ -51,27 +68,27 @@ function SpecificationContainer(){
 
             <tr>
               <th>Microphone</th>
-              <td>Yes</td>
+              <td>{}</td>
             </tr>
             <tr>
               <th>Driver Type</th>
-              <td>Dynamic</td>
+              <td>{}</td>
             </tr>
             <tr>
               <th>Driver Size (mm)</th>
-              <td>40</td>
+              <td>{}</td>
             </tr>
             <tr>
               <th>Number of Drivers</th>
-              <td>1</td>
+              <td>{}</td>
             </tr>
             <tr>
               <th>Water Resistant</th>
-              <td>No</td>
+              <td>{}</td>
             </tr>
             <tr>
               <th>Weight (g)</th>
-              <td>385.00</td>
+              <td>{}</td>
             </tr>
 
          
@@ -83,33 +100,33 @@ function SpecificationContainer(){
 
             <tr>
                 <th>Bluetooth</th>
-                <td>Yes</td>
+                <td>{}</td>
             </tr>
 
             <tr>
                 <th>Bluetooth Version</th>
-                <td>5</td>
+                <td>{}</td>
             </tr>
 
             <tr>
                 <th>Bluetooth Codec Support</th>
-                <td>SBC,AAC</td>
+                <td>{}</td>
             </tr>
 
             <tr>
                 <th>Battery</th>
-                <td>features</td>
+                <td>{}</td>
             </tr>
 
             <tr>
                 <th>Charging Port</th>
-                <td>Proprietary</td>
+                <td>{}</td>
             </tr>
 
 
             <tr>
                 <th>Battery Life (Hrs)</th>
-                <td>20</td>
+                <td>{}</td>
             </tr>
           </table>
     </div> 
