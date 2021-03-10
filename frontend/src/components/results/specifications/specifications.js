@@ -29,7 +29,7 @@ const Battery_Life="20"
 function SpecificationContainer(){
   return(
     <div >
-          <img src={logo} className="App-logo" alt="logo" height="100" ></img> 
+          <img src={logo} className="App-logo" alt="logo" height="150" ></img> 
           <table>
             <h2>General</h2>
 
