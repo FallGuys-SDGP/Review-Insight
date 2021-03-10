@@ -35,31 +35,31 @@ function SpecificationContainer(){
             </tr>
             <tr>
               <th>Model</th>
-              <td>{}</td>
+              <td>{Model}</td>
             </tr>
             <tr>
               <th>Price</th>
-              <td>{}</td>
+              <td>{Price}</td>
             </tr>
             <tr>
               <th>Launch Date</th>
-              <td>{}</td>
+              <td>{Launch_Date}</td>
             </tr>
             <tr>
               <th>Model Number</th>
-              <td>{}</td>
+              <td>{Model_Number}</td>
             </tr>
             <tr>
               <th>Type</th>
-              <td>{}</td>
+              <td>{Type}</td>
             </tr>
             <tr>
               <th>Headphone Type</th>
-              <td>{}</td>
+              <td>{Headphone_Type}</td>
             </tr>
             <tr>
               <th>Connectivity</th>
-              <td>{}</td>
+              <td>{Connectivity}</td>
             </tr>
 
 
@@ -68,27 +68,27 @@ function SpecificationContainer(){
 
             <tr>
               <th>Microphone</th>
-              <td>{}</td>
+              <td>{Microphone}</td>
             </tr>
             <tr>
               <th>Driver Type</th>
-              <td>{}</td>
+              <td>{Driver_Type}</td>
             </tr>
             <tr>
               <th>Driver Size (mm)</th>
-              <td>{}</td>
+              <td>{Driver_Size}</td>
             </tr>
             <tr>
               <th>Number of Drivers</th>
-              <td>{}</td>
+              <td>{Number_of_Drivers}</td>
             </tr>
             <tr>
               <th>Water Resistant</th>
-              <td>{}</td>
+              <td>{Water_Resistant}</td>
             </tr>
             <tr>
               <th>Weight (g)</th>
-              <td>{}</td>
+              <td>{Weight}</td>
             </tr>
 
          
@@ -100,33 +100,33 @@ function SpecificationContainer(){
 
             <tr>
                 <th>Bluetooth</th>
-                <td>{}</td>
+                <td>{Bluetooth}</td>
             </tr>
 
             <tr>
                 <th>Bluetooth Version</th>
-                <td>{}</td>
+                <td>{Bluetooth_Version}</td>
             </tr>
 
             <tr>
                 <th>Bluetooth Codec Support</th>
-                <td>{}</td>
+                <td>{Bluetooth_Codec_Support}</td>
             </tr>
 
             <tr>
                 <th>Battery</th>
-                <td>{}</td>
+                <td>{Battery}</td>
             </tr>
 
             <tr>
                 <th>Charging Port</th>
-                <td>{}</td>
+                <td>{Charging_Port}</td>
             </tr>
 
 
             <tr>
                 <th>Battery Life (Hrs)</th>
-                <td>{}</td>
+                <td>{Battery_Life}</td>
             </tr>
           </table>
     </div> 
