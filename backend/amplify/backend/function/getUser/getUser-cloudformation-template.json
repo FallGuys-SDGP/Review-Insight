@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "getProduct",
+            "getUser",
             {
               "Fn::Join": [
                 "",
                 [
-                  "getProduct",
+                  "getUser",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "reviewinsightLambdaRole3633d814",
+            "reviewinsightLambdaRole4236dd26",
             {
               "Fn::Join": [
                 "",
                 [
-                  "reviewinsightLambdaRole3633d814",
+                  "reviewinsightLambdaRole4236dd26",
                   "-",
                   {
                     "Ref": "env"

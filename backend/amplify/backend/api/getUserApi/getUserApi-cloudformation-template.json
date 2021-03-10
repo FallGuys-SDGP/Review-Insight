@@ -14,15 +14,15 @@
         },
     
     
-          "functiongetProductName": {
+          "functiongetUserName": {
             "Type": "String",
-            "Default": "functiongetProductName"
+            "Default": "functiongetUserName"
           },
         
           
-          "functiongetProductArn": {
+          "functiongetUserArn": {
             "Type": "String",
-            "Default": "functiongetProductArn"
+            "Default": "functiongetUserArn"
           }
         
           
@@ -45,16 +45,16 @@
         
         
         
-      "apiLabel": {
+      "getUserApi": {
         "Type": "AWS::ApiGateway::RestApi",
         "Properties": {
           "Description": "",
-          "Name": "apiLabel",
+          "Name": "getUserApi",
           "Body": {
             "swagger": "2.0",
             "info": {
               "version": "2018-05-24T17:52:00Z",
-              "title": "apiLabel"
+              "title": "getUserApi"
             },
             "host": {
                 "Fn::Join": [
@@ -90,7 +90,7 @@
             ],
             "paths": {
               
-              "/product": {
+              "/user/{userId}": {
                 "options": {
                   "consumes": [
                     "application/json"
@@ -176,7 +176,7 @@
                             
                             {
                                 
-                                "Ref": "functiongetProductArn"
+                                "Ref": "functiongetUserArn"
                             },
                             
                             "/invocations"
@@ -189,7 +189,7 @@
                   }
                 }
               },
-              "/product/{proxy+}": {
+              "/user/{userId}/{proxy+}": {
                 "options": {
                   "consumes": [
                     "application/json"
@@ -275,7 +275,7 @@
                           
                           {
                             
-                            "Ref": "functiongetProductArn"
+                            "Ref": "functiongetUserArn"
                           },
                           
                           "/invocations"
@@ -332,12 +332,12 @@
                   
         
         
-        "functiongetProductPermissionapiLabel": {
+        "functiongetUserPermissiongetUserApi": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
                 "FunctionName": 
                     {
-                        "Ref":  "functiongetProductName"
+                        "Ref":  "functiongetUserName"
                     },
                     
                     "Action": "lambda:InvokeFunction",
@@ -356,7 +356,7 @@
                             },
                             ":",
                             {
-                                "Ref": "apiLabel"
+                                "Ref": "getUserApi"
                             },
                             "/*/*/*"
                         ]
@@ -367,7 +367,7 @@
         
         
         
-      "DeploymentAPIGWapiLabel": {
+      "DeploymentAPIGWgetUserApi": {
         "Type": "AWS::ApiGateway::Deployment",
         "Properties": {
           "Description": "The Development stage deployment of your API.",
@@ -381,7 +381,7 @@
             ]
           },
           "RestApiId": {
-            "Ref": "apiLabel"
+            "Ref": "getUserApi"
           }
         }
       }
@@ -389,15 +389,15 @@
     "Outputs": {
         "RootUrl": {
             "Description": "Root URL of the API gateway",
-            "Value": {"Fn::Join": ["", ["https://", {"Ref": "apiLabel"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
+            "Value": {"Fn::Join": ["", ["https://", {"Ref": "getUserApi"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
         },
         "ApiName": {
           "Description": "API Friendly name",
-          "Value": "apiLabel"
+          "Value": "getUserApi"
         },
         "ApiId": {
           "Description": "API ID (prefix of API URL)",
-          "Value": {"Ref": "apiLabel"}
+          "Value": {"Ref": "getUserApi"}
         }
     }
   }

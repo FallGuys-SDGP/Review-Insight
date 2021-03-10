@@ -2,8 +2,8 @@
   "providers": [
     "awscloudformation"
   ],
-  "projectName": "ReviewInsightfronten",
-  "version": "3.0",
+  "projectName": "ReviewInsight",
+  "version": "3.1",
   "frontend": "javascript",
   "javascript": {
     "framework": "react",
