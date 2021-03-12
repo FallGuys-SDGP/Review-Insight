@@ -9,13 +9,22 @@ const score = "5%"
 
 function BackendTest(){
   const { useEffect, useState} = React;
-  const [ProductReviewJson, setProductReviewJson] = useState('');
   const [ProductInfo, setProductInfo] = useState('');
 
   const getProductId = (ProductInfo) => {
     const {asin}= ProductInfo;
     console.log(ProductInfo);
     return `${asin}`;
+  }
+  const getProductTitle = (ProductInfo) => {
+    const {title}= ProductInfo;
+    console.log(ProductInfo);
+    return `${title}`;
+  }
+  const getProductBrand = (ProductInfo) => {
+    const {brand}= ProductInfo;
+    console.log(ProductInfo);
+    return `${brand}`;
   }
 
   const fetchProductReveiw = () =>{
@@ -33,20 +42,19 @@ function BackendTest(){
 
   useEffect(() => {
     fetchProductReveiw().then(productData => {
-      setProductReviewJson(JSON.stringify(productData));
       setProductInfo(productData.data);
     });
   }, []);
 
   return(
       <div className="reviewBox">
+        <p> <b> {getProductBrand(ProductInfo)} </b></p>
         <p> <b> Product Id: {getProductId(ProductInfo)} </b></p>
         <div style={{ display: 'flex', justifyContent: "space-between"}}>
           <p> {rating} ⭐</p> <p style={{color: "red"}} > Score {score} </p>  
         </div>
         <div className="reviewText">
-          <p>{getProductId(ProductInfo)}</p>
-          <p> {ProductReviewJson} </p>
+          <p>{getProductTitle(ProductInfo)}</p>
         </div>
       </div>
   );
