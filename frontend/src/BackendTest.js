@@ -1,75 +1,55 @@
-import React, { Component } from 'react';
+import React from "react";
+import "./components/results/ReviewContent/ReviewContainer.css";
+import axios from "axios";
 
-import logo from './logo.svg';
+const reviewTitle = "I ordered a folding plug. I did NOT get a folding"
+const reviewText = "Yes, it fits, but the product was mis-represented, but the product was mis-represented,but the product was mis-represented as a folding plug. It has fixed prongs which diminish the ability of me to put it in my thin laptop bag. It would not be worth the postage to ship this thing back considering the cost but I am extremely disappointed with this company."
+const rating = 2.5
+const score = "5%"
 
-class BackendTest extends Component {
-  state = {
-    response: '',
-    post: '',
-    responseToPost: '',
-  };
-  
-  componentDidMount() {
-    this.callApi()
-      .then(res => this.setState({ response: res }))
-      .catch(err => console.log(err));
+function BackendTest(){
+  const { useEffect, useState} = React;
+  const [ProductReviewJson, setProductReviewJson] = useState('');
+  const [ProductInfo, setProductInfo] = useState('');
+
+  const getProductId = (ProductInfo) => {
+    const {asin}= ProductInfo;
+    console.log(ProductInfo);
+    return `${asin}`;
   }
-  
-  callApi = async () => {
-    const response = await fetch('https://kbdelooz8g.execute-api.ap-south-1.amazonaws.com/staging/getProduct-staging');
-    const body = await response.json();
-    if (response.status !== 200) throw Error(body.message);
-    console.log(body);
-    return body;
-  };
-  
-  handleSubmit = async e => {
-    e.preventDefault();
-    const response = await fetch('/api/world', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ post: this.state.post }),
+
+  const fetchProductReveiw = () =>{
+    return axios.get('https://m3q3n7xsdb.execute-api.ap-south-1.amazonaws.com/staging/product/558835155')
+        .then(data => {
+          // handle success
+          // console.log(data);
+          return data;
+        })
+        .catch(err => {
+          // handle error
+          console.error(err);
+        })
+  }
+
+  useEffect(() => {
+    fetchProductReveiw().then(productData => {
+      setProductReviewJson(JSON.stringify(productData));
+      setProductInfo(productData.data);
     });
-    const body = await response.text();
-    
-    this.setState({ responseToPost: body });
-  };
-  
-render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-        <p>{this.state.response}</p>
-        <form onSubmit={this.handleSubmit}>
-          <p>
-            <strong>Post to Server:</strong>
-          </p>
-          <input
-            type="text"
-            value={this.state.post}
-            onChange={e => this.setState({ post: e.target.value })}
-          />
-          <button type="submit">Submit</button>
-        </form>
-        <p>{this.state.responseToPost}</p>
+  }, []);
+
+  return(
+      <div className="reviewBox">
+        <p> <b> Product Id: {getProductId(ProductInfo)} </b></p>
+        <div style={{ display: 'flex', justifyContent: "space-between"}}>
+          <p> {rating} ⭐</p> <p style={{color: "red"}} > Score {score} </p>  
+        </div>
+        <div className="reviewText">
+          <p>{getProductId(ProductInfo)}</p>
+          <p> {ProductReviewJson} </p>
+        </div>
       </div>
-    );
-  }
+  );
 }
 
 export default BackendTest;

@@ -33,6 +33,9 @@ function App(){
               <Link to="/home">
                 <li><a>Home</a></li>
               </Link>
+              <Link to="/test">
+                <li><a>Test</a></li>
+              </Link>
             </ul>
           </nav>
         </div>
@@ -44,6 +47,7 @@ function App(){
           <Route path="/login" exact component={LogIn}/>
           <Route path="/register" exact component={Register}/>
           <Route path="/aboutus" exact component={AboutUs}/>
+          <Route path="/test" exat component={BackendTest}/>
 
         </Switch>
 
