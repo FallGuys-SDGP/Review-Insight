@@ -7,7 +7,7 @@ import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import LogIn from './components/log-in/login';
 import Register from "./components/register/register";
-import BackendTest from './BackendTest'
+import TestService from './TestServices'
 import AboutUs from './components/about-us/aboutus'
 
 
@@ -47,7 +47,7 @@ function App(){
           <Route path="/login" exact component={LogIn}/>
           <Route path="/register" exact component={Register}/>
           <Route path="/aboutus" exact component={AboutUs}/>
-          <Route path="/test" exat component={BackendTest}/>
+          <Route path="/test" exat component={TestService}/>
 
         </Switch>
 
