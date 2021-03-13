@@ -10,23 +10,7 @@ const score = "5%"
 function BackendTest(){
   const { useEffect, useState} = React;
   const [ProductInfo, setProductInfo] = useState('');
-
-  const getProductId = (ProductInfo) => {
-    const {asin}= ProductInfo;
-    console.log(ProductInfo);
-    return `${asin}`;
-  }
-  const getProductTitle = (ProductInfo) => {
-    const {title}= ProductInfo;
-    console.log(ProductInfo);
-    return `${title}`;
-  }
-  const getProductBrand = (ProductInfo) => {
-    const {brand}= ProductInfo;
-    console.log(ProductInfo);
-    return `${brand}`;
-  }
-
+  
   const fetchProductReveiw = () =>{
     return axios.get('https://m3q3n7xsdb.execute-api.ap-south-1.amazonaws.com/staging/product/558835155')
         .then(data => {
@@ -45,6 +29,22 @@ function BackendTest(){
       setProductInfo(productData.data);
     });
   }, []);
+
+  const getProductId = (ProductInfo) => {
+    const {asin}= ProductInfo;
+    console.log(ProductInfo);
+    return `${asin}`;
+  }
+  const getProductTitle = (ProductInfo) => {
+    const {title}= ProductInfo;
+    console.log(ProductInfo);
+    return `${title}`;
+  }
+  const getProductBrand = (ProductInfo) => {
+    const {brand}= ProductInfo;
+    console.log(ProductInfo);
+    return `${brand}`;
+  }
 
   return(
       <div className="reviewBox">
