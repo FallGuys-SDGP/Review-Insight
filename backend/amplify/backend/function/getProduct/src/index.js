@@ -30,7 +30,11 @@ exports.handler = async (event) => {
     const response = {
         statusCode : statusCode,
         headers: {
-            "myHeader": "test"
+            "myHeader": "test",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "*",
+            "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
+            "content-type": "text/html"
         },
         body: responseBody
     }
