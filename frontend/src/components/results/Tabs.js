@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import "../results/Tabs.css";
 import ReviewContainer from "./ReviewContent/ReviewContainer";
+import Specifications from "./Specifications/Specifications";
+
 import Report from "./Report/Report";
 
 function Tabs() {
@@ -50,7 +52,11 @@ function Tabs() {
         </div>
 
         <div className={toggleState === 3 ? "content  active-content" : "content"}>
-          <p>Specification Content Here</p>
+
+        <h1><a>Apple EarPods</a>Specifications</h1>
+        <Specifications/>
+      
+          
         </div>
       </div>
     </div>
