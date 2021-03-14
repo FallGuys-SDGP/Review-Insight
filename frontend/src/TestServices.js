@@ -19,11 +19,15 @@ function TestServices(){
   const [searchId, setSearchId] = useState(' ');
 
 
-  fetchProductReveiw(searchId).then(productData => {
-    setProductId(productData.data.asin);
-    setProductTitle(productData.data.title);
-    setProductBrand(productData.data.brand);
-    });
+  if(searchId !== ' ') {
+    fetchProductReveiw(searchId).then(productData => {
+      if(searchId !== productData.data){
+        setProductId(productData.data.asin);
+        setProductTitle(productData.data.title);
+        setProductBrand(productData.data.brand);
+      }
+      });
+  }
 
   return(
     <div>  
