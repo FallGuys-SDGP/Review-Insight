@@ -1,6 +1,6 @@
 import React from "react";
-import "../Specifications/Specifications.css"
-import logo from '../../../../src/appleImage.jpg';
+import "./Specifications.css"
+import logo from '../../../../src/components/images/temp/appleImage.jpg';
 
 const Brand="Apple"
 const Model="AirPods Max Wireless Headphones"
@@ -26,7 +26,7 @@ const Battery_Life="20"
 
 
 
-function SpecificationContainer(){
+function Specifications(){
   return(
     <div >
           <img src={logo} className="App-logo" alt="logo" height="150" ></img> 
@@ -137,4 +137,4 @@ function SpecificationContainer(){
   );
 }
 
-export default SpecificationContainer;
+export default Specifications;
