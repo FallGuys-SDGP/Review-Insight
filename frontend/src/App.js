@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import LogIn from './components/log-in/LogIn';
 import Register from "./components/register/Register";
 import BackendTest from './BackendTest'
+import AboutUs from './components/about-us/aboutus'
 
 
 function App(){
@@ -23,10 +24,10 @@ function App(){
               <Link to="/login">
                 <li><a>Log In / Register </a></li>
               </Link>
-              <Link to="/link3">
+              <Link to="/contact">
                 <li><a>Contact</a></li>
               </Link>
-              <Link to="/link2">
+              <Link to="/aboutus">
                 <li><a>About Us</a></li>
               </Link>
               <Link to="/home">
@@ -42,7 +43,7 @@ function App(){
           <Route path="/result" exact component={Result}/>
           <Route path="/login" exact component={LogIn}/>
           <Route path="/register" exact component={Register}/>
-          <Route path="/link2" exact component={BackendTest}/>
+          <Route path="/aboutus" exact component={AboutUs}/>
 
         </Switch>
 

@@ -52,3 +52,8 @@ button {
     width: 1100px;
     padding: 100px 0px 10px 150px;
 }
+
+th {
+    text-align: left;
+    padding-right: 30px;
+  }
