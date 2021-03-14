@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "../results/Tabs.css";
 import ReviewContainer from "./ReviewContent/ReviewContainer";
-import Specifications from "./Specifications/Specifications";
+import Specifications from "./Specifications/specifications";
 
 import Report from "./Report/Report";
 
