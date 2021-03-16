@@ -1,6 +1,9 @@
 import React, {useState} from "react";
 import "../results/Tabs.css";
 import ReviewContainer from "./ReviewContent/ReviewContainer";
+import Specifications from "./Specifications/Specifications";
+
+import Report from "./Report/Report";
 
 function Tabs() {
   const [toggleState, setToggleState] = useState(1);
@@ -28,7 +31,7 @@ function Tabs() {
 
       <div className="content-tabs">
         <div className={toggleState === 1 ? "content  active-content" : "content"}>
-          <p>Report Content Here</p>
+          <Report/>
         </div>
 
         <div className={toggleState === 2 ? "content  active-content" : "content"}>
@@ -49,7 +52,11 @@ function Tabs() {
         </div>
 
         <div className={toggleState === 3 ? "content  active-content" : "content"}>
-          <p>Specification Content Here</p>
+
+        <h1><a>Apple EarPods</a>Specifications</h1>
+        <Specifications/>
+      
+          
         </div>
       </div>
     </div>
