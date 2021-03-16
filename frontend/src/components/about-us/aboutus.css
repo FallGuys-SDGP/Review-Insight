@@ -1,19 +1,38 @@
+.nameTeam{
+    text-align:left;
+    padding-left:0.5%;
+    margin:5px;
+    font-family:BlackChancery;
+    font-size:40px;
+    font-weight: bold;
+    font-style: italic;
+    color: #3333cc;
+}
+.backgroundAboutus{
+    background-image:linear-gradient(#41bce256, #4475cf);
+}
 .nameIntro{
     text-align:center;
     font-family:BlackChancery;
-    color:#020556;
+    font-size:25px;
+    color: #3333cc;
+
     
 }
 
 .nameMission{
     text-align:center;
     font-family:BlackChancery;
-    color:#020556;
+    font-size:25px;
+    color: #3333cc;
+
 }
 .namevission{
     text-align:center;
     font-family:BlackChancery;
-    color:#020556;    
+    font-size:25px;
+    color: #3333cc;
+    
 }
 
 .member{
@@ -21,20 +40,118 @@
     padding:2%;
     margin:20px;
     
+    
+    
 }
 
 .nameMembers{
     text-align:center;
     font-family:BlackChancery;
-    color:#020556;
+    font-size:25px;
+    color: #3333cc;
+    
 }
 
-/*.uwin{
-    width: fit-content;
-    height: fit-content;
-}*/
+.uwin{
+    position:absolute;
+    top:600px;
+    
+}
 
-.fontType{
-    font-family:Times New Roman;
-    font-size:1.5vw;
+.navod{
+    position:absolute;
+    top:600px;  
+    left:450px;
+}
+.shanthosh{
+    position:absolute;
+    top:600px;
+    left:850px;
+}
+
+.viraj{
+    position:absolute;
+    top:600px;
+    left:1250px;
+}
+.dinuvi{
+    position:absolute;
+    top:950px;
+    left:242px;
+}
+
+.udari{
+    position:absolute;
+    top:950px;
+    left:1050px;
+}
+
+.image{
+border: 1px solid #3333cc;
+box-shadow: 0 0 10px 5px rgba(96, 96, 97, 0.89);
+border-radius: 5px;
+}
+
+#linkedin{
+    position:absolute;
+    top:220px;
+    left:50px;
+}
+
+#github{
+    position:absolute;
+    top:214px;
+    left:90px;
+}
+.overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: #3333cc8a ;
+    overflow: hidden;
+    width: 0;
+    height:200px;
+    transition: .5s ease;
+            }
+
+.image:hover .overlay {
+     width: 100%;
+     box-shadow: 0 0 10px 5px rgba(11, 11, 240, 0.658);
+}
+
+
+
+.text {
+     color: rgb(199, 236, 247);
+     font-size:15px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+     transform: translate(-50%, -50%);
+     white-space:nowrap;
+}
+
+.coFounder{
+    text-align: center;
+}
+
+.teamTheam{
+    color:rgb(21, 6, 151);
+    font-size:25px;
+    font-family:BlackChancery;
+    font-weight: bold;
+    position:absolute;
+    top: 110px;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    animation: mymove 40s infinite 0.5s;
+    
+}
+@keyframes mymove{
+    from{left: 0px;}
+    to {left: 1240px;}
+    
 }
