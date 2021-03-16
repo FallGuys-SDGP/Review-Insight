@@ -15,7 +15,7 @@ function TestServices(){
   const [ProductId, setProductId] = useState('0232');
   const [ProductTitle, setProductTitle] = useState('Headset');
   const [ProductBrand, setProductBrand] = useState('Apple');
-  // const [SearchId, setSearchId] = useState('Apple');
+  const [ProductImage, setProductImage] = useState('');
   const [searchId, setSearchId] = useState(' ');
 
 
@@ -25,6 +25,7 @@ function TestServices(){
         setProductId(productData.data.asin);
         setProductTitle(productData.data.title);
         setProductBrand(productData.data.brand);
+        setProductImage(productData.data.image);
       }
       });
   }
@@ -34,6 +35,7 @@ function TestServices(){
       <SearchBar userEnteredId = { searchId => setSearchId(searchId) } /> 
       <h1>{searchId}</h1>
       <div className="reviewBox">
+          <img style={{width: "200px", height: "200px"}} src={ProductImage}/>
           <p> <b> {ProductId}  </b></p>
           <p> <b> {ProductBrand}  </b></p>
           <div style={{ display: 'flex', justifyContent: "space-between"}}>
