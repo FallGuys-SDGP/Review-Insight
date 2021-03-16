@@ -9,6 +9,7 @@ import LogIn from './components/log-in/login';
 import Register from "./components/register/register";
 import TestService from './TestServices'
 import AboutUs from './components/about-us/aboutus'
+import Contact from './components/contact/contact'
 
 
 function App(){
@@ -48,6 +49,7 @@ function App(){
           <Route path="/register" exact component={Register}/>
           <Route path="/aboutus" exact component={AboutUs}/>
           <Route path="/test" exat component={TestService}/>
+          <Route path="/contact" exact component={Contact}/>
 
         </Switch>
 
