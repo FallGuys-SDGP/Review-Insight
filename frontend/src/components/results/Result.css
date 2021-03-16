@@ -12,8 +12,8 @@
 
 .res-product-summary{
     background-color: #317bdd;
-    height: 400px;
-    width: 550px;
+    /* height: 400px;
+    width: 550px; */
     margin-left: 20px;
     border-radius: 25px;
     margin-top: 1%;
@@ -36,8 +36,8 @@
 
 .summary{
     background-color: #317bdd;
-    height: 400px;
-    width: 500px;
+    /* height: 400px;
+    width: 500px; */
     margin-left: 20px;
     border-radius: 25px;
     margin-top: 1%;

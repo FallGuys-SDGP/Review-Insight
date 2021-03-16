@@ -1,8 +1,8 @@
 import React from "react";
 import "../about-us/aboutus.css";
-import uwin from "../images/members/uwin.jpg"
-import navod from "../images/members/navod.jpg"
-import shanthosh from "../images/members/shanthosh.jpg"
+import uwin from "../../images/members/uwin.jpg"
+import navod from "../../images/members/navod.jpg"
+import shanthosh from "../../images/members/shanthosh.jpg"
 
 function AboutUs(){
     return(

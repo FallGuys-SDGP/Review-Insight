@@ -2,7 +2,7 @@ import React from "react";
 import { TextField, Button , Card } from '@material-ui/core';
 import "./LogIn.css";
 import Typography from '@material-ui/core/Typography';
-import userIcon from '../asserts/log-in/userIcon.jpg';
+import userIcon from '../../images/log-in/userIcon.jpg';
 
 
 

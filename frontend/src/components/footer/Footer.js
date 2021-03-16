@@ -1,9 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import Typography from '@material-ui/core/Typography';
-import faceBook from '../asserts/footer/facebook.png';
-import instagram from '../asserts/footer/insta.jpeg';
-import twitter from '../asserts/footer/twitter.png';
+import faceBook from '../../images/footer/facebook.png';
+
 
 
 

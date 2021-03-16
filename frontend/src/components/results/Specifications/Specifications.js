@@ -1,6 +1,6 @@
 import React from "react";
 import "./Specifications.css"
-import logo from '../../../../src/components/images/temp/appleImage.jpg';
+import logo from '../../../images/temp/appleImage.jpg';
 
 const Brand="Apple"
 const Model="AirPods Max Wireless Headphones"
