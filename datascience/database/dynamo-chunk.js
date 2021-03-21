@@ -1,5 +1,7 @@
 const fs = require("fs");
 const shell = require("shelljs");
+const filename = 'Product.json';
+const table = 'Product';
 
 function processFile(filename, table) {
   fs.readFile(filename, "utf8", (err, data) => {
@@ -49,11 +51,4 @@ function processFile(filename, table) {
   });
 }
 
-if (!process.argv[2] || !process.argv[3]) {
-  console.log("Missing arguments");
-  console.log("Usage: node dynamo-chunk.js file tableName");
-
-  process.exit(1);
-}
-
-processFile(process.argv[2], process.argv[3]);
+processFile(filename, table);
