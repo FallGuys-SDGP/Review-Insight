@@ -9,6 +9,7 @@ import LogIn from './components/log-in/login';
 import Register from "./components/register/register";
 import TestService from './TestServices'
 import AboutUs from './components/about-us/aboutus'
+import Contact from './components/contact/contact'
 
 
 function App(){
