@@ -19,7 +19,7 @@ function Footer(){
         
         <div>
               <div className="container-footer"> 
-                <div className = "item-footer" style={{color:"black"}}> About the Comapany</div>
+                <div className = "item-footer" style={{color:"green"}}> About the Comapany</div>
                 <div className = "item-footer"> We are a Company try to help Online customer to buy genuie product.</div>
               </div>
               

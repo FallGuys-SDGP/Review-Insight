@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 import "../../components/home/Home.css";
 import { TextField,Button } from '@material-ui/core';
 import SearchBar from '../../components/home/SearchBar';
-import Footer from '../footer/Footer'
+import Footer from '../Footer/Footer';
+import Select from 'react-select';
 
 function Home(){
+
+ 
+
+
   return(
     <div className="home">
 
@@ -13,6 +18,7 @@ function Home(){
       </div>
       <div className = "main-content">
         <SearchBar />
+     
       </div>
       {/* <div className="search-container">
         Enter a product from Amazon.com to the search bar.
