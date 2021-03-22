@@ -1,0 +1,6700 @@
+{
+  "Product": [
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001P505"
+          },
+          "title": {
+            "S": "Koss SportaPro Stereo Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001P4ZH"
+          },
+          "title": {
+            "S": "Koss Porta Pro On Ear Headphones with Case, Black / Silver"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001P4XA"
+          },
+          "title": {
+            "S": "Koss 'The Plug' In-Ear Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001P4ZR"
+          },
+          "title": {
+            "S": "Koss R-10 On-Ear Headphones | Black | 8-foot cord | Lightweight"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001W0DG"
+          },
+          "title": {
+            "S": "Sony MDR-V500DJ Monitor Series Headphones with Swivel Earcups (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001W0DC"
+          },
+          "title": {
+            "S": "Sony MDR-V250V Monitor Series Headphones with In-line Volume Control (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001WRSJ"
+          },
+          "title": {
+            "S": "Sony MDRV6 Studio Monitor Headphones with CCAW Voice Coil"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001W0DI"
+          },
+          "title": {
+            "S": "Sony Studio Monitor MDR-V600 Stereo Headphone (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001Z3H8"
+          },
+          "title": {
+            "S": "Sony SRFHM55 Sports Walkman AM/FM Stereo Headphone Radio"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00004SY4H"
+          },
+          "title": {
+            "S": "Sennheiser HD 600 Open Back Professional Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00004T8R2"
+          },
+          "title": {
+            "S": "Panasonic Headphones On-Ear Lightweight with XBS RP-HT21 (Black &amp; Silver)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00004Z7G9"
+          },
+          "title": {
+            "S": "Koss Pro-4AA Studio Quality Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000053ZF1"
+          },
+          "title": {
+            "S": "Sony SRF-H3 Walkman AM/FM Stereo Headphone Radio (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00005BYER"
+          },
+          "title": {
+            "S": "Sony MDR-W20G Sports Vertical In-The-Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00005N6KG"
+          },
+          "title": {
+            "S": "Sony MDR-W08L Vertical In-The-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00005N9D2"
+          },
+          "title": {
+            "S": "Koss R-80 Over Ear Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00005N9D3"
+          },
+          "title": {
+            "S": "Koss UR-20 Home Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00005QBU9"
+          },
+          "title": {
+            "S": "Sony MDR-V150 Monitor Series Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000065BPB"
+          },
+          "title": {
+            "S": "Sennheiser HD280PRO Headphones (old model)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000066HO3"
+          },
+          "title": {
+            "S": "Sony SRF-HM01V S2 Sports Walkman Street Style Headphone Radio (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00006HOGN"
+          },
+          "title": {
+            "S": "Panasonic RP-HC70 Noise-Canceling Headphones with XBS Extra Bass System (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00006JILW"
+          },
+          "title": {
+            "S": "Sony MDR-J10 Headphones with Non-Slip Design (Pink) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00006JILE"
+          },
+          "title": {
+            "S": "Koss UR40 Collapsible Over-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000089GN4"
+          },
+          "title": {
+            "S": "Sennheiser PX200 Collapsible High-Performance Closed Headphones (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00008VIX0"
+          },
+          "title": {
+            "S": "Sony MDR-Q55SL Clip-on Headphones (Silver) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00008W2M5"
+          },
+          "title": {
+            "S": "Sony SRF-H11 S2 Sports AM / FM Radio Walkman with Rear Reflector Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00008Z1QJ"
+          },
+          "title": {
+            "S": "Koss UR18 Collapsible Home Headphones Silver Finish with 3.5mm Jack"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00008Z1QF"
+          },
+          "title": {
+            "S": "Koss KSC7 Sportclip/Clip On Headphones in Silver/Black Finish (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000095S9V"
+          },
+          "title": {
+            "S": "Sony MDR-W24V Vertical In-The-Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000095SB6"
+          },
+          "title": {
+            "S": "Sony MDR-EX51LP Fontopia Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000095S9H"
+          },
+          "title": {
+            "S": "Sony RK-G138 Audio Connecting Cable for Headphone Extension (3 meters) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00009MK3T"
+          },
+          "title": {
+            "S": "Bose TriPort Around Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00009RDIF"
+          },
+          "title": {
+            "S": "Panasonic Over-the-Ear Stereo Headphones RP-HT227 (Black &amp; Silver) Integrated Volume Controller, Travel-Fold Design"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000094Q77"
+          },
+          "title": {
+            "S": "Sony MDR-ED21LP Fontopia In-The-Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0000E3DQ7"
+          },
+          "title": {
+            "S": "Bose TriPort  Blue Glacier Blue Headphones with Carry Case"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00013BKS2"
+          },
+          "title": {
+            "S": "Koss PRO3AA Collapsible Closedear Headphones With Adjustable Headband"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00018MSNI"
+          },
+          "title": {
+            "S": "Sennheiser HD 650 Open Back Professional Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0001FTVEK"
+          },
+          "title": {
+            "S": "Sennheiser RS120 On-Ear Wireless RF Headphones with Charging Dock"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0001IM95U"
+          },
+          "title": {
+            "S": "Koss UR10 On-Ear Headphones | Durable | All Ages | 3.5mm Plug"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0001IXUEE"
+          },
+          "title": {
+            "S": "Panasonic RP-HS43 Clip-On Headphones with XBS Extra Bass System (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0001M2FZK"
+          },
+          "title": {
+            "S": "Sony MDR-J11G h.ear Sports Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0001M3N7O"
+          },
+          "title": {
+            "S": "Sony SRFH4 Analog Tuning AM / FM Headphone Radio (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0001R05XE"
+          },
+          "title": {
+            "S": "Sony MDR-G54LP Street Style Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0001R05XO"
+          },
+          "title": {
+            "S": "Sony MDRG58V Street Style Headphone with Volume Control"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0001YFZ46"
+          },
+          "title": {
+            "S": "Sony MDR-RF960RK 900 MHz RF Wireless Headphones with Auto Tuning (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0002BAU84"
+          },
+          "title": {
+            "S": "Koss UR29 Collapsible Portable Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0002EXJPM"
+          },
+          "title": {
+            "S": "Technics RP-DH1200 DJ Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0002F74E8"
+          },
+          "title": {
+            "S": "Sony MDR7502 Professional Studio Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0002H02ZY"
+          },
+          "title": {
+            "S": "Sony MDR7506 Professional Large Diaphragm Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0002I5RI0"
+          },
+          "title": {
+            "S": "JVC HA-V570 Supra-Aural Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0002T3UQ0"
+          },
+          "title": {
+            "S": "Sony MDR-NC40 Noise Cancelling Headphone (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000629GES"
+          },
+          "title": {
+            "S": "Sony MDR-NC6 Noise Canceling Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0006B486K"
+          },
+          "title": {
+            "S": "Koss KSC75 Portable Stereophone Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0006OQY2S"
+          },
+          "title": {
+            "S": "Audio Technica ATH-AD900 Audiophile Open-air Dynamic Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000779RZA"
+          },
+          "title": {
+            "S": "Sony MDR-EX51LP Fontopia In-The-Ear Headphones, White (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00079PNTM"
+          },
+          "title": {
+            "S": "Sennheiser PXC150 Active Noise Cancelling Headphone (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0007N55P0"
+          },
+          "title": {
+            "S": "Sony MDR-Q23LP w.ear Stereo Headphones (White and Green) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0007N55NM"
+          },
+          "title": {
+            "S": "Sony MDR-XD100 Stereo Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0007N55L4"
+          },
+          "title": {
+            "S": "Sony MDR-SA1000 DJ Stereo Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0007QKXYU"
+          },
+          "title": {
+            "S": "Sennheiser RS 140 Wireless HiFi Headphone with Dynamic Compression System (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000CMLZEG"
+          },
+          "title": {
+            "S": "Audio Technica ATH-AD500 Full-Size Open-Air Dynamic Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000E36R96"
+          },
+          "title": {
+            "S": "Koss Headphone Carrying Case for KSC75, KSC9, KSC7, KSC17, P14, and P16"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000E6G9RI"
+          },
+          "title": {
+            "S": "Sennheiser CX300-B In-Ear Stereo Headphone (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000EBPJCO"
+          },
+          "title": {
+            "S": "Sennheiser HDR120 Supplemental HiFi Wireless Headphone for RS-120 System"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000EGLZTA"
+          },
+          "title": {
+            "S": "Sony MDR710LP Lightweight Stereo Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000EGLZU4"
+          },
+          "title": {
+            "S": "Sony MDR110LP Open-air Stereo Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000EULJPQ"
+          },
+          "title": {
+            "S": "Replacement Foam Ear Pads for Sennheiser HD 424 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000GH2QYK"
+          },
+          "title": {
+            "S": "Panasonic Clip Headphones Blue RP-HZ47-A (japan import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000GH2QYU"
+          },
+          "title": {
+            "S": "Panasonic clip headphone Red RP-HZ47-R (japan import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000GH2QY0"
+          },
+          "title": {
+            "S": "Panasonic clip headphone white RP-HZ47-W"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000GH2QXQ"
+          },
+          "title": {
+            "S": "Panasonic clip headphone silver RP-HZ47-S"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000IS758E"
+          },
+          "title": {
+            "S": "JVC HAFX33P Marshmallow In-Ear Stereo Headphone (Pink) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000JKDTPE"
+          },
+          "title": {
+            "S": "Sony MDR-D777LP Altus Stereo Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000KLZ7VG"
+          },
+          "title": {
+            "S": "Bose TriPort In-Ear Headphones - Headphones ( ear-bud ) - black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000KQQUQW"
+          },
+          "title": {
+            "S": "JVC HANC80 Noise-Cancelling Headphones - Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000MMWT9Q"
+          },
+          "title": {
+            "S": "Bose Around-Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000MS3VGA"
+          },
+          "title": {
+            "S": "V-MODA Vibe In-Ear Noise-Isolating Metal Headphone (Blush) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000MX7Z2Q"
+          },
+          "title": {
+            "S": "Sony Clip-on Stereo Headphones with Retractable | MDR-Q38LW B Black(Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000MX7Z12"
+          },
+          "title": {
+            "S": "Sony Clip-on Stereo Headphones With Double Retractable Cord | MDR-Q68LW B Black (Japanese Imports)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000MX7Z2G"
+          },
+          "title": {
+            "S": "Sony Clip-on Stereo Headphones with Retractable | MDR-Q38LW S Silver(Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000MX7Z1C"
+          },
+          "title": {
+            "S": "Sony Clip-on Stereo Headphones With Double Retractable Cord | MDR-Q68LW W White (Japanese Imports)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000MX7Z0S"
+          },
+          "title": {
+            "S": "Sony Clip-on Stereo Headphones With Double Retractable Cord | MDR-Q68LW S Silver (Japanese Imports)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000OEV88K"
+          },
+          "title": {
+            "S": "Sony MDRRF925RK Wireless Headphone (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000OKJQ7E"
+          },
+          "title": {
+            "S": "Panasonic RP-HV260 Portable Earbud Headphones with Shock Wave Technology (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000OQ5OOM"
+          },
+          "title": {
+            "S": "Sony MDRNC60 Over-the-Head Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000PCF7A6"
+          },
+          "title": {
+            "S": "Sony MDR-Q68LW Clip-on Style Headphone with Retractable Cord"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000PGAPR2"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-W5000 Audiophile Closed-Back Dynamic Wooden On-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000QS5MM2"
+          },
+          "title": {
+            "S": "Philips SHS3701/27 Earclip Headphones with Interchangeable Color Caps (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000RRQEZG"
+          },
+          "title": {
+            "S": "Philips SHE1360/27 Bass Vent In-Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000U07C1U"
+          },
+          "title": {
+            "S": "JVC HANC250 Noise Cancelling Headphones - Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000U7GDMC"
+          },
+          "title": {
+            "S": "Philips Precise Directional Sound In-ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000UPEJCU"
+          },
+          "title": {
+            "S": "Sony Mdr-cd900st Studio Monitor Stereo Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000V6FX9G"
+          },
+          "title": {
+            "S": "Genuine Replacement Ear Pads Cushions for SENNHEISER RS130 HDR130 fit also RS140 HDR140 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000VR7M2Q"
+          },
+          "title": {
+            "S": "Sennheiser CX 400-B - Headphones ( in-ear ear-bud ) - black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0013JIEO6"
+          },
+          "title": {
+            "S": "Philips SHE9800 In-Ear Headphones with Advanced Acoustics (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0013OWPV4"
+          },
+          "title": {
+            "S": "JVC HARX700 Precision Sound Full Size Headphones - Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0013P3ZOE"
+          },
+          "title": {
+            "S": "JVC HARX900 High-Grade Full-Size Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00159YWE0"
+          },
+          "title": {
+            "S": " Sony Mdr-Ex32Lp/Whi Ex Earbuds Headphones (White) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0015AFONW"
+          },
+          "title": {
+            "S": " Sony MDR-AS30G Active Style Headphones (Silver)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0015AM3AY"
+          },
+          "title": {
+            "S": "Sony Electronics, SONY MDR-E10LP/WHI Fashion Earbuds Snow White (Catalog Category: Ear Bud Headphones) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0015AK27U"
+          },
+          "title": {
+            "S": "Sony Mdr-E10Lp/Vlt Headphones - Fashion Earbuds (Violet) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0015AK27K"
+          },
+          "title": {
+            "S": "Sony Mdr-E10Lp/Red Headphones - Fashion Earbuds (Red) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0015AHRFK"
+          },
+          "title": {
+            "S": "Sony MDR-AS20J Active Style Headphones with Soft Loop Hangers - Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0015AFWD4"
+          },
+          "title": {
+            "S": "Sony MDR-E9LP/BLK Earbud Headphones, Black (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0015AFOR8"
+          },
+          "title": {
+            "S": "Sony MDR-AS40EX Active Style Headphones Earbud Style (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00171LDH0"
+          },
+          "title": {
+            "S": " Panasonic RP-HT260-K Sealing up type Stereo Headphone 40mm RPHT260 Black GENUINE"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00172M8HS"
+          },
+          "title": {
+            "S": " Sony Mdr-222Kd/Pin Childrens Headphones (Pink)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001786D5A"
+          },
+          "title": {
+            "S": "Sony MDRNC500D Digital Noise-Canceling Headphone (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00178N5ME"
+          },
+          "title": {
+            "S": "Philips SHE2634/27 Color Match In-Ear Headphone (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0017IJALY"
+          },
+          "title": {
+            "S": "Sony PFRV1 Personal Field Speaker Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001B7LKFA"
+          },
+          "title": {
+            "S": "Philips Portable Radio AE1530 FM/MW, Analog tuning Built-in speaker Headphone jack Battery operated"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001DDEJJQ"
+          },
+          "title": {
+            "S": "Audio Technica ATH-EQ300M PK Pink | Ear-Fit Headphones (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001DDLMQ4"
+          },
+          "title": {
+            "S": " Audio Technica ATH-EQ300M WH White | Ear-Fit Headphones (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001DDGIM2"
+          },
+          "title": {
+            "S": "Audio Technica ATH-EQ300M BW Brown | Ear-Fit Headphones (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001DDLMN2"
+          },
+          "title": {
+            "S": " Audio Technica ATH-EQ300M BK Black | Ear-Fit Headphones (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001DDIJ24"
+          },
+          "title": {
+            "S": "Audio Technica ATH-EQ300M PL Purple | Ear-Fit Headphones (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001DFX2OC"
+          },
+          "title": {
+            "S": "Sony 211566803 Replacement Single Pad for Sony MDR-V6 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001E2SHI0"
+          },
+          "title": {
+            "S": " JVC HAFXC50B Micro HD Inner Ear Headphone (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001QTJ1F4"
+          },
+          "title": {
+            "S": "Audio Technica ATH-FC700A Portable Headphones with 40mm Neodymium Drivers, Black (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001QTW21Y"
+          },
+          "title": {
+            "S": " Sony Ericsson Wireless Stereo Headphone - Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001RB24KK"
+          },
+          "title": {
+            "S": "Sony MDR-EX33LP/BLU EX Style Headphones (Blue)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001RB24LE"
+          },
+          "title": {
+            "S": "Sony MDR-EX33LP/PNK EX Style Headphones (Pink) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001RB24VY"
+          },
+          "title": {
+            "S": "Sony MDR-E10LP/ORG Earbud Style Headphones (Orange) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001RB24P0"
+          },
+          "title": {
+            "S": "Sony MDR-EX76/BLK EX Style Headphones with Carrying Case (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001RB24S2"
+          },
+          "title": {
+            "S": "Sony MDR-XB500 40mm XB Diaphragm Driver Extra Bass Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001U0O9CY"
+          },
+          "title": {
+            "S": "Philips SHE2640/27 In Ear Headphone (Black/Silver) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001UE6PE0"
+          },
+          "title": {
+            "S": "Sony MDRXB700 Extra Bass Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001UE6HZM"
+          },
+          "title": {
+            "S": "Sennheiser HD228 Closed Back Headphone Optimized for iPod/iPhone/MP3/and Music Players (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001VPN4R4"
+          },
+          "title": {
+            "S": " JVC HANCX78 Inner Ear Noise Cancelling Headphones (Silver)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0023RT0X6"
+          },
+          "title": {
+            "S": "Audio Technica ATH-ON3W Portable Headphones with 30mm Drivers, Pink (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0028E4SF4"
+          },
+          "title": {
+            "S": "Panasonic RPHC101K Slim Z Noise Cancelling Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0028JE3T0"
+          },
+          "title": {
+            "S": "Panasonic RP-HS46-K SLIMZ Ear-Clip Headphones with Ultra-Slim Housing (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0028PGXRE"
+          },
+          "title": {
+            "S": " Replacement Cable for SENNHEISER Headphones HD650 HD600 HD580 HD535 HD545 HD565 HD265 with 1/4&quot; 6.3mm plug"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002B4KM1A"
+          },
+          "title": {
+            "S": "Genuine Replacement Ear Pads Cushions for SENNHEISER PX100 PMX100 PX80 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002B4OEZ0"
+          },
+          "title": {
+            "S": " Replacement Ear Pad Foam Cushions for Sennheiser HD414 / Fits also Grado SR60 SR80 SRI-Series headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002B4OKYU"
+          },
+          "title": {
+            "S": "Genuine Replacement Ear pads for SENNHEISER HD650 HD600 HD580 HD565 HD545 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002DGTGNQ"
+          },
+          "title": {
+            "S": " Sennheiser HD438 Closed Circumaural Hi-Fi Headphone with Enhanced Bass (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002GQRROS"
+          },
+          "title": {
+            "S": "JVC HAEBX85P Inner Ear Sports Clip Headphone (Pink) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002GQPTNY"
+          },
+          "title": {
+            "S": "JVC HAS650 Black Series Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002J9H9WC"
+          },
+          "title": {
+            "S": "Beats Studio Wired Over-Ear Headphone - White (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002P8T0H4"
+          },
+          "title": {
+            "S": "Beats by Dr. Dre Solo White On-Ear Headphones with ControlTalk (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002SOU2Y0"
+          },
+          "title": {
+            "S": "Sennheiser RS 160 RF Wireless Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002TLT10I"
+          },
+          "title": {
+            "S": "Sennheiser RS 170 Digital Wireless Headphones (Discontinued By Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0035JKJ2W"
+          },
+          "title": {
+            "S": "Sennheiser CX 680 Earfin In-Ear Adidas Sports Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00365EB3I"
+          },
+          "title": {
+            "S": "Klipsch Image S4i In-Ear Headset with Mic and 3-Button Remote Headphones - White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0037N9C88"
+          },
+          "title": {
+            "S": "Panasonic RP-DJ120 Headphones (Ear-Cup) - Black (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00385XTWA"
+          },
+          "title": {
+            "S": "Sony MDR-770LP Headphones (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00385XU6K"
+          },
+          "title": {
+            "S": "Sony MDR-EX57LP/BLK Headphones (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00385XU8I"
+          },
+          "title": {
+            "S": "Sony Monitor Series Studio Headphones with iPod/iPhone Remote Control DRV-150ip (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00385XU5Q"
+          },
+          "title": {
+            "S": "Sony MDR-NC300D Headphones (Old Version)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00385XU7Y"
+          },
+          "title": {
+            "S": "Sony DREX300iP Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003AIL2HE"
+          },
+          "title": {
+            "S": "Clip Style Headphone Black Lightweight and Comfortable Ear Clip. Splash Proof Water resistant Powerful Sound with Bass Boost JVC HAEB75B"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003BT6A06"
+          },
+          "title": {
+            "S": "Philips In-Ear Headphones Music Colors SHE3585/28 (Red) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003BT6A10"
+          },
+          "title": {
+            "S": "Philips Customer Design Headband Headphones SHL8800/28 (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003CJTR8M"
+          },
+          "title": {
+            "S": "Philips Rich Bass Neckband Headphones SHS5200/28 (Replaces SHS5200)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003DKL576"
+          },
+          "title": {
+            "S": "Philips Extra Bass Earclip Headphones SHS3300/28 (White) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003EM2WF2"
+          },
+          "title": {
+            "S": "Panasonic RP-HJE350-P SLIMZ In-Ear Earbud Headphones (Pink) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003EM6ANW"
+          },
+          "title": {
+            "S": "Panasonic RP-HC700 Noise-Canceling Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003ELYQGG"
+          },
+          "title": {
+            "S": "Panasonic ErgoFit In-Ear Earbud Headphones RP-HJE120-D (Orange) Dynamic Crystal Clear Sound, Ergonomic Comfort-Fit"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003LPTAYI"
+          },
+          "title": {
+            "S": "Sennheiser HD 202 II Professional Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003OGQ92K"
+          },
+          "title": {
+            "S": "Diddybeats by Dr. Dre Pink In-Ear Headphone from Monster (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003ZL916U"
+          },
+          "title": {
+            "S": "Sennheiser HDR 170 Headphone Receiver"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003ZLARRW"
+          },
+          "title": {
+            "S": "Sennheiser HDR 180 Headphone Receiver"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003ZLCAW2"
+          },
+          "title": {
+            "S": "Sennheiser HDR 160 Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0041OQ03C"
+          },
+          "title": {
+            "S": "Bose StayHear Headphone Tips - Medium (2 Pairs)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0042BXSMU"
+          },
+          "title": {
+            "S": "SONY Stereo Headphones MDR-EX1000 | EX Monitor Closed Inner Ear Receiver (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0043M9ATS"
+          },
+          "title": {
+            "S": "Klipsch Image S5i Rugged In-Ear Headphones with 3-Button Remote (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004477D00"
+          },
+          "title": {
+            "S": "Philips ActionFit SHQ1000/28 In-Ear Headphones Tuned for Sports (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0046ZSWX2"
+          },
+          "title": {
+            "S": "Sony MDREX86LP/BLK Headphones (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004DOX70O"
+          },
+          "title": {
+            "S": "Sennheiser HD 65 TV Closed Back Dynamic Headphones for TVs"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004FEEY9A"
+          },
+          "title": {
+            "S": "Sennheiser HD 558 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004HD4L2E"
+          },
+          "title": {
+            "S": "Sennheiser MM30i Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004K09H32"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-ANC23 QuietPoint Active Noise-Cancelling In-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004KCLIFA"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-PRO700MK2 Professional DJ Monitor Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004KCJJ4M"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-SJ11 SonicFuel Closed-Back Dynamic On-Ear Wired Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004M210S8"
+          },
+          "title": {
+            "S": "Audio Technica ATH-WS70 Solid Bass Over-Ear Headphones with Aluminum Housing (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004MMEI0K"
+          },
+          "title": {
+            "S": "Panasonic RPHJE280K Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004MMEI5K"
+          },
+          "title": {
+            "S": "Panasonic RP-HX40 Light Weight On Ear Monitors Headphone (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004OXXE9I"
+          },
+          "title": {
+            "S": "Sony MDR-DS6500 / MDRDS6500 Wireless Surround Digital Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004QOA93E"
+          },
+          "title": {
+            "S": "SONY DR-EX12IP In-Ear Stereo Headphones with Mic and Remote (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004RE20IK"
+          },
+          "title": {
+            "S": "Sony MDREX40LP/VLT In-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004U4XB62"
+          },
+          "title": {
+            "S": "Sony MDREX10LP/BLK In-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004Z58VZ2"
+          },
+          "title": {
+            "S": "Sony MDR7520 Professional Studio Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0052UB5UC"
+          },
+          "title": {
+            "S": "Sony Walkman Digital Tuning Portable Palm Size AM/FM Stereo Radio includes Sony MDR Stereo Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0054JJ0QW"
+          },
+          "title": {
+            "S": "Bose QuietComfort 15 Acoustic Noise Cancelling Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005586PT2"
+          },
+          "title": {
+            "S": "Bose AE2i Audio Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0055E0JMA"
+          },
+          "title": {
+            "S": "IE headphones carrying case"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005626CMM"
+          },
+          "title": {
+            "S": "Philips O'Neill SHO9560BK/28 Over-Ear Headphones - Black (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00564D9CG"
+          },
+          "title": {
+            "S": "Philips Earclip Headphones SHS3800"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0057XZSF2"
+          },
+          "title": {
+            "S": "Bose SoundLink around-ear Bluetooth headphones replacement audio cable &ndash; Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005C3CYK4"
+          },
+          "title": {
+            "S": "JVC HAEBX5AN Sport-Clip Headphones(Blue)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005FDOG1G"
+          },
+          "title": {
+            "S": "JVC HAFX8A In-Ear Headphone,Riptidz"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005FDOGD4"
+          },
+          "title": {
+            "S": "JVC HAFX30P Headphone, Marshmallow, Pink (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005FDOGDE"
+          },
+          "title": {
+            "S": "JVC HAFX30R Headphone, Marshmallow, Red (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005FDOGLG"
+          },
+          "title": {
+            "S": "JVC HAFR36S Marshmallow Inner Ear Headphones with Microphone and Remote (Silver) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005FDOGV6"
+          },
+          "title": {
+            "S": "JVC HAFX30G Headphone, Marshmallow, Green (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005FVDT4I"
+          },
+          "title": {
+            "S": "Sony MDR-XB21EX Extra Bass Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005FVDTAW"
+          },
+          "title": {
+            "S": "Sony MDRNC200D Digital Noise-Canceling Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005FVDT84"
+          },
+          "title": {
+            "S": "Sony MDR-XB41EX Extra Bass Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005HMBQR2"
+          },
+          "title": {
+            "S": "V-MODA Crossfade LP2 Limited Edition Over-Ear Noise-Isolating Metal Headphone (Matte Black) (OLD MODEL) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005HSDLCO"
+          },
+          "title": {
+            "S": "V-MODA Crossfade M-80 On-Ear Noise-Isolating Metal Headphone (Shadow) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005KJJOEY"
+          },
+          "title": {
+            "S": "Bose OE2i Audio Headphones - White (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005KJJKVG"
+          },
+          "title": {
+            "S": "Bose OE2i Audio Headphones - Black (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005KJM30G"
+          },
+          "title": {
+            "S": "Bose OE2 audio headphones  Black (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005KJMTXM"
+          },
+          "title": {
+            "S": "Bose OE2 Audio Headphones  White (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005LD275M"
+          },
+          "title": {
+            "S": "V-MODA Bass Freq Metal In-Ear Noise-Isolating Headphone (Gunmetal Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005M1KO1C"
+          },
+          "title": {
+            "S": "Klipsch Image S4A In-ear Headphones Black for Android (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005MB8E1Y"
+          },
+          "title": {
+            "S": "Genuine Replacement Ear Pads Cushions fit SENNHEISER PXC350 PC350 PC350SE PXE350 HME95 HMEC95 HMEC250 Headphones fit also PXC450"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005N8W23C"
+          },
+          "title": {
+            "S": "Sennheiser IE60 Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005N8W1TM"
+          },
+          "title": {
+            "S": "Sennheiser HD 439 Headphones Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005N8W214"
+          },
+          "title": {
+            "S": "Sennheiser HD 449 Headphones Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005ZNHOW4"
+          },
+          "title": {
+            "S": "Klipsch Reference S4 In-Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006DBQHZM"
+          },
+          "title": {
+            "S": "MEElectronics M16P In Ear Headphones with In-Line Microphone,Single Button Remote for iPhone and Smartphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006K55748"
+          },
+          "title": {
+            "S": "Sony XBA-S65 - Balanced Armature Sports Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006K557BQ"
+          },
+          "title": {
+            "S": "Sony XBANC85D Balanced Armature Digital Noise-Cancelling In-Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006K55662"
+          },
+          "title": {
+            "S": "Sony XBA-1 Balanced Armature Headphones-1 Driver"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006NH8768"
+          },
+          "title": {
+            "S": "Audio Technica Replacement Ear Pads (Pair) For ATH-M50 &amp; ATH-M50S Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006QR8W6K"
+          },
+          "title": {
+            "S": "Koss Porta Pro KTC Ultimate Portable Headphone for iPod, iPhone and iPad"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006RUIWC0"
+          },
+          "title": {
+            "S": "Philips L1/28 Fidelio Over-Ear Headphones with Remote and Mic (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006T9ZKAQ"
+          },
+          "title": {
+            "S": "Koss KPH7 Lightweight Portable Headphone, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006V386UG"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-A900X Audiophile Closed-Back Dynamic Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006WHPQUO"
+          },
+          "title": {
+            "S": "Philips SHL5605PP/28 CitiScape Downtown Headphones (Purple) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006ZNX81E"
+          },
+          "title": {
+            "S": "Sennheiser RS 220 Headphone - Black (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0070U8KSM"
+          },
+          "title": {
+            "S": "Sennheiser HD 700 Headphone (Jack plug &frac14;&rdquo; (6.3 mm) stereo)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0073W6ZE8"
+          },
+          "title": {
+            "S": "Bose carrying case for QuietComfort 15 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0076Z78AM"
+          },
+          "title": {
+            "S": "Sennheiser MM 550-X Wireless Bluetooth Travel Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00773S2XU"
+          },
+          "title": {
+            "S": "Jvc- Xtreme Xplosives Headphones With Remote And Mic - Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0077YTFPS"
+          },
+          "title": {
+            "S": "Audio Technica ATH-ANC9 Active Noise Canceling Headphones (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0078JFQD2"
+          },
+          "title": {
+            "S": "JVC HAEBR80S Sports Clip Headphones (Silver)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0078JFQ0K"
+          },
+          "title": {
+            "S": "JVC HAEBR80B Sports Clip Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0079LE57C"
+          },
+          "title": {
+            "S": "JVC HAFX40S In-Ear Headphones (Silver)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007BNEJS8"
+          },
+          "title": {
+            "S": "Philips SHO7205WT/28 O'Neill The Construct Headband Headphones, White (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007BY3PO6"
+          },
+          "title": {
+            "S": "Sony MDR-ZX600/WHI Over the Head Style Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007BY3PBO"
+          },
+          "title": {
+            "S": "Sony MDRMA100 Over-the-Head Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007BY3PCI"
+          },
+          "title": {
+            "S": "Sony MDRMA300 Over-the-Head Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007BY3PNC"
+          },
+          "title": {
+            "S": "Sony MDR-V55/WHI DJ style Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007CNC79A"
+          },
+          "title": {
+            "S": "Koss ProDj200 Studio Headphone - Black/Silver"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007DB5OCS"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-WS55BRD Solid Bass Over-Ear Headphones, Red"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007G96IQ8"
+          },
+          "title": {
+            "S": "Panasonic RPHX35R Lightweight Headphone Red (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007G93LWC"
+          },
+          "title": {
+            "S": "Panasonic RPHJE355W Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007G95FJE"
+          },
+          "title": {
+            "S": "Panasonic RPHC200K Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007HISA1Y"
+          },
+          "title": {
+            "S": "JVC HAFX101G Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007HIRHSG"
+          },
+          "title": {
+            "S": "JVC HAFX101R Action Sweatproof Sport Wired Stereo Workout Running Jogging Gym in Ear Noise Isolating Headphones Earphones Earbuds for iPhone iPod Samsung"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007I1QY5Y"
+          },
+          "title": {
+            "S": "Sony MDRV55 Red Extra Bass &amp; DJ Headphones MDR-V55 MDR-V55/RC(U)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007JELV8U"
+          },
+          "title": {
+            "S": "Panasonic RP-HJE140-W L-shaped Ear Earbud Headphone (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007KWLF5K"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-ANC9 QuietPoint Active Noise-Cancelling Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007RB13YM"
+          },
+          "title": {
+            "S": "Philips SHE2100WT/28 In-Ear Headphones - White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007RB1BL2"
+          },
+          "title": {
+            "S": "Philips O'Neill SHO2200RD/28 The Tread In-Ear Headphones - Red (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007TRUTFS"
+          },
+          "title": {
+            "S": "Philips SHE3590WT/28 In-Ear Headphones (White) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00827LI7C"
+          },
+          "title": {
+            "S": "Audio Technica SonicPro Port ATH-CKM300I In-ear Headphones with Mic &amp; Volume Control for iPod, iPhone, and iPad - Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008AT6BK6"
+          },
+          "title": {
+            "S": "Audio Technica ATH-FW33 FashionFidelity BIJOU&Eacute; On-ear Headphones, White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008FWB9TQ"
+          },
+          "title": {
+            "S": "JVC Victor Head-band Portable Headphones | HA-S500-B Black (Japanese Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008P8EXJI"
+          },
+          "title": {
+            "S": "JVC HAS400W Carbon Nanotube On-Ear Headband Headphones (White)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008P8EY4C"
+          },
+          "title": {
+            "S": "JVC HAS140B Lightweight On-Ear Headband Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008VGQ4VO"
+          },
+          "title": {
+            "S": "Klipsch Image S4 - II White In-Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008VHHYLW"
+          },
+          "title": {
+            "S": "Klipsch Image S4A - II In-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008VQERFO"
+          },
+          "title": {
+            "S": "Panasonic drops360&deg; Premium In-Ear Stereo Headphones RP-HJX5-R (Metallic Red) Powerful Bass"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008YUNK46"
+          },
+          "title": {
+            "S": "Bose QuietComfort 15 Acoustic Noise Cancelling Headphones - Limited Edition (Discontinued) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0093K84DS"
+          },
+          "title": {
+            "S": "Klipsch Image X7i - Black In-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0094R4Q6Y"
+          },
+          "title": {
+            "S": "Sennheiser PMX 685i Sports In-Ear Neckband Headphones - Black/Blue, 3.5 mm, angled (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0095EL84E"
+          },
+          "title": {
+            "S": "Klipsch Image One BLUETOOTH On-Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0096QYNRA"
+          },
+          "title": {
+            "S": "Klipsch Image ONE - Gen -2 On-Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00972M942"
+          },
+          "title": {
+            "S": "Sony MDRX10/RED Simon Cowell X Headphones with 50mm Diaphragms"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009A6D01G"
+          },
+          "title": {
+            "S": "Sony MDRXB400/GRN Extra Bass Over The Head 30mm Driver Headphone, Green"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009A6D034"
+          },
+          "title": {
+            "S": "Sony MDR1RBT Premium Bluetooth Over-the-Head Style Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009A6CZ26"
+          },
+          "title": {
+            "S": "Sony MDR-IF245RK Wireless IF Headphone,"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009A6CZ3A"
+          },
+          "title": {
+            "S": "Sony MDRNC8/WMI Noise Canceling Headphone, White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009A6CZ44"
+          },
+          "title": {
+            "S": "Sony MDR1RNC Premium Noise-Canceling Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009A6CZYY"
+          },
+          "title": {
+            "S": "Sony MDR-XB600 Extra Bass 40mm Driver Premium Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009A6CZYE"
+          },
+          "title": {
+            "S": "Sony MDRXB400/BLU Extra Bass Over The Head 30 mm Driver Headphone, Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009A7BP3U"
+          },
+          "title": {
+            "S": "Sony MDRXB800 Extra Bass Over The Head 50mm Driver Headphone, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009FRPN4M"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-WS77 Solid Bass Over-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009FRPN2Y"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-WS99 Solid Bass Over-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009GF6X56"
+          },
+          "title": {
+            "S": "Sennheiser Ear Cushion with Disk for RS 100, RS 110, RS 110-II, RS 115, RS 117, RS 119, RS 119-II, RS 120, RS 120-II and HDR 120 Headphones, Pair"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009GF6V6W"
+          },
+          "title": {
+            "S": "Sennheiser Leatherette Earpads for PXC450 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009HW15UG"
+          },
+          "title": {
+            "S": "Sony R800 / R800X EC250 Headphones Adaptor (1249-0456)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009KWULTY"
+          },
+          "title": {
+            "S": "JVC HAFR6D Gumy Plus Headphones (Orange)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009QMZ7SS"
+          },
+          "title": {
+            "S": "Genuine Replacement Ear Pads cushions for SONY MDR-7506, MDR-V6, MDR-V7, MDR-CD900ST Headphones - 1 pair (2 pieces)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B009XFCYYS"
+          },
+          "title": {
+            "S": "Sony 2 Band Receiver Portable AM &amp; FM Transistor Radio with Large Dial Panel, 3.75&rdquo; Speaker, Earphone Jack, Carry Strap, Easy Tuner Knob, Headphone Jack &amp; Telescopic Ferrite Bar Swivel Antenna - Battery Powered - Batteries Included"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00A17IAOA"
+          },
+          "title": {
+            "S": "Panasonic RP-DH1250-S Technics Pro DJ Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00A7R9KWK"
+          },
+          "title": {
+            "S": "Sony MDRXB600IP EX Headphones for iPod/iPhone/iPad"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00AAFD9OY"
+          },
+          "title": {
+            "S": "Philips SHL3000WT Headband Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00AAMJJQ4"
+          },
+          "title": {
+            "S": "Genuine Replacement Ear Pads Cushions for SENNHEISER HD433 HD435 MANHATTAN HD435 VEGAS Old-HD435-model HD60 TV EH1430 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00AN8RROQ"
+          },
+          "title": {
+            "S": "Sony MDR-XB400 XB Series Extra Bass Headphones (Pink)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00B878RPY"
+          },
+          "title": {
+            "S": "Sony MDRRF985RK Wireless RF Headphone, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00B8MIVXC"
+          },
+          "title": {
+            "S": "Sony MDRXB400IP/AP EX Headphones for iPod/iPhone/iPad (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00B9GH16K"
+          },
+          "title": {
+            "S": "Sony MDR-XB200/P (MDRXB200-Pink) XB Extra Bass Series On-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00B9GG5NU"
+          },
+          "title": {
+            "S": "Sony MDR-XB200/D (MDRXB200-Orange) XB Extra Bass Series On-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BHBWWFW"
+          },
+          "title": {
+            "S": "Sennheiser HDVD 800 Headphone Amplifier with DAC"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BLG5CSC"
+          },
+          "title": {
+            "S": "Philips ActionFit Sports Earhook Headphones SHQ3200/28, Orange and Grey"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BLG5CSM"
+          },
+          "title": {
+            "S": "Philips SHQ1200/28 ActionFit Sports In-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BN0N058"
+          },
+          "title": {
+            "S": "Sony MDR-ZX300IP/B Headphones with Microphone for iPod/iPhone/iPad, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BN0N0IK"
+          },
+          "title": {
+            "S": "Sony MDR-AS200/ORG Active Sports Headphones, Orange"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BN0N0AS"
+          },
+          "title": {
+            "S": "Sony MDR-ZX300AP/B Premium Lightweight Stereo Headphones with In-line Microphone and Configurable Remote for Android Smartphone (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BN0N05I"
+          },
+          "title": {
+            "S": "Sony MDR-ZX300AP Sound Monitoring Headphones (Blue)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BN0N09O"
+          },
+          "title": {
+            "S": "Sony MDR-ZX300IP/W Headphones with Microphone for iPod/iPhone/iPad, White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BQ4PEX2"
+          },
+          "title": {
+            "S": "Sony MDRX05/WS Simon Cowell X Headphones (White/Silver)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BQ4PEWS"
+          },
+          "title": {
+            "S": "Sony MDRX05/BS Simon Cowell X Headphone (Black/Silver)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BUL5A9E"
+          },
+          "title": {
+            "S": "Panasonic RP-HXD5C-W Street Style Monitor Headphones, White (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00C1TQ52A"
+          },
+          "title": {
+            "S": "JVC HAS160W Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00C4FBQT8"
+          },
+          "title": {
+            "S": "Sony 900MHz Wireless Stereo Noise Reduction Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00CAXFH8A"
+          },
+          "title": {
+            "S": "Sony MDR-EX100AP/P In-Ear Headphone Earbuds (Pink)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00CIQ88UI"
+          },
+          "title": {
+            "S": "JVC Kenwood HA-SZ1000-E Victer Stereo Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00CJHSHS4"
+          },
+          "title": {
+            "S": "Bose SIE2 Sport Headphones Clothing Clip - Dark Gray"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00CL3TAOQ"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-ANC33iS QuietPoint Active Noise-Cancelling In-Ear Headphones with In-Line Microphone &amp; Control"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00CLCMA4O"
+          },
+          "title": {
+            "S": "Bose SIE2i Sport Headphones - Purple"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00CMRK2D4"
+          },
+          "title": {
+            "S": "Bose SIE2 Sport Headphones Clothing Clip - Light Gray"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00CQQND5K"
+          },
+          "title": {
+            "S": "Sony MDR-XB920/R (MDRXB920/RC) Extra Bass&quot;XB&quot; Headphones - Red"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00CRWT960"
+          },
+          "title": {
+            "S": "Philips SHL3000BK Headband Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00CXP4AS8"
+          },
+          "title": {
+            "S": "Sony MDR-ZX310/WQ ZX Series stereo headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00D21CF0M"
+          },
+          "title": {
+            "S": "Audio Technica Solid Bass ATH-WS33X Closed-back Dynamic Headphones, White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00D42A60K"
+          },
+          "title": {
+            "S": "Bose QuietComfort 20 headphones carrying case"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00D4MPZNI"
+          },
+          "title": {
+            "S": "Philips SHL3200/28 DJ Monitor Style Headband Headphones  (Grey)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00DKXXGFK"
+          },
+          "title": {
+            "S": "Klipsch Image A5i All Sport In-Ear Headphones, Magenta (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00DLJYR0G"
+          },
+          "title": {
+            "S": "Sony MDR-EX110AP-B Ex Monitor In-ear Headphones With Microphone (black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00DLJYQDE"
+          },
+          "title": {
+            "S": "SNYHREX110AL - SONY MDREX110AP L EX Monitor In-Ear Headphones with Microphone (Blue)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00DLJYQMA"
+          },
+          "title": {
+            "S": "Sony MDR-EX110AP/W EX monitor Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00DSTBM6G"
+          },
+          "title": {
+            "S": "JVC HAF160V Gumy Ear Bud Headphone Violet"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00DSTBN0G"
+          },
+          "title": {
+            "S": "JVC HAF160A Gumy Ear Bud Headphone Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00DZASZKY"
+          },
+          "title": {
+            "S": "JVC HAFR37A Marshmallow Headphones with Mic, Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00E4LGVU4"
+          },
+          "title": {
+            "S": "Panasonic RPTCM190A Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00EB82KUK"
+          },
+          "title": {
+            "S": "Philips SHO3300CLASH/28 O'Neill Cruz Headband Headphones, Blue/Pink"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00EMAJ17C"
+          },
+          "title": {
+            "S": "Sony MDR-7510 Professional Studio Headphones with 50mm Driver Unit"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00EO3DRV8"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-CKX7iS SonicFuel In-Ear Headphones with In-Line Mic &amp; Control, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00EO3DOUC"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-CKX5iSRD SonicFuel In-Ear Headphones with In-Line Mic &amp; Control, Red"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00ES6DF18"
+          },
+          "title": {
+            "S": "PANASONIC Wings Sport Headphones are Ultra-Light Wireless Bluetooth Sport Earbud 3D Flex Sport Clips with Microphone and Call/Volume Controller, IPX5 Rated Water-Resistant - RP-BTS35-K (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00F0UFUHI"
+          },
+          "title": {
+            "S": "Sony MDR10R Hi-Res Stereo Wired Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00F4P7NG0"
+          },
+          "title": {
+            "S": "Philips Fidelio semi-open headphones L2BO"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FB5IL7S"
+          },
+          "title": {
+            "S": "Sony MDR-S70AP White Slim Foldable Stereo Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FJ1HFGC"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-ANC70 QuietPoint Active Noise-Cancelling Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FJISYRY"
+          },
+          "title": {
+            "S": "Sony MDR-HW700 Wireless Digital Surround Headphone for MDR-HW700DS (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FJISYZQ"
+          },
+          "title": {
+            "S": "Sony MDR-HW700DS Wireless Headphone 100-240V (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FKIRR4O"
+          },
+          "title": {
+            "S": "SONY PHA-2 Headphone Amplifier"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FMYZO6O"
+          },
+          "title": {
+            "S": "Philips SHB9100 White Wireless Bluetooth Over-the-Head Stereo Headphone with Superior Bass &amp; Optimum Clarity"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FNK8UPE"
+          },
+          "title": {
+            "S": "Philips SHO3305ZERO/28 Philips O'Neill Cruz Headband Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FU2O3NS"
+          },
+          "title": {
+            "S": "Panasonic RP-HXS200M-K Sound Rush On-Ear Headphones, Black/Gray"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FU55RHG"
+          },
+          "title": {
+            "S": "Panasonic RP-HXS400M-A Sound Rush Plus On-Ear Headphones, Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FWGU10G"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-IM50 Dual symphonic-driver In-ear Monitor headphones Black (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FWGTZWQ"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-IM70 Dual symphonic-driver In-ear Monitor headphones(Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FWGU1CY"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-IM50 Dual symphonic-driver In-ear Monitor headphones White (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FYWCL2E"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-ANC7b-SViS QuietPoint Noise-Cancelling Headphones with In-Line Mic &amp; Control"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00GAA8SAI"
+          },
+          "title": {
+            "S": "Genuine Replacement Ear Pads cushions for SONY MDR-V600 V900 V7509 Z600 Headphones - 1 pair (2 pieces)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00GL6V9R0"
+          },
+          "title": {
+            "S": "Philips GoGear MiniDot Mini 2GB Sound-Dot Portable MP3 Player with In-Ear Headphones, Blue (SA5DOT02BN)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00GO4GMHQ"
+          },
+          "title": {
+            "S": "V-MODA XS On-Ear Folding Design Noise-Isolating Metal Headphone (White Silver)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00H0PWF06"
+          },
+          "title": {
+            "S": "Sony MDR10RNC Premium Noise Canceling Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HSCJ28E"
+          },
+          "title": {
+            "S": "Sony MDR10RNCIP iPad/iPhone/iPod Noise-Canceling Wired Headphones (White)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HVLUR18"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-M20x Professional Studio Monitor Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HVLUQW8"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-M30x Professional Studio Monitor Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HXTHFFO"
+          },
+          "title": {
+            "S": "Panasonic RP-HJE120 ErgoFit In-Ear Headphones Stereo Earbuds (6-Pack, Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HXTHFJK"
+          },
+          "title": {
+            "S": "Panasonic RP-HJE120 ErgoFit In-Ear Headphones Stereo Earbuds (2-Pack, Blue)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HXTHFJA"
+          },
+          "title": {
+            "S": "Panasonic RPHJE120 In-Ear Headphone, (2 PACK, Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HYH7HXA"
+          },
+          "title": {
+            "S": "V-MODA Crossfade LP2 Vocal Limited Edition Over-Ear Noise-Isolating Metal Headphone - Matte Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HZD3RXM"
+          },
+          "title": {
+            "S": "SONY MDR-EX650 T Inner ear Headphones Brass brown"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HZD3UN4"
+          },
+          "title": {
+            "S": "Sony Dynamic closed-type headphones MDR-ZX310-H Lime Green/Gray"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HZD3UFM"
+          },
+          "title": {
+            "S": "Sony Dynamic closed-type headphones MDR-ZX310-L Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HZD3UXY"
+          },
+          "title": {
+            "S": "Sony Dynamic Foldable Headphones MDR-ZX110-P (Pink)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HZD3ROQ"
+          },
+          "title": {
+            "S": "SONY MDR-EX650 B Inner ear Headphones Brass black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HZD3RXW"
+          },
+          "title": {
+            "S": "Sony In-Ear Dynamic Headphones MDR-XB50-L (Blue)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00HZD3VGU"
+          },
+          "title": {
+            "S": "Sony In-Ear Dynamic Headphones MDR-XB50-B (Black) International Version"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00I3LUY68"
+          },
+          "title": {
+            "S": "Sony Foldable Headphones MDR-ZX310 R - Metallic Red"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00I3LV336"
+          },
+          "title": {
+            "S": "Sony Foldable Headphones with Smartphone Mic and Control - Metallic Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00I4KPBF2"
+          },
+          "title": {
+            "S": "JVC KENWOOD In-Ear Headphones HA-FX850"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00I525YRO"
+          },
+          "title": {
+            "S": "2 Pairs (4 Earpads) - Genuine Replacement Ear Pads Cushions for SENNHEISER PX100 PMX100 PX80 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00IIIGOTM"
+          },
+          "title": {
+            "S": "Audio Technica ATHCHX5ISBL SonicFuel Hybrid Earbud Headphones for Smartphones, Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00IJXBX74"
+          },
+          "title": {
+            "S": "Sony MDREX15LP/L In-Ear Headphone (Blue)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00IT0KEQ8"
+          },
+          "title": {
+            "S": "Sennheiser PXC 480 Active Noise-Canceling Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00IUICOR6"
+          },
+          "title": {
+            "S": "Bose SoundTrue Headphones Around-Ear Style, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00IUICOUS"
+          },
+          "title": {
+            "S": "Bose SoundTrue Headphones Around-Ear Style, Black/Mint"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00IWY86WU"
+          },
+          "title": {
+            "S": "Philips SHL5100BL/28 Strada Headband Headphones, Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00IYH1UBY"
+          },
+          "title": {
+            "S": "V-MODA Crossfade M-80 Vocal On-Ear Noise-Isolating Metal Headphone, White Silver"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00J0N8FOQ"
+          },
+          "title": {
+            "S": "Sony MDRAS400EX Sports Headphones with Adjustable Ear Loop (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00J7V87GM"
+          },
+          "title": {
+            "S": "Philips SHK1000PK/28 Kids-On Ear Headphone, Pink"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00J80IMJ4"
+          },
+          "title": {
+            "S": "Sennheiser Replacement Headband Cushion for HD 580 and HD 600 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00JB50T6K"
+          },
+          "title": {
+            "S": "Koss KSC22I Ultra Lightweight Sport Ear-Clip Headphones, Black/Silver"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00JFBDZ5W"
+          },
+          "title": {
+            "S": "Klipsch R6 In-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00JJIEEUQ"
+          },
+          "title": {
+            "S": "Koss KEB15i In-Ear Headphone, Teal"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00JKCHL60"
+          },
+          "title": {
+            "S": "Bose SoundTrue Headphones Inline Mic/Remote Cable, Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00JMZILU0"
+          },
+          "title": {
+            "S": "Sennheiser HD 280 Pro headband pad Genuine HD280 headphones cushion replacement padding"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00JWITB8I"
+          },
+          "title": {
+            "S": "Koss KEB15i In-Ear Headphone, Grey"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00JZRXWRW"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-M50x Professional Studio Monitor Headphones - Black with FiiO E6 Headphone Amplifier"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00K3K8TKA"
+          },
+          "title": {
+            "S": "V-MODA XL Cushions for Over-Ear Headphones - Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00K7DYK1U"
+          },
+          "title": {
+            "S": "Audio Technica ATHAX5BK Over-Ear Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00KG8SDP0"
+          },
+          "title": {
+            "S": "Panasonic On Ear Stereo Headphones RP-HF100-P with Travel-Fold Design, Matte Finish, Pink"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00KO5FOOI"
+          },
+          "title": {
+            "S": "Sony MDRXD150BK Close-Back Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00KWKKE6I"
+          },
+          "title": {
+            "S": "Panasonic RP-BTD10-K Premium Bluetooth Wireless On-Ear Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00L2SZFYU"
+          },
+          "title": {
+            "S": "Sennheiser 561035 Adapter Plug For HD Series Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00L6S6XWO"
+          },
+          "title": {
+            "S": "PANASONIC Retro Wireless Headphones with Bluetooth connectivity and up to 24-Hour Playback - RP-HTX80B-K - Over the Ear Headphones (Matte Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00LICSEKM"
+          },
+          "title": {
+            "S": "Audio-Technica HP-CC Replacement Coiled Cable for M Series Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00LICYRVW"
+          },
+          "title": {
+            "S": "Audio-Technica HP-EP Replacement Earpads for M-Series Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00LU1RFLU"
+          },
+          "title": {
+            "S": "Sony Lightweight Behind-the-Neck Active Sports Stereo Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00M1NEUKK"
+          },
+          "title": {
+            "S": "Bose QuietComfort 25 Acoustic Noise Cancelling Headphones for Apple devices - Black (wired, 3.5mm)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00M1NEUA0"
+          },
+          "title": {
+            "S": "Bose QuietComfort 25 Acoustic Noise Cancelling Headphones for Apple devices, White(wired, 3.5mm)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00M1WGMB6"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-M50xWH Professional Studio Monitor Headphones - White with FiiO E6 Headphone Amplifier"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00M3NZKA2"
+          },
+          "title": {
+            "S": "Sennheiser Urbanite XL Over-Ear Headphones - Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00M3O0L8C"
+          },
+          "title": {
+            "S": "Sennheiser Urbanite On-Ear Headphones - Denim"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00M3NZYKI"
+          },
+          "title": {
+            "S": "Sennheiser Urbanite On-Ear Headphones - Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00M58CMTM"
+          },
+          "title": {
+            "S": "Bose SoundLink On-Ear Bluetooth Wireless Headphones - White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00M7Y0KJS"
+          },
+          "title": {
+            "S": "Bose SoundSport In-Ear Headphones for iOS Models, Orange"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00M8PSXRM"
+          },
+          "title": {
+            "S": "Sony Premium Lightweight Extra Bass Earbud Headphones with In-line Microphone and Remote for Android Smartphone (Blue)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00MCHE38O"
+          },
+          "title": {
+            "S": "Sony MDRXB950BT/B Extra Bass Bluetooth Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00MCVOT48"
+          },
+          "title": {
+            "S": "Koss Pro4S Full Size Studio Headphones, Black with Silver Trim"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00MCVOTFC"
+          },
+          "title": {
+            "S": "Koss SP540 Full Size Dynamic Headphones, Black with Silver Accents"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00MIJU844"
+          },
+          "title": {
+            "S": "Koss BT540i Full Size Bluetooth Headphones, Black with Silver Trim"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00MOPRZEI"
+          },
+          "title": {
+            "S": "Sony MDR-ZX750DC Wireless Noise-Canceling Bluetooth Headphones W&rsquo; Case - MDRZX750DC"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00MZQU3AO"
+          },
+          "title": {
+            "S": "Philips SHE3905BK/27 In-Ear Headphones with Mic, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00NBMHT7Q"
+          },
+          "title": {
+            "S": "Sony MDRZ7 Hi-Res Stereo Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00NBMHYGM"
+          },
+          "title": {
+            "S": "Sony MDR1A Premium Hi-Res Stereo Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00ND4OM5O"
+          },
+          "title": {
+            "S": "Sony MDR-XB250 Extra Bass Headphones Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00NEQZMPK"
+          },
+          "title": {
+            "S": "Sony 2 Band Receiver Portable AM &amp; FM Transistor Radio with Large Dial Panel, 3.75&rdquo; Speaker, Earphone Jack, Carry Strap, Easy Tuner Knob, Headphone Jack &amp; Telescopic Ferrite Bar Swivel Antenna - Battery Powered"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00NG57H4S"
+          },
+          "title": {
+            "S": "Sony MDRZX110NC Noise Cancelling Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00NG57GKS"
+          },
+          "title": {
+            "S": "Sony MDR-XB950/H Extra Bass Headphone - Silver (International Version)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00NQ17ZZI"
+          },
+          "title": {
+            "S": "Sennheiser CX 3.00 White In-Ear Canal Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00NQ187DM"
+          },
+          "title": {
+            "S": "Sennheiser CX 1.00 Black In-Ear Canal Headphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00NW353KE"
+          },
+          "title": {
+            "S": "Sony MDR-1A Headphone - Black (International Version U.S. Warranty May not Apply)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00O2Y2MZG"
+          },
+          "title": {
+            "S": "Philips X2/27 Fidelio Over Ear Headphone, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00OBOQ6XG"
+          },
+          "title": {
+            "S": "Bose Mobile In-Ear Headphones Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00OCL61U6"
+          },
+          "title": {
+            "S": "Bose Quiet Comfort 25 Headphones Replacement Carry Case, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00OCL621Y"
+          },
+          "title": {
+            "S": "Bose Quiet Comfort 25 Headphones Ear Cushion Kit, Black - 720876-0010"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00OH82RXO"
+          },
+          "title": {
+            "S": "Sony PHA3 PHA-3 Headphone Amp, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00OTACTCE"
+          },
+          "title": {
+            "S": "Audio-Technica wireless headphone amplifier black AT-PHA50BT BK [Japan import]"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00OXEGB52"
+          },
+          "title": {
+            "S": "JVC HAEB75D Sports Clip Headphone, Orange"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00OZLX3OA"
+          },
+          "title": {
+            "S": "Philips SHL3160WT/27 Headphones, White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00PEU9CFA"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-MSR7BK SonicPro Over-Ear High-Resolution Audio Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00PF89YXG"
+          },
+          "title": {
+            "S": "SONY XBA-Z5 Balanced Armature In-Ear Headphones(International version/seller warranty)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00PQN2PPE"
+          },
+          "title": {
+            "S": "Sennheiser 506298 RS 135 Wireless Headphone System"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00Q784XX4"
+          },
+          "title": {
+            "S": "Bose Sound Link On-Ear Bluetooth Headphones Ear Cushion Kit, White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00Q7857AW"
+          },
+          "title": {
+            "S": "Bose Sound Sport Headphones Clothing Clip, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00Q784UL4"
+          },
+          "title": {
+            "S": "Bose Sound Link On-Ear Bluetooth Headphones Carry Case, White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00QGFEIK6"
+          },
+          "title": {
+            "S": "Bose SoundLink On-Ear Bluetooth Headphones Replacement Audio Cable, Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00SD9JC1I"
+          },
+          "title": {
+            "S": "Klipsch Reference On-Ear Premium Headphone, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00SHUHKJ4"
+          },
+          "title": {
+            "S": "Sony MDRZX110 ZX Series Stereo Headphones (White) with 3.5mm Mini Plug to 1/4 inch Headphone Adapter &amp; HeroFiber&reg; Ultra Gentle Cleaning Cloth"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00SJ4INFI"
+          },
+          "title": {
+            "S": "Sennheiser RS 195 RF Wireless Headphone System"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00SLVAVAY"
+          },
+          "title": {
+            "S": "Sennheiser RS 165 RF Wireless Headphone System"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00SLUI5SA"
+          },
+          "title": {
+            "S": "Sennheiser RS 175 RF Wireless Headphone System"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00SMVLKNU"
+          },
+          "title": {
+            "S": "Panasonic drops360&deg;LUXE Premium In-Ear Stereo Headphones RP-HJX20-K (Black and Silver) Powerful Bass, with Travel Case"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00SMVLPIK"
+          },
+          "title": {
+            "S": "Panasonic FOLDZ On-Ear Stereo Headphones with Mic/Controller RP-DJS150M-K (Black) Integrated"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00TIAYRDO"
+          },
+          "title": {
+            "S": "Sony PHA1A Portable Hi-Res DAC/Headphone Amplifier, Silver"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00TOT9G1W"
+          },
+          "title": {
+            "S": "Sennheiser RS 185 RF Wireless Headphone System"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00TOT6I7W"
+          },
+          "title": {
+            "S": "Sony Compact Portable Stereo Sound System Boombox with MP3 CD Player, Digital Tuner AM/FM Radio, Tape Cassette Recorder, Headphone Output &amp; 3.5mm Audio Auxiliary input Jack"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00TTTO82Y"
+          },
+          "title": {
+            "S": "Sennheiser HDR 165 Accessory RF Wireless Headphone for RS 165 System"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00TV08KLG"
+          },
+          "title": {
+            "S": "Sennheiser HDR 185 Accessory RF Wireless Headphone for RS 185 System"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00TV08IZY"
+          },
+          "title": {
+            "S": "Sennheiser HDR 175 Accessory RF Wireless Headphone for RS 175 System"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00UG7QMPO"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-M40x Professional Studio Monitor Headphones + Slappa Full Sized HardBody PRO Headphone Case (SL-HP-07)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00UH2ULTG"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-W1000Z Audiophile Closed-Back Dynamic Wooden High-Resolution Audio Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00V2BGL2M"
+          },
+          "title": {
+            "S": "Philips SHQ3300LF/27 ActionFit Sports Headphones, Lime"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00V3A0GDM"
+          },
+          "title": {
+            "S": "Philips SHE8100BL/27 In-ear Headphones - Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00V3A0LRS"
+          },
+          "title": {
+            "S": "Philips F1/27 Fidelio Premium Lightweight Travel Headphones with Mic, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00V3A0LKA"
+          },
+          "title": {
+            "S": "Philips M1MKIIBK/27 Fidelio Headphones with Mic, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00V3C6K08"
+          },
+          "title": {
+            "S": "Philips SHQ2300OR/27 ActionFit Sports Headphones, Orange"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00V3RK57C"
+          },
+          "title": {
+            "S": "Philips SHL3060RD/27 Headphones,, Red"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00VV6X5ZE"
+          },
+          "title": {
+            "S": "JVC HAECX20W Sports Clip Inner Ear Headphones, White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WJ0GKHQ"
+          },
+          "title": {
+            "S": "Koss UR23i Noise Isolating, Over The Ear Full Size Headphones, Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WSM0STG"
+          },
+          "title": {
+            "S": "Sennheiser SET840 -TV RF Stereo TV Assistive Listening Headphones System"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WSLZFTK"
+          },
+          "title": {
+            "S": "Sennheiser RS 170 Digital Wireless Headphones (Discontinued By Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WTQDV5E"
+          },
+          "title": {
+            "S": "Philips L2BO/27 Fidelio High Fidelity Headphones with Mic and Memory foam cushioning, Black/Orange"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WU1FQUQ"
+          },
+          "title": {
+            "S": "Beats Solo HD Wired On-Ear Headphone - Green (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WU35S7K"
+          },
+          "title": {
+            "S": "Bose Around-Ear Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WU36LNU"
+          },
+          "title": {
+            "S": "Bose QuietComfort 15 Acoustic Noise Cancelling Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WU38N6I"
+          },
+          "title": {
+            "S": "Bose AE2 Around-Ear Audio Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WUDCO3G"
+          },
+          "title": {
+            "S": "JVC HA-FX35-B Soft Marshmallow Stereo Headphones (Black) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WUD5F1O"
+          },
+          "title": {
+            "S": "JVC HAEBX85P Inner Ear Sports Clip Headphone (Pink) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WUI7ALC"
+          },
+          "title": {
+            "S": "Panasonic RPHC720K Over-Ear Headphones, Black (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WUJ00XQ"
+          },
+          "title": {
+            "S": "Philips Adjustable Earclip Headphones SHS4700/28 (Black) (Discontinued by Manufacturer) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WUO2RNM"
+          },
+          "title": {
+            "S": "Sennheiser PMX 680 Sports Earbud Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WUT3I5S"
+          },
+          "title": {
+            "S": "Koss KSC32i V Sport Clip Headphones, Violet"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WURPIQ2"
+          },
+          "title": {
+            "S": "Sony Studio Monitor MDR-V600 Stereo Headphone (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WUT2DDG"
+          },
+          "title": {
+            "S": "Koss KSC32i B Sport Clip Headphones, Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00X9KVVQK"
+          },
+          "title": {
+            "S": "Bose QuietComfort 20 Acoustic Noise Cancelling Headphones, Samsung and Android Devices, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00XHRTVCQ"
+          },
+          "title": {
+            "S": "Koss KPH14V Side Firing Headphone (Violet)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00XLIG4GW"
+          },
+          "title": {
+            "S": "Bose QuietComfort 25 Headphones Inline Mic/Remote Cable for Samsung &amp; Android Devices (Blue)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00XQCVBAW"
+          },
+          "title": {
+            "S": "Genuine Replacement Ear Pads Cushions for SENNHEISER RS185 HDR185 Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00XQNGMBO"
+          },
+          "title": {
+            "S": "V-MODA Crossfade LP Over-Ear Noise-Isolating Metal Headphone (Rouge)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00Y2IJ3IQ"
+          },
+          "title": {
+            "S": "Beats Solo 2 WIRED On-Ear Headphone NOT WIRELESS - Black (Refurbished)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00Y54GYC0"
+          },
+          "title": {
+            "S": "Philips SHB6250/27 Wireless Bluetooth Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00YBMPVNE"
+          },
+          "title": {
+            "S": "Sony MDR-XB450AP Extra Bass Headphone (Red)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00YWT3F7A"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-AVC200 SonicPro Over-Ear Closed-Back Dynamic Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00ZA1J5GO"
+          },
+          "title": {
+            "S": "Sony MDR-ZX770BN Bluetooth Noise Canceling Headphones (Blue)-NEW"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00ZUTLG5Y"
+          },
+          "title": {
+            "S": "Beats Solo HD On-Ear Headphone Matte Black (Refurbished)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00ZY7UGV2"
+          },
+          "title": {
+            "S": "Klipsch AS-5i In-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00ZYCNH5O"
+          },
+          "title": {
+            "S": "Klipsch AW-4i In-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0105NCAP4"
+          },
+          "title": {
+            "S": "PANASONIC Bluetooth Earbud Headphones with Microphone, Call/Volume Controller and Quick Charge Function - RP-HJE120B-K - in-Ear Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B010KJJOB6"
+          },
+          "title": {
+            "S": "Beats Solo 2 WIRED On-Ear Headphone NOT WIRELESS - Black (Refurbished)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B010MTKXLE"
+          },
+          "title": {
+            "S": "Sony MDR-ZX770DC Bluetooth and Noise Canceling Headphones/Headset With Case - MDRZX770DC (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0117RFZ40"
+          },
+          "title": {
+            "S": "Bose SoundTrue around-ear  wired headphones II - Apple devices, Navy Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0117RFP0Y"
+          },
+          "title": {
+            "S": "Bose QuietComfort 25 Acoustic Noise Cancelling Headphones for Apple Devices, Triple Black (wired, 3.5mm)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0117RGG8E"
+          },
+          "title": {
+            "S": "Bose SoundLink around-ear wireless headphones II Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0117RFPCC"
+          },
+          "title": {
+            "S": "Bose SoundSport in-ear headphones for Samsung and Android devices, Charcoal"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0117RFP6I"
+          },
+          "title": {
+            "S": "Bose QuietComfort 25 Acoustic Noise Cancelling Headphones for Samsung and Android Devices, Triple Black (wired, 3.5mm)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B011C8O23Y"
+          },
+          "title": {
+            "S": "Beats urBeats In-Ear Headphones, Black - (Refurbished)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B011CEHLLS"
+          },
+          "title": {
+            "S": "Beats urBeats In-Ear Headphone - Space Gray (Refurbished)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B011TNK6V4"
+          },
+          "title": {
+            "S": "SONY Over Ear Best Stereo Extra Bass Portable Headphones Headset for Apple iPhone iPod / Samsung Galaxy / mp3 Player / 3.5mm Jack Plug Cell Phone (Black) &hellip;"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01206QYEC"
+          },
+          "title": {
+            "S": "Philips SHB9250/27 Wireless Bluetooth Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B013TLYRC8"
+          },
+          "title": {
+            "S": "Sennheiser HD 630VB Headphone with Variable Bass and Call Control"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0145CC7I6"
+          },
+          "title": {
+            "S": "Beats Executive Wired Headphone - Silver (Refurbished)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B015CVOHPU"
+          },
+          "title": {
+            "S": "Philips SHB5850WT/27 Wireless Bluetooth Headphones, White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B015EL1EMC"
+          },
+          "title": {
+            "S": "Philips SHB9850NC/27 Wireless Noise Canceling Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B015JM7ECU"
+          },
+          "title": {
+            "S": "Sony Portable AM/FM Transistor Radio with Built-in Speaker, Headphone Jack + AA Batteries"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B015N5341I"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-ANC40BT QuietPoint Active Noise-Cancelling Bluetooth Wireless In-Ear Headphones with In-Line Mic &amp; Control"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B015N52XDI"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-S700BT SonicFuel Bluetooth Wireless Over-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B015N52YUU"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-WS99BT Solid Bass Bluetooth Wireless Over-Ear Headphones with Built-In Mic &amp; Control"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B015N52WZM"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-SPORT4BK SonicSport Bluetooth Wireless in-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B015R7AFVE"
+          },
+          "title": {
+            "S": "V-MODA Crossfade Wireless Over-Ear Headphone - Phantom Chrome"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B015ZDH4EQ"
+          },
+          "title": {
+            "S": "Sony h.ear on Premium Hi-Res Stereo Headphones (wired), Lime Yellow"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01601405I"
+          },
+          "title": {
+            "S": "Beats Pro Wired Over-Ear Headphone - White (Refurbished)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0163ZHROM"
+          },
+          "title": {
+            "S": "Philips M2BTBK/27 Fidelio Wireless Bluetooth Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0168SGBKA"
+          },
+          "title": {
+            "S": "Sony MDR-E9LP Grey Earbud Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0169N85T4"
+          },
+          "title": {
+            "S": "Klipsch R6i On-Ear On-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0169N84LI"
+          },
+          "title": {
+            "S": "Klipsch R6 On-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B016XIBN08"
+          },
+          "title": {
+            "S": "Sony MDR-EX650AP Smartphone-capable In-ear Headphones with Remote and Mic Brass black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B016YJDV74"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-M50x Professional Studio Monitor Headphones (Certified Refurbished)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B017LI9HS4"
+          },
+          "title": {
+            "S": "V-MODA Zn In-Ear Modern Audiophile Headphones with 1 Button Remote and Microphone"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B017MOUVMI"
+          },
+          "title": {
+            "S": "Klipsch XR8i In-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B017WRZFSA"
+          },
+          "title": {
+            "S": "Klipsch Reference X6i In-Ear Headphones With KG-723 Full-Range Balanced Armature Drivers"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B018IZ9C2K"
+          },
+          "title": {
+            "S": "Beats Solo2 Wired On-Ear Headphone, Luxe Edition - Blue"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B018U941AW"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-CKS990iS Solid Bass In-Ear Headphones with In-line Microphone &amp; Control"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B018UB3HU0"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-WS1100iS Solid Bass Over-Ear Headphones with In-Line Microphone &amp; Control"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B018UAZI4Y"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-WS770iSGM Solid Bass Over-Ear Headphones, Gun Metal"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B019WMR2VG"
+          },
+          "title": {
+            "S": "Philips Bluetooth Headphone SHB5950BK/27, Black (SHB5950BK/27)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01AH1DPLM"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-M70x Professional Monitor Headphones (Certified Refurbished)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01AQ7IFB2"
+          },
+          "title": {
+            "S": "Panasonic RP-HJE120 ErgoFit in-Ear Headphones Stereo Earbuds (4-Pack, Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01AXSYH2U"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-E50 Professional In-Ear Studio Monitor Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01AYZZ70I"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-A550Z Art Monitor Closed-Back Dynamic Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01BY7ZMXC"
+          },
+          "title": {
+            "S": "Sony MDRXB650BT/B Extra Bass Bluetooth Headphones, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01C6B3W9G"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-SR5BTBK Bluetooth Wireless On-Ear High-Resolution Audio Headphones with Mic &amp; Control, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01CEFLFF2"
+          },
+          "title": {
+            "S": "Panasonic drops360&deg; LUXE Premium In-Ear Stereo Headphones with Mic + Controller RP-HJX21M-K (Black and Silver) Powerful Bass, with Travel Case"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01CEFLGJM"
+          },
+          "title": {
+            "S": "Panasonic drops360&deg; Premium in-Ear Stereo Headphones with Mic + Controller RP-HJX6M-R (Metallic Red) with Travel Pouch, Powerful Bass"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01CEFLA2U"
+          },
+          "title": {
+            "S": "Panasonic Wings RP-BTS30-W Wireless Bluetooth In-Ear Earbuds Noise Isolating Water Resist Sport Headphones with Mic and Controller - White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01CEFLFQG"
+          },
+          "title": {
+            "S": "Panasonic WINGS Wireless Bluetooth In Ear Earbuds Sport Headphones with Mic + Controller and Flashing LED's RP-BTS50-K (Jet Black), IPX5 Water Resistant"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01CEFLFHU"
+          },
+          "title": {
+            "S": "Panasonic Premium Hi-Res Stereo Over-the-Ear Headphones with Mic + Controller RP-HD10C-K (Black), with Travel Case"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01CQXGE94"
+          },
+          "title": {
+            "S": "Sony H.ear in Wireless Headphone, Black (MDREX750BT/B)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01CQXGSTU"
+          },
+          "title": {
+            "S": "Sony H.ear on Wireless Noise Cancelling Headphone, Cinnabar Red (MDR100ABN/R)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01CRI3UOU"
+          },
+          "title": {
+            "S": "Sennheiser HD 25 Professional DJ Headphone, Black (HD25)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01D6FKDT8"
+          },
+          "title": {
+            "S": "Audio Technica ATH-M50X Headphones + Slappa Case + Headphone Amplifier (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01DBUHLAC"
+          },
+          "title": {
+            "S": "Audio Technica ATH-M50X Professional Studio Headphones (Black) with FiiO A3 Portable Headphone Amplifier (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01DEMUOJ2"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-COR150iSPK SonicSport In-Ear Headphones with In-Line Mic &amp; Control, Pink"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01DG5KHIU"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-CLR100iSBK SonicFuel In-Ear Headphones with In-line Microphone &amp; Control, Black"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01DUVRU7G"
+          },
+          "title": {
+            "S": "Audio-Technica ATH-ANC50iS QuietPoint Active Noise-Cancelling Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01E3SNO3E"
+          },
+          "title": {
+            "S": "Bose QuietComfort 35 (Series I) Wireless Headphones, Noise Cancelling - Silver"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01E3SNNGW"
+          },
+          "title": {
+            "S": "Bose SoundSport Wireless Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01E3XLNA0"
+          },
+          "title": {
+            "S": "Sennheiser PXC 550 Wireless &ndash; NoiseGard Adaptive Noise Cancelling, Bluetooth Headphone with Touch Sensitive Control and 30-Hour Battery Life"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01E4H4OBA"
+          },
+          "title": {
+            "S": "Sony MDR-ZX110AP Extra Bass Wired Headphones with Mic, Smartphone Headset for iPhone &amp; Android with In-Line Remote &amp; Microphone, Neodymium Magnets &amp; 30mm Drivers, White (Certified Refurbished)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01E4H4MWQ"
+          },
+          "title": {
+            "S": "Sony MDR-ZX110AP Extra Bass Wired Headphones with Mic, Smartphone Headset for iPhone &amp; Android with In-Line Remote &amp; Microphone, Neodymium Magnets &amp; 30mm Drivers, Black (Certified Refurbished)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01ESTW5PG"
+          },
+          "title": {
+            "S": "Sony High-Resolution Audio System with Headphone Amp CAS-1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01HETFQA8"
+          },
+          "title": {
+            "S": "Bose QuietControl 30 Wireless Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000EGLZTK"
+          },
+          "title": {
+            "S": "Sony MDR410LP Foldable Open-air Stereo Headphones (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000I3F8Z6"
+          },
+          "title": {
+            "S": "Premium Headphone Extension (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00172PW62"
+          },
+          "title": {
+            "S": "Sony Mdr-E10Lp/Pgrn Headphones - Fashion Earbuds (Green) (Discontinued by Manufacturer)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001UE6PCM"
+          },
+          "title": {
+            "S": "Sony MDRXB300 Extra Bass Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0023RT0WW"
+          },
+          "title": {
+            "S": "Audio Technica ATH-FC700A Portable Headphones with 40mm Neodymium Drivers, White"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002T6NZKU"
+          },
+          "title": {
+            "S": "Audio Technica ATH-T500 | Dynamic Headphones (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005TCZHWU"
+          },
+          "title": {
+            "S": "Audio Technica ATH-ON303 BK | Portable Headphones (Japan Import)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00B9GF9XC"
+          },
+          "title": {
+            "S": "Sony MDR-XB200/G (MDRXB200-Green) XB Extra Bass Series On-Ear Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00FJISZBE"
+          },
+          "title": {
+            "S": "Sony MDRHW300K Digital Wireless Headphones"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00J0XR11E"
+          },
+          "title": {
+            "S": "SONY PHA-2 Headphone Amplifier"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00JEJPT7C"
+          },
+          "title": {
+            "S": "Sennheiser - 534471 Authentic Original HDR 160/HDR 170/RS 160/RS 170 Headphones Cushions Replacement Headband Padding"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00LG9JAZK"
+          },
+          "title": {
+            "S": "Koss 187204 Keb6i In-Ear Headphones (Black)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00NW3567E"
+          },
+          "title": {
+            "S": "Sony MDR-1ADAC Premium Hi-Res Stereo Built-in DAC Headphones (Black/Red)"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B016LCPPKA"
+          },
+          "title": {
+            "S": "Sony Premium Noise-Canceling Lightweight Extra Bass Stereo Headphones Plus Kubicle Case"
+          }
+        }
+      }
+    }
+  ]
+}
