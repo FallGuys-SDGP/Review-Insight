@@ -1,1 +1,4 @@
 node_modules
+dataset/Electronics_5.json.gz
+dataset/meta_Electronics.json.gz
+dataset/extracted/Headphone extracted droped columns.csv
