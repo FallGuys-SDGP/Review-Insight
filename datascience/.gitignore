@@ -3,3 +3,4 @@ dataset/Electronics_5.json.gz
 dataset/meta_Electronics.json.gz
 dataset/extracted/Headphone extracted droped columns.csv
 dataset/extracted/Headphone extracted no droped columns.csv
+ipython files/.ipynb_checkpoints
