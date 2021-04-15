@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/product/{asin}",
+            "lambdaFunction": "getProduct",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/product/*"
+        }
+    ],
+    "resourceName": "getProductApi",
+    "apiName": "getProductApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "getProduct"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplify7dad7946189a4-staging-193320-authRole",
+        "unAuthRoleName": "amplify-amplify7dad7946189a4-staging-193320-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "getProduct",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
