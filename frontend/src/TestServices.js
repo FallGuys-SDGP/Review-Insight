@@ -1,7 +1,7 @@
 import React from 'react';
 import "./components/home/Home.css";
 import "./components/results/ReviewContent/ReviewContainer.css";
-import {fetchProductReveiw} from "./utils/Services"
+import {fetchspecification} from "./utils/Services"
 import SearchBar from "./components/home/SearchBar.js";
 
 
@@ -20,7 +20,7 @@ function TestServices(){
 
 
   if(searchId !== ' ') {
-    fetchProductReveiw("specification",searchId).then(productData => {
+    fetchspecification("specification",searchId).then(productData => {
       if(searchId !== productData.data){
         setProductId(productData.data.asin);
         setProductTitle(productData.data.Model);
