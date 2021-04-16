@@ -7,8 +7,9 @@ import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import LogIn from './components/log-in/login';
 import Register from "./components/register/register";
-import BackendTest from './BackendTest'
+import TestService from './TestServices'
 import AboutUs from './components/about-us/aboutus'
+import Contact from './components/contact/contact'
 
 
 function App(){
@@ -33,6 +34,9 @@ function App(){
               <Link to="/home">
                 <li><a>Home</a></li>
               </Link>
+              <Link to="/test">
+                <li><a>Test</a></li>
+              </Link>
             </ul>
           </nav>
         </div>
@@ -44,6 +48,7 @@ function App(){
           <Route path="/login" exact component={LogIn}/>
           <Route path="/register" exact component={Register}/>
           <Route path="/aboutus" exact component={AboutUs}/>
+          <Route path="/test" exat component={TestService}/>
 
         </Switch>
 
