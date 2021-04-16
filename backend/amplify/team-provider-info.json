@@ -46,7 +46,7 @@
         },
         "getSpecification": {
           "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
-          "s3Key": "amplify-builds/getSpecification-4b4e4366522f744f4d70-build.zip"
+          "s3Key": "amplify-builds/getSpecification-2f6a2f692b4355304f61-build.zip"
         }
       }
     }

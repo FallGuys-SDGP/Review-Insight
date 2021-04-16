@@ -12,7 +12,7 @@ exports.handler = async (event, context) => {
   const params = {
     TableName: "specification",
     Key: {
-      id: "ATH-AR5 Wired Headphones"
+        Model: "ATH-AR5 Wired Headphones"
     }
   }
 
