@@ -26,6 +26,13 @@
           "arn": "arn:aws:dynamodb:ap-south-1:559461057135:table/User",
           "partitionKeyName": "UserId",
           "partitionKeyType": "S"
+        },
+        "specification": {
+          "tableName": "specification",
+          "region": "ap-south-1",
+          "arn": "arn:aws:dynamodb:ap-south-1:559461057135:table/specification",
+          "partitionKeyName": "Model",
+          "partitionKeyType": "S"
         }
       },
       "function": {
