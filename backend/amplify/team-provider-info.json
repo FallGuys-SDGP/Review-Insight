@@ -1,0 +1,43 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify7dad7946189a4-staging-193320-authRole",
+      "UnauthRoleArn": "arn:aws:iam::559461057135:role/amplify-amplify7dad7946189a4-staging-193320-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::559461057135:role/amplify-amplify7dad7946189a4-staging-193320-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
+      "UnauthRoleName": "amplify-amplify7dad7946189a4-staging-193320-unauthRole",
+      "StackName": "amplify-amplify7dad7946189a4-staging-193320",
+      "StackId": "arn:aws:cloudformation:ap-south-1:559461057135:stack/amplify-amplify7dad7946189a4-staging-193320/24158160-8045-11eb-bcdf-0a6bf64f2864",
+      "AmplifyAppId": "dehbk4p0y1521"
+    },
+    "categories": {
+      "storage": {
+        "Product": {
+          "tableName": "Product",
+          "region": "ap-south-1",
+          "arn": "arn:aws:dynamodb:ap-south-1:559461057135:table/Product",
+          "partitionKeyName": "asin",
+          "partitionKeyType": "S"
+        },
+        "User": {
+          "tableName": "User",
+          "region": "ap-south-1",
+          "arn": "arn:aws:dynamodb:ap-south-1:559461057135:table/User",
+          "partitionKeyName": "UserId",
+          "partitionKeyType": "S"
+        }
+      },
+      "function": {
+        "getProduct": {
+          "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
+          "s3Key": "amplify-builds/getProduct-7a64357a3157356d6e32-build.zip"
+        },
+        "getUser": {
+          "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
+          "s3Key": "amplify-builds/getUser-30466a4b794154425859-build.zip"
+        }
+      }
+    }
+  }
+}

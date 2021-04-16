@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/user/{userId}",
+            "lambdaFunction": "getUser",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/user/*"
+        }
+    ],
+    "resourceName": "getUserApi",
+    "apiName": "getUserApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "getUser"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplify7dad7946189a4-staging-193320-authRole",
+        "unAuthRoleName": "amplify-amplify7dad7946189a4-staging-193320-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "getUser",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
