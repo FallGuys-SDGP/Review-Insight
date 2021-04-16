@@ -1,15 +1,28 @@
 
 
-exports.handler = async (event) => {
-    // TODO implement
-    const response = {
-        statusCode: 200,
-    //  Uncomment below to enable CORS requests
-     headers: {
-         "Access-Control-Allow-Origin": "*",
-         "Access-Control-Allow-Headers": "*"
-     }, 
-        body: JSON.stringify('Hello from Lambda!'),
-    };
-    return response;
-};
+'use strict'
+const AWS = require('aws-sdk');
+
+AWS.config.update({ region: "ap-south-1"});
+
+exports.handler = async (event, context) => {
+  const ddb = new AWS.DynamoDB({ apiVersion: "2012-10-08"});
+  const documentClient = new AWS.DynamoDB.DocumentClient({ region: "ap-south-1"});
+  
+  const params = {
+    TableName: "specification",
+    Key: {
+      id: "ATH-AR5 Wired Headphones"
+    }
+  }
+
+  try {
+    const data = await documentClient.get(params).promise();
+    console.log(data);
+    return data;
+  } catch (err) {
+    console.log(err);
+    
+  }
+}
+
