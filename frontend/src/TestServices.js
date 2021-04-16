@@ -20,12 +20,12 @@ function TestServices(){
 
 
   if(searchId !== ' ') {
-    fetchProductReveiw(searchId).then(productData => {
+    fetchProductReveiw("specification",searchId).then(productData => {
       if(searchId !== productData.data){
         setProductId(productData.data.asin);
-        setProductTitle(productData.data.title);
-        setProductBrand(productData.data.brand);
-        setProductImage(productData.data.image);
+        setProductTitle(productData.data.Model);
+        setProductBrand(productData.data.Brand);
+        setProductImage(productData.data.Type);
       }
       });
   }
