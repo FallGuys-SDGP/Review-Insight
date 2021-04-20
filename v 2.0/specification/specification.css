@@ -19,6 +19,7 @@ h3{
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
+  
 }
 
 
@@ -40,7 +41,6 @@ h3{
   .footer{background-color:#e4dcda; text-align:left; padding-left:10% }
   .f_1{line-height: 1.1}
   .img_foot{width:200px; height:auto; margin-left:-10% }
-
 }
 
 p, a{
@@ -60,7 +60,12 @@ p, a{
     background-color: #ffba1f;
     margin-bottom: 40px;
 }
-
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
 nav{
   height: 80px;
   background: #ffba1a;
@@ -165,8 +170,6 @@ label #btn,label #cancel{
   }
 }
 
-
-
 .header2{
     padding: 10px 10px 0px 10px;
 }
@@ -204,126 +207,87 @@ label #btn,label #cancel{
     display: table;
 }
 
-hr{
-    border: 2px solid #cacaca; background-color:#cacaca;
+.area2{
+    padding: 16px 20px;
+    margin-left:5%
 }
 
-.img-set{
-    padding-left: 15%;
-    padding-right:15%;
-    padding-top: 0;
-    text-align:center;
-    height:150px;
-}
-
-.img{
-    margin-right: 2%;
-}
-
-.hrmidtop_2{
-    text-align: center;font-family: 'Lucida Console', 'Courier New', monospace;
-    font-size: 40px;
-    font-weight:bold;
-}
-
-.section2-set{
-    width:20%;
-    height: 150px; 
-}
-
-.numbers{
-    font-weight: bold;
-    font-size:70px;
-    text-align:center;
-    margin-left: 35px;
-    color:#b2b2b2;
-}
-
-@media only screen and (max-width: 768px){
-  .numbers{
-    font-size:60px;
-    margin-left: 5%;
-    }
-    .newlist{
-    font-size: 25px;
-    margin-left: 20px;
-}
-}
-
-.section3 p{
-    text-align: center; 
-    font-family: "Lucida Console", "Courier New", monospace; 
-    font-size: 30px; 
-    font-weight:bold;
-    word-spacing:-5px
-}
-
-.section2, .section4, .section5, .section6, .section7{
-    margin: 3% 15% 0% 15%;
-}
-
-.newlist{
-    list-style-type: circle;
-    font-size: 25px;
-    margin-left: 30%;
-    padding-bottom: -65%;
-}
-
-.section4 h1{
-    font-weight: bold;
-    font-size:40px;
-    text-align:left;
-    color:#bca0d2;
-}
-
-.section5 h1{
-    font-weight: bold;
-    font-size:40px;
-    text-align:left;
-    color:#bca0d2;
-}
-
-.section6{
-    margin: 3% 24% 0% 24%;
-    overflow: auto;
-    border: 1px solid;
-    border-radius: 20px;
-    padding: 4% 2% 0 2%
-}
-
-
-.section6 .btn{
-    background-color:white;
-    border: 2px solid #555555;
-    color: black;
-    padding: 10px 8%;
-    text-align: center;
-    text-decoration: none;
+.circles{
+    border:1px solid;
+    width: 20px;
+    height: 13px;
+    margin-left: 6%;
     display: inline-block;
-    font-size: 16px;
-    border-radius:20px; 
-    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
-
-
-.section6 .btn span{
-    font-size:20px;
-    font-family: Arial, Helvetica, sans-serif; 
+.links{
+    text-align: center;
 }
 
-.section6-p1{
-    font-size:20px;
-    font-family: Arial, Helvetica, sans-serif; 
+.links ul{
+    list-style-type: none;
 }
 
-.section7 p{
-    text-align: center; 
-    font-family: "Lucida Console", "Courier New", monospace; 
-    font-size: 30px; 
-    font-weight:bold;
-    word-spacing:-5px;
-    margin-bottom: 10px;
+.links ul li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.links ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+.links ul li a:hover{
+    text-decoration:underline;
+    text-decoration-color:#80ff00;
+}
+
+.boxpart1{
+    border: 1px solid;
+    width: 83.1%;
+    height: 300px;
+    border-radius: 25px; 
+    border: 2px solid #747474;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.boxpart{
+    height: 130px; 
+    width: 18%; 
+    float: left;
+    border-radius: 25px; 
+    border: 2px solid #747474;
+    margin-right: 3.9%;
+    margin-top: 3%;
+}
+
+.boxpart2{
+    margin-top: 0.7%;
+    border-radius: 25px; 
+    border: 5px solid #747474; 
+    height:452px;
+    overflow: auto;
+}
+
+.boxpart2 table{
+    font-size: 20px;color:#747474;margin-left: 10%;
+}
+
+.boxpart2 table tr td{
+    padding: 5px 20px 5px 20px;
+}
+
+.boxpart2 p{
+    margin-left: 2%; font-size:40px; color:#747474;
+}
+
+@media (max-width: 768px){
+    .boxpart2{ 
+        margin: 0;
+    }
 }
 
 .footer{background-color:#e4dcda; text-align: center; margin-top: 50px;}
@@ -332,5 +296,3 @@ hr{
 .footer li {padding: 5px; color:black;}
 .footer a{font-size:18px; color:black; text-decoration:none;}
 .footer a:hover{color:white;}
-
-
