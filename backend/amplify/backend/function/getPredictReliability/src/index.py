@@ -28,16 +28,26 @@ def handler(event, context):
 
   bucket ='review-insight-bucket'
   pipe_line = "serialized_pipeline_model_tfid.pkl"
-  
+
   asin = event['pathParameters']['asin']
   queryResponse = queryReviews(asin)
+  column = ['reviewText']
+  row = []
+  for query in queryResponse:
+    query['reviewText']
+    row.append(query['reviewText'])
+
+  df_reviews = pd.DataFrame(row,columns=column)  
+  x = df_reviews['reviewText']  
 
   s3 = boto3.resource('s3')
-
   my_pipeline = pickle.loads(s3.Bucket(bucket).Object(pipe_line).get()['Body'].read())
 
-  return_statement = asin,queryResponse
-                     
+  y_predict = my_pipeline.predict(x.values.astype('U'))
+
+  return_statement = x[0]," =>  ", y_predict[0]
+
+           
   return {
       'statusCode': 200,
       'headers': {
