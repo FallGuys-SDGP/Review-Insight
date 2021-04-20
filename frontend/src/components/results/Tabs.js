@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "../results/Tabs.css";
 import ReviewContainer from "./ReviewContent/ReviewContainer";
 import Specifications from "./Specifications/Specifications";
+import Analytics from "./Analytics/Analytics";
 
 import Report from "./Report/Report";
 
@@ -25,6 +26,10 @@ function Tabs() {
 
         <button className={toggleState === 3 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(3)}>
           Specification
+        </button>
+
+        <button className={toggleState === 4 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(4)}>
+          Analytics
         </button>
       </div>
 
@@ -58,6 +63,11 @@ function Tabs() {
       
           
         </div>
+
+        <div className={toggleState === 4 ? "content  active-content" : "content"}>
+          <Analytics/>
+        </div>
+
       </div>
     </div>
   );
