@@ -1,157 +1,81 @@
-.nameTeam{
-    text-align:left;
-    padding-left:0.5%;
-    margin:5px;
-    font-family:BlackChancery;
-    font-size:40px;
+.section3{
+    margin: 10%;
+    border-style: solid;
+    border-color: #3333cc;
+    height: 100%;
+    border-width: 10px;
+}
+
+.box1{
+
+    width: 300px;
+    height: 300px;
+}
+
+.setSubbox{
+    display: flex;
+}
+
+.mainBox{
+    display: flex;
+    margin: 3%;
+}
+.subbox2{
+    margin: 3%;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    background-color: lightgrey;
+}
+
+.head2{
+    font-size: 10px;
+}
+
+.photo{
+    background-color: green;
+    width: 50%;
+    height: 100%;
+}
+.details{
+    width: 50%;
+    height: auto;
+    margin: 8px;
+}
+
+.links{
+    display: flex;
+    margin-top: 10px;
+}
+
+.name{
     font-weight: bold;
-    font-style: italic;
-    color: #3333cc;
-}
-.backgroundAboutus{
-    background-image:linear-gradient(#41bce256, #4475cf);
-}
-.nameIntro{
-    text-align:center;
-    font-family:BlackChancery;
-    font-size:25px;
-    color: #3333cc;
-
-    
+    font-size: 25px;
 }
 
-.nameMission{
-    text-align:center;
-    font-family:BlackChancery;
-    font-size:25px;
-    color: #3333cc;
-
-}
-.namevission{
-    text-align:center;
-    font-family:BlackChancery;
-    font-size:25px;
-    color: #3333cc;
-    
+.git{
+    width: 30px;
+    height: 30px;
+    background-color: black;
 }
 
-.member{
-                              
-    padding:2%;
-    margin:20px;
-    
-    
-    
+.ld{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin-left: 10px;
 }
 
-.nameMembers{
-    text-align:center;
-    font-family:BlackChancery;
-    font-size:25px;
-    color: #3333cc;
-    
+.ourTeam{
+
+    margin-left: 40%;
 }
 
-.uwin{
-    position:absolute;
-    top:600px;
-    
+.main{
+    margin: 5%;
 }
 
-.navod{
-    position:absolute;
-    top:600px;  
-    left:450px;
-}
-.shanthosh{
-    position:absolute;
-    top:600px;
-    left:850px;
-}
-
-.viraj{
-    position:absolute;
-    top:600px;
-    left:1250px;
-}
-.dinuvi{
-    position:absolute;
-    top:950px;
-    left:242px;
-}
-
-.udari{
-    position:absolute;
-    top:950px;
-    left:1050px;
-}
-
-.image{
-border: 1px solid #3333cc;
-box-shadow: 0 0 10px 5px rgba(96, 96, 97, 0.89);
-border-radius: 5px;
-}
-
-#linkedin{
-    position:absolute;
-    top:220px;
-    left:50px;
-}
-
-#github{
-    position:absolute;
-    top:214px;
-    left:90px;
-}
-.overlay {
-    position: absolute;
-    top:0;
-    left: 0;
-    right: 0;
-    background-color: #3333cc8a ;
-    overflow: hidden;
-    width: 0;
-    height:200px;
-    transition: .5s ease;
-            }
-
-.image:hover .overlay {
-     width: 100%;
-     box-shadow: 0 0 10px 5px rgba(11, 11, 240, 0.658);
-}
-
-
-
-.text {
-     color: rgb(199, 236, 247);
-     font-size:15px;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); 
-     transform: translate(-50%, -50%);
-     white-space:nowrap;
-}
-
-.coFounder{
-    text-align: center;
-}
-
-.teamTheam{
-    color:rgb(21, 6, 151);
-    font-size:25px;
-    font-family:BlackChancery;
-    font-weight: bold;
-    position:absolute;
-    top: 110px;
-    animation-direction:alternate;
-    animation-timing-function: linear;
-    animation: mymove 40s infinite 0.5s;
-    
-}
-@keyframes mymove{
-    from{left: 0px;}
-    to {left: 1240px;}
-    
+.about{
+    width: 70%;
+    text-align: justify;
 }

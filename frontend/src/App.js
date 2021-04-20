@@ -34,8 +34,8 @@ function App(){
               <Link to="/home">
                 <li><a>Home</a></li>
               </Link>
-              <Link to="/test">
-                <li><a>Test</a></li>
+              <Link to="/result">
+                <li><a>Result</a></li>
               </Link>
             </ul>
           </nav>
