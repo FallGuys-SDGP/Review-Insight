@@ -74,6 +74,7 @@ function App(){
           <Route path="/register" exact component={Register}/>
           <Route path="/aboutus" exact component={AboutUs}/>
           <Route path="/test" exat component={TestService}/>
+          <Route path="/contact" exact component={Contact}/>
 
         </Switch>
 
@@ -83,3 +84,4 @@ function App(){
 }
 
 export default App;
+https://github.com/mthenw/awesome-layers

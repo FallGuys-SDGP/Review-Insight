@@ -1,7 +1,7 @@
 const fs = require("fs");
 const shell = require("shelljs");
-const filename = 'Product.json';
-const table = 'Product';
+const filename = 'specification.json';
+const table = 'specification';
 
 function processFile(filename, table) {
   fs.readFile(filename, "utf8", (err, data) => {
