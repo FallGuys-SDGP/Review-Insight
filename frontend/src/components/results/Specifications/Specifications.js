@@ -32,7 +32,7 @@ var json = [
 ]
 
 var sample = [
- 
+
 ]
 
 function Funtion2({ text }) {
@@ -51,7 +51,7 @@ function Funtion2({ text }) {
           y: data[i].value
         })
       }
-    
+
     });
 
   for (var i = 0; i < json.length; i++) {
@@ -61,10 +61,10 @@ function Funtion2({ text }) {
     })
   }
 
-  return <div><p>hello</p></div>
+  return <div></div>
 }
 
-function Specifications(){
+function Specifications() {
 
   const options = {
 
@@ -85,14 +85,35 @@ function Specifications(){
       dataPoints: sample
     }]
   }
+var set={
+  width: "100%",
+  height: "auto",
+  display: "flex",
+  paddingBottom: "5%",
+}
 
+var subSet={
+  width: "45%",
+  height:" 300px",
+  margin: "2%",
+  padding:"10px",
+}
 
-  return(
+  return (
     <div >
-      <div style={{width: "80%",paddingLeft:"10%"}}><CanvasJSChart options={options} /></div>
-        
-          <div ><Funtion2 text={"some text"} /></div>
-    </div> 
+      <div style={set}>
+        <div style={subSet}><CanvasJSChart options={options} /></div>
+        <div style={subSet}><CanvasJSChart options={options} /></div>
+      </div>
+
+      <div style={set}>
+        <div style={subSet}><CanvasJSChart options={options} /></div>
+        <div style={subSet}><CanvasJSChart options={options} /></div>
+      </div>
+
+
+      <div ><Funtion2 text={"some text"} /></div>
+    </div>
   );
 }
 
