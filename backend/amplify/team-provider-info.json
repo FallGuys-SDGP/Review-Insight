@@ -38,7 +38,7 @@
       "function": {
         "getProduct": {
           "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
-          "s3Key": "amplify-builds/getProduct-6d50303637345564766c-build.zip"
+          "s3Key": "amplify-builds/getProduct-327a3757455a37654b4a-build.zip"
         },
         "getUser": {
           "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
@@ -50,7 +50,7 @@
         },
         "getPredictReliability": {
           "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
-          "s3Key": "amplify-builds/getPredictReliability-7a453332645637746c67-build.zip"
+          "s3Key": "amplify-builds/getPredictReliability-42794a6f63424c426f4e-build.zip"
         }
       }
     }

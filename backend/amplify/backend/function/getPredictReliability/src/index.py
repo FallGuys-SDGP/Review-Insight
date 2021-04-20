@@ -44,12 +44,23 @@ def handler(event, context):
 
   y_predict = my_pipeline.predict(x.values.astype('U'))
 
-  json_predict_resposnse= []
-  c = 0
-  for item in x:
-    predict_sentence = item, " =>  ", y_predict[c]
-    json_predict_resposnse.append(predict_sentence)
-    c = c+1
+
+  df_reviews['predict'] = y_predict
+# df is the full dataset (not just reveiw), 'predict' is the new column for prediction
+  json_predict_resposnse = df_reviews.to_json(orient='records')[1:-1].replace('},{', '} {')
+# out is the json file
+
+# with open('file_name.txt', 'w') as f:
+#     f.write(out)
+
+
+
+  #json_predict_resposnse= []
+  # c = 0
+  # for item in x:
+  #   predict_sentence = item, " =>  ", y_predict[c]
+  #   json_predict_resposnse.append(predict_sentence)
+  #   c = c+1
 
   return_statement =  json_predict_resposnse
 
