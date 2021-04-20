@@ -3,6 +3,9 @@ import "../../components/about-us/aboutus.css";
 import uwin from "../../images/members/uwin.jpg";
 import navod from "../../images/members/navod.jpg";
 import shanthosh from "../../images/members/shanthosh.jpg";
+import viraj from "../../images/members/viraj.png";
+import udari from "../../images/members/udari.png";
+import dinuvi from "../../images/members/dinuvi.png";
 import linkedIn from "../../images/linksIcons/linkedIn.jpeg";
 import github from "../../images/linksIcons/github.jpeg";
 
@@ -16,22 +19,22 @@ function AboutUs(){
                
                 <div>
                     <h2 class ="nameIntro"> Introduction</h2>
-                    <p> wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-                        ddddddddddddddddddddddddddddddddddddddddddddddddddddd
+                    <p> 
+                    Our open-source, API-first, and decentralized approach helps developers and architects to be more productive and rapidly build digital 
+                    products to meet demand. The company’s open-source products for developing, reusing, and managing APIs and integration flows are built on proven technology. 
                     </p>
                 </div>
 
                 <div>
                     <h2 class = "nameMission">Mission</h2>
-                    <p>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-                        ddddddddddddddddddddddddddddddddddddddddddddddddddddd
+                    <p>our mission is to enable businesses to do what they want to do, and (to) give them the absolutely minimum amount of technology we can create,
+                         to make them maximally productive
                     </p>
                 </div>
 
                 <div>
                     <h2 class = "namevission">Vision</h2>
-                       <p> wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-                        ddddddddddddddddddddddddddddddddddddddddddddddddddddd
+                       <p> The journey is your destination
                         </p>
                 </div>
             </div>
@@ -95,55 +98,55 @@ function AboutUs(){
 
                 <div class = "viraj">
                     <div class = "image">
-                        <img src = {shanthosh}   alt="Shanthosh" width="200" height="200"/>
+                        <img src = {viraj}   alt="Shanthosh" width="200" height="200"/>
                         <div class="overlay">
                             <div class ="text">    
                                 <ul>
-                                    <li>Shanthosh Srikantha</li>
+                                    <li>Viraj Sammera</li>
                                 </ul>
                                 <p class ="coFounder">Co Founder</p>
                             </div>    
                         </div>
                     </div>
                    
-                    <a href = "https://www.linkedin.com/in/shanthosh-srikantha-49ba94167/" target ="blank"><img id ="linkedin" src = {linkedIn}   alt="Linkedin" width="50" height="50"/></a>
-                    <a href = "https://github.com/shanthosh-srikan" target ="blank"><img id ="github" src = {github}   alt="github" width="72" height="72"/></a>
+                    <a href = "https://www.linkedin.com/in/virajprofile/" target ="blank"><img id ="linkedin" src = {linkedIn}   alt="Linkedin" width="50" height="50"/></a>
+                    <a href = "https://github.com/virajprofile" target ="blank"><img id ="github" src = {github}   alt="github" width="72" height="72"/></a>
                    
                 </div>
 
                 <div class = "dinuvi">
                     <div class = "image">
-                        <img src = {shanthosh}   alt="Shanthosh" width="200" height="200"/>
+                        <img src = {dinuvi}   alt="dinuvi" width="200" height="200"/>
                         <div class="overlay">
                             <div class ="text">    
                                 <ul>
-                                    <li>Shanthosh Srikantha</li>
+                                    <li>Dinuvi Munasinghe</li>
                                 </ul>
                                 <p class ="coFounder">Co Founder</p>
                             </div>    
                         </div>
                     </div>
                    
-                    <a href = "https://www.linkedin.com/in/shanthosh-srikantha-49ba94167/" target ="blank"><img id ="linkedin" src = {linkedIn}   alt="Linkedin" width="50" height="50"/></a>
-                    <a href = "https://github.com/shanthosh-srikan" target ="blank"><img id ="github" src = {github}   alt="github" width="72" height="72"/></a>
+                    <a href = "https://www.linkedin.com/in/dinuvi-munasinghe-65a014194/" target ="blank"><img id ="linkedin" src = {linkedIn}   alt="Linkedin" width="50" height="50"/></a>
+                    <a href = "https://github.com/dinuviMunasinghe" target ="blank"><img id ="github" src = {github}   alt="github" width="72" height="72"/></a>
                    
                 </div>
 
                 <div class = "udari">
                     <div class = "image">
-                        <img src = {shanthosh}   alt="Shanthosh" width="200" height="200"/>
+                        <img src = {udari}   alt="udari" width="200" height="200"/>
                         <div class="overlay">
                             <div class ="text">    
                                 <ul>
-                                    <li>Shanthosh Srikantha</li>
+                                    <li> Udari welipitiya</li>
                                 </ul>
                                 <p class ="coFounder">Co Founder</p>
                             </div>    
                         </div>
                     </div>
                    
-                    <a href = "https://www.linkedin.com/in/shanthosh-srikantha-49ba94167/" target ="blank"><img id ="linkedin" src = {linkedIn}   alt="Linkedin" width="50" height="50"/></a>
-                    <a href = "https://github.com/shanthosh-srikan" target ="blank"><img id ="github" src = {github}   alt="github" width="72" height="72"/></a>
+                    <a href = "https://www.linkedin.com/in/w-m-udari-priyanvada-welipitiya-bb221b196/" target ="blank"><img id ="linkedin" src = {linkedIn}   alt="Linkedin" width="50" height="50"/></a>
+                    <a href = "https://github.com/udariwelipitiya" target ="blank"><img id ="github" src = {github}   alt="github" width="72" height="72"/></a>
                    
                 </div>
 
