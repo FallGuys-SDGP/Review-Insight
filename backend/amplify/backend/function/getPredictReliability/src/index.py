@@ -15,9 +15,8 @@ def queryReviews(asin,dynamodb=None):
     dynamodb = boto3.resource('dynamodb',region_name='ap-south-1')
 
   table = dynamodb.Table('Reviews')
-  print(f"")
-
-  # Expression attribute names can only reference items in the projection expression.
+  
+ 
   response = table.query(
     KeyConditionExpression=Key('asin').eq(asin)
   )
@@ -45,9 +44,17 @@ def handler(event, context):
 
   y_predict = my_pipeline.predict(x.values.astype('U'))
 
-  return_statement = x[0]," =>  ", y_predict[0]
+  json_predict_resposnse= []
+  c = 0
+  for item in x:
+    predict_sentence = item, " =>  ", y_predict[c]
+    json_predict_resposnse.append(predict_sentence)
+    c = c+1
 
-           
+  return_statement =  json_predict_resposnse
+
+
+                     
   return {
       'statusCode': 200,
       'headers': {
