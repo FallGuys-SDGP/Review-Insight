@@ -49,6 +49,7 @@ function App(){
           <Route path="/register" exact component={Register}/>
           <Route path="/aboutus" exact component={AboutUs}/>
           <Route path="/test" exat component={TestService}/>
+          <Route path="/contact" exat component={Contact}/>
 
         </Switch>
 
