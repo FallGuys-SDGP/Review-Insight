@@ -1,0 +1,20 @@
+
+.set{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.subSet{
+    width: 45%;
+    height: 300px;
+    border-radius: 25px;
+    margin: 2%;
+    padding:10px;
+
+    border-style: solid;
+    border-color: #0b64ca;
+    border-width: 10px;
+
+
+}
