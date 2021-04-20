@@ -7,7 +7,9 @@ import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import LogIn from './components/log-in/login';
 import Register from "./components/register/register";
-import BackendTest from './BackendTest'
+import TestService from './TestServices'
+import AboutUs from './components/about-us/aboutus'
+import Contact from './components/contact/contact'
 
 
 function App(){
@@ -23,14 +25,17 @@ function App(){
               <Link to="/login">
                 <li><a>Log In / Register </a></li>
               </Link>
-              <Link to="/link3">
+              <Link to="/contact">
                 <li><a>Contact</a></li>
               </Link>
-              <Link to="/link2">
+              <Link to="/aboutus">
                 <li><a>About Us</a></li>
               </Link>
               <Link to="/home">
                 <li><a>Home</a></li>
+              </Link>
+              <Link to="/test">
+                <li><a>Test</a></li>
               </Link>
             </ul>
           </nav>
@@ -42,7 +47,9 @@ function App(){
           <Route path="/result" exact component={Result}/>
           <Route path="/login" exact component={LogIn}/>
           <Route path="/register" exact component={Register}/>
-          <Route path="/link2" exact component={BackendTest}/>
+          <Route path="/aboutus" exact component={AboutUs}/>
+          <Route path="/test" exat component={TestService}/>
+          <Route path="/contact" exact component={Contact}/>
 
         </Switch>
 
@@ -52,3 +59,4 @@ function App(){
 }
 
 export default App;
+https://github.com/mthenw/awesome-layers

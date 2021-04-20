@@ -40,52 +40,19 @@
         }
       ]
     },
-<<<<<<< Updated upstream
-    "getSpecification": {
-=======
     "getUserApi": {
->>>>>>> Stashed changes
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
-<<<<<<< Updated upstream
-          "resourceName": "getSpecificationLambda",
-=======
           "resourceName": "getUser",
->>>>>>> Stashed changes
           "attributes": [
             "Name",
             "Arn"
           ]
         }
       ]
-<<<<<<< Updated upstream
-    }
-  },
-  "auth": {
-    "AmplifyLogin": {
-      "service": "Cognito",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false
-    },
-    "reviewinsightfronten6898050e": {
-      "service": "Cognito",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false
-    }
-  },
-  "storage": {
-    "Product": {
-      "service": "DynamoDB",
-      "serviceType": "imported",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": []
-=======
->>>>>>> Stashed changes
     }
   }
 }

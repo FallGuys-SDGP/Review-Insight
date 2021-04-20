@@ -1,0 +1,93 @@
+.report-container {
+	padding: 0%;
+	margin: 0%;
+}
+
+.report-detail-card {
+	display: flex;
+	flex-direction: row;
+	background-color: #0b64ca;
+	color: black;
+	justify-content: space-evenly;
+	border-radius: 15px;
+
+}
+
+.report-box-card {
+	display: flex;
+	flex-direction: column;
+	width: 120px;
+	height: 100px;
+	background-color: skyblue;
+	color: white;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 0px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.report-chart-card {
+	display: flex;
+	flex-direction: row;
+	background-color: #0b64ca;
+	color: black;
+	justify-content: space-evenly;
+	border-radius: 15px;
+	margin-top: 2%;
+}
+
+.report-chart-box {
+
+}
+
+.report-seller-box {
+	display: flex;
+	flex-direction: column;
+	width: 120px;
+	height: 100px;
+	background-color: skyblue;
+	color: white;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 0px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.report-word-cloud {
+	display: flex;
+	flex-direction: row;
+	background-color: #0b64ca;
+	color: black;
+	justify-content: space-evenly;
+	border-radius: 15px;
+	margin-top: 2%;
+}
+
+.report-price-card {
+	display: flex;
+	flex-direction: row;
+	background-color: #0b64ca;
+	color: black;
+	justify-content: space-evenly;
+	border-radius: 15px;
+	margin-top: 2%;
+}
+
+.report-price-box {
+	display: flex;
+	flex-direction: column;
+	width: 120px;
+	height: 100px;
+	background-color: skyblue;
+	color: white;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 0px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}

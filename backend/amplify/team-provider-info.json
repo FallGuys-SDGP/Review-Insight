@@ -12,16 +12,6 @@
       "AmplifyAppId": "dehbk4p0y1521"
     },
     "categories": {
-      "function": {
-        "getProduct": {
-          "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
-          "s3Key": "amplify-builds/getProduct-7a64357a3157356d6e32-build.zip"
-        },
-        "getUser": {
-          "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
-          "s3Key": "amplify-builds/getUser-30466a4b794154425859-build.zip"
-        }
-      },
       "storage": {
         "Product": {
           "tableName": "Product",
@@ -36,6 +26,16 @@
           "arn": "arn:aws:dynamodb:ap-south-1:559461057135:table/User",
           "partitionKeyName": "UserId",
           "partitionKeyType": "S"
+        }
+      },
+      "function": {
+        "getProduct": {
+          "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
+          "s3Key": "amplify-builds/getProduct-7a64357a3157356d6e32-build.zip"
+        },
+        "getUser": {
+          "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
+          "s3Key": "amplify-builds/getUser-30466a4b794154425859-build.zip"
         }
       }
     }
