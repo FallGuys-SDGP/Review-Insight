@@ -15,6 +15,7 @@ function Tabs() {
 
   return (
     <div className="container">
+      
       <div className="bloc-tabs">
         <button className={toggleState === 1 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(1)}>
           Report
@@ -49,7 +50,7 @@ function Tabs() {
                     <p>Yes, it fits, but the product was mis-represented as a folding plug. It has fixed prongs which diminish the ability of me to put it in my thin laptop bag. It would not be worth the postage to ship this thing back considering the cost but I am extremely disappointed with this company.</p>
                   </div>
                 </div>  */}
-          <div>
+          <div style={{overflow:"auto", height:"950px"}}>
             <ReviewContainer/>
             <ReviewContainer/>
             <ReviewContainer/>
