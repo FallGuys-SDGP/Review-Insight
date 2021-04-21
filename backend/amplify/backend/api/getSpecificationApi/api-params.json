@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/specification/{asin}",
+            "lambdaFunction": "getSpecification",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/specification/*"
+        }
+    ],
+    "resourceName": "getSpecificationApi",
+    "apiName": "getSpecificationApi",
+    "functionArns": [
+        {
+            "lambdaFunction": "getSpecification"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplify7dad7946189a4-staging-193320-authRole",
+        "unAuthRoleName": "amplify-amplify7dad7946189a4-staging-193320-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "getSpecification",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
