@@ -7,14 +7,55 @@
 
 .subSet{
     width: 45%;
-    height: 300px;
+    height: 390px;
     border-radius: 25px;
     margin: 2%;
     padding:10px;
-
-    border-style: solid;
-    border-color: #0b64ca;
-    border-width: 10px;
+    background-color: #0b64ca;
+    border-radius: 30px;
 
 
+
+}
+
+.setData{
+    width: 450px;
+    height: 35px;
+    background-color:  #65adff;
+    border-radius: 30px;
+
+    padding-left: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+
+
+}
+
+td{
+    text-align: right;
+}
+
+th{
+    width: 250px;
+    padding-right:50px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+.box {
+
+    width: 100%;
+    height: 100%;
+    line-height: 115px;
+    text-align: center;
+}
+.img {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
 }

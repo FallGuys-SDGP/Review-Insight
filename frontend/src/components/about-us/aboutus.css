@@ -30,22 +30,24 @@
 
 .head2{
     font-size: 10px;
+    
 }
 
 .photo{
-    background-color: green;
-    width: 50%;
+    width: 40%;
     height: 100%;
 }
 .details{
     width: 50%;
     height: auto;
     margin: 8px;
+    padding-top: 10px;
 }
 
 .links{
     display: flex;
     margin-top: 10px;
+    padding-top: 10px;
 }
 
 .name{
@@ -56,14 +58,13 @@
 .git{
     width: 30px;
     height: 30px;
-    background-color: black;
 }
 
 .ld{
     width: 30px;
     height: 30px;
-    background-color: black;
     margin-left: 10px;
+    
 }
 
 .ourTeam{
@@ -73,6 +74,8 @@
 
 .main{
     margin: 5%;
+
+    color: #3333cc;
 }
 
 .about{
