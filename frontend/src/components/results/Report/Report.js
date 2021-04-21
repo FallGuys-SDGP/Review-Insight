@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {Card, CardContent, CardHeader, Typography} from "@material-ui/core";
 import "../Report/Report.css"
 
@@ -13,14 +13,24 @@ const shipping = "60%";
 const refund = "Accepted";
 
 function Report(){
+	var reportResponse = []
 
 	if(localStorage.getItem('mainResponse').length > 0) {
-		let reportResponse = JSON.parse(localStorage.getItem('mainResponse'))
-		console.log("Inside report - ", reportResponse)
+		let response = JSON.parse(localStorage.getItem('mainResponse'))
+		console.log("Inside report - ", response)
+		reportResponse = response
 	}
+	reportResponse = reportResponse.predictionResult
+	console.log('Report response', reportResponse)
 
   return(
 	<div className="report-container">
+		{reportResponse.map((index) =>(
+			<div>
+				{index.asin}
+				{index.reviewText}
+			</div>
+		))}
 		<div className="report-detail-card">
 			<div className="report-box-card">
 				<h3>Brand</h3>

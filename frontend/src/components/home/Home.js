@@ -13,8 +13,8 @@ function Home(){
   if(searchId !== ' ') {
     fetchProductReveiw(searchId).then(productData => {
       if(!receivedResponse){
-        console.log(productData.data.predictionResult)
-        localStorage.setItem('mainResponse', JSON.stringify(productData.data.predictionResult))
+        console.log(productData.data)
+        localStorage.setItem('mainResponse', JSON.stringify(productData.data))
         setReceivedResponse(true)
       }
     });
