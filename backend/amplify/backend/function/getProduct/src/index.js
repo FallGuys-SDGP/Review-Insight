@@ -55,6 +55,7 @@ exports.handler = async (event) => {
         statusCode = 403;
     }
 
+    // returning product asin with reviews with prediction
     responseBody = {
         asin: asin,
         predictionResult : JSON.parse(predictionResponse.body)

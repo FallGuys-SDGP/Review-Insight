@@ -50,7 +50,7 @@
         },
         "getPredictReliability": {
           "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
-          "s3Key": "amplify-builds/getPredictReliability-734e325941436d357879-build.zip"
+          "s3Key": "amplify-builds/getPredictReliability-3333596669744f45484a-build.zip"
         }
       }
     }
