@@ -38,7 +38,7 @@
       "function": {
         "getProduct": {
           "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
-          "s3Key": "amplify-builds/getProduct-4752677359614e733331-build.zip"
+          "s3Key": "amplify-builds/getProduct-4d7269693051382f484f-build.zip"
         },
         "getUser": {
           "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
