@@ -35,7 +35,7 @@ exports.handler = async (event) => {
               res.on('end', () => {
                 resolve({
                     statusCode: 200,
-                    body: JSON.stringify(JSON.parse(dataString), null, 4)
+                    body: JSON.stringify(JSON.parse(dataString))
                 });
               });
             });
@@ -55,6 +55,13 @@ exports.handler = async (event) => {
         statusCode = 403;
     }
 
+    responseBody = {
+        asin: asin,
+        predictionResult : JSON.parse(predictionResponse.body)
+         
+    }
+    // predictionResult : predictionResponse.body
+
 
     const response = {
         statusCode : statusCode,
@@ -65,8 +72,8 @@ exports.handler = async (event) => {
             "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
             "content-type": "text/html"
         },
-        body: responseBody,
-        predictionResult : predictionResponse.body
+        body: JSON.stringify(responseBody)
+        
     }
     return response;
 };

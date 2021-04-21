@@ -47,7 +47,13 @@ def handler(event, context):
 
   df_reviews['predict'] = y_predict
 # df is the full dataset (not just reveiw), 'predict' is the new column for prediction
-  json_predict_resposnse = df_reviews.to_json(orient='records')[1:-1].replace('},{', '} {')
+  #json_predict_resposnse = df_reviews.to_json(orient='records')[1:-1].replace(',},{', '} {')
+  # json_predict_resposnse.replace("\\", "")
+  json_predict_resposnse = df_reviews.to_json(orient='records')
+  parsed = json.loads(json_predict_resposnse)
+  
+
+
 # out is the json file
 
 # with open('file_name.txt', 'w') as f:
@@ -62,7 +68,8 @@ def handler(event, context):
   #   json_predict_resposnse.append(predict_sentence)
   #   c = c+1
 
-  return_statement =  json_predict_resposnse
+  # return_statement =  json_predict_resposnse
+  return_statement =  parsed
 
 
                      
