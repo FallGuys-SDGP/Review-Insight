@@ -50,9 +50,15 @@ function Tabs() {
                   </div>
                 </div>  */}
           <div>
-            <ReviewContainer/>
-            <ReviewContainer/>
-            <ReviewContainer/>
+            <div className = "review-tab-set">
+              <ReviewContainer/>
+              <ReviewContainer/>
+              <ReviewContainer/>
+              {/* <ReviewContainer/>
+              <ReviewContainer/>
+              <ReviewContainer/>
+              <ReviewContainer/> */}
+            </div>
           </div>
         </div>
 
