@@ -14,6 +14,11 @@ const refund = "Accepted";
 
 function Report(){
 
+	if(localStorage.getItem('mainResponse').length > 0) {
+		let reportResponse = JSON.parse(localStorage.getItem('mainResponse'))
+		console.log("Inside report - ", reportResponse)
+	}
+
   return(
 	<div className="report-container">
 		<div className="report-detail-card">
