@@ -30,12 +30,12 @@ def handler(event, context):
 
   asin = event['pathParameters']['asin']
   queryResponse = queryReviews(asin)
-  column = ['reviewText']
+  column = ['asin', 'title', 'brand',	'overall', 'vote',	'verified',	'summary',	'reviewerID',	'unixReviewTime',	'reviewText']
   row = []
   # adding all review text for a product to  list
   for query in queryResponse:
-    query['reviewText']
-    row.append(query['reviewText'])
+    queryColumns = query['asin'], query['title'], query['brand'], query['overall'], query['vote'], query['verified'], query['summary'], query['reviewerID'], query['unixReviewTime'], query['reviewText']
+    row.append(queryColumns)
   #converting to data frame
   df_reviews = pd.DataFrame(row,columns=column)  
 
@@ -46,25 +46,13 @@ def handler(event, context):
 
   y_predict = my_pipeline.predict(x.values.astype('U'))
 
-
   df_reviews['predict'] = y_predict 
 
   json_predict_resposnse = df_reviews.to_json(orient='records') 
   parsed = json.loads(json_predict_resposnse) # to avoid  \\ in response
   
-
-  #json_predict_resposnse= []
-  # c = 0
-  # for item in x:
-  #   predict_sentence = item, " =>  ", y_predict[c]
-  #   json_predict_resposnse.append(predict_sentence)
-  #   c = c+1
-
-  # return_statement =  json_predict_resposnse
-  return_statement =  parsed,"  => " , json.dumps(row) # list to JSON
-
-
-                     
+  return_statement =  parsed
+         
   return {
       'statusCode': 200,
       'headers': {
