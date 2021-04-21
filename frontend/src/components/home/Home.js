@@ -9,26 +9,19 @@ import logo from '../../images/home/w1.png'
 
 
 function Home(){
-  const { useEffect, useState} = React;
-  const [ProductId, setProductId] = useState('0232');
-  const [ProductTitle, setProductTitle] = useState('Headset');
-  const [ProductBrand, setProductBrand] = useState('Apple');
-  const [ProductImage, setProductImage] = useState('');
+  const { useState} = React;
   const [searchId, setSearchId] = useState(' ');
+  const [receivedResponse, setReceivedResponse] = useState(false);
 
 
   if(searchId !== ' ') {
     fetchProductReveiw(searchId).then(productData => {
-      if(searchId !== productData.data){
-        setProductId(productData.data.asin);
-        setProductTitle(productData.data.title);
-        setProductBrand(productData.data.brand);
-        setProductImage(productData.data.image);
+      if(!receivedResponse){
+        console.log(productData.data)
+        localStorage.setItem('mainResponse', JSON.stringify(productData.data))
+        setReceivedResponse(true)
       }
-      else{
-        return 'No product data found';
-      }
-      });
+    });
   }
 
   return(
