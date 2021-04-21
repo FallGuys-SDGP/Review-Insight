@@ -21,6 +21,9 @@ function Home(){
         setProductBrand(productData.data.brand);
         setProductImage(productData.data.image);
       }
+      else{
+        return 'No product data found';
+      }
       });
   }
 

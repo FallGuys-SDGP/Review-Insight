@@ -43,9 +43,8 @@ function App(){
           <Route path="/result" exact component={Result}/>
           <Route path="/login" exact component={LogIn}/>
           <Route path="/register" exact component={Register}/>
-          <Route path="/aboutus" exact component={AboutUs}/>+
+          <Route path="/aboutus" exact component={AboutUs}/>
           <Route path="/contact" exact component={Contact}/>
-
         </Switch>
 
       </div> 
