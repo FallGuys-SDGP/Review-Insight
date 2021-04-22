@@ -15,77 +15,41 @@ var json1 = [
   { "day": "Shipping", "value": 42 },
   { "day": "Refund", "value": 32 },
 ]
-var json2_1 = [
+var json2 = [
   { "day": "2015", "value": 2 },
   { "day": "2016", "value": 4 },
   { "day": "2017", "value": 17 },
   { "day": "2018", "value": 11 },
   { "day": "2019", "value": 2 }
 ]
-var json2_2 = [
-  { "day": "2015", "value": 1 },
-  { "day": "2016", "value": 15 },
-  { "day": "2017", "value": 6 },
-  { "day": "2018", "value": 11 },
-  { "day": "2019", "value": 6 }
-]
-var json2_3 = [
-  { "day": "2015", "value": 3 },
-  { "day": "2016", "value": 1 },
-  { "day": "2017", "value": 8 },
-  { "day": "2018", "value": 12 },
-  { "day": "2019", "value": 5 }
-]
-var json2_4 = [
-  { "day": "2015", "value": 1 },
-  { "day": "2016", "value": 13.3 },
-  { "day": "2017", "value": 14.3 },
-  { "day": "2018", "value": 17.3 },
-  { "day": "2019", "value": 18.3 }
-]
-
-
-
-
-
 var json3 = [
   
-  { "day": "Beats", "value": 5},
-  { "day": "JVC", "value": 5},
-  { "day": "Klipsch", "value": 5},
-  { "day": "Koss", "value": 5},
-  { "day": "MEElectronics", "value": 5},
-  { "day": "Panasonic", "value": 5},
-  { "day": "Philips", "value": 5},
-  { "day": "Philips Peripherals and Accessories", "value": 5},
-  { "day": "Sennheiser", "value": 5},
-  { "day": "VoiceBeats", "value": 5 },
-  { "day": "Sonyxer", "value": 5},
-  { "day": "V-MODA", "value": 5},
-  { "day": "Audio-Technica", "value": 3},
-
+  { "day": "Beats", "value": 4.13},
+  { "day": "JVC", "value": 4.13},
+  { "day": "Koss", "value": 4.13},
+  { "day": "Audio-Technica", "value":4.21},
+  { "day": "Sennheiser", "value": 4.17},
+  { "day": "VoiceBeats", "value": 4.11},
+  { "day": "Panasonic", "value": 4.10},
+  { "day": "Philips Peripherals and Accessories", "value": 4.07},
+  { "day": "Philips", "value": 4.00},
+  { "day": "Klipsch", "value": 3.85},
+  { "day": "MEElectronics", "value": 3.63},
+  { "day": "V-MODA", "value":3.59},
+  { "day": "Sonyxer", "value": 3.50},
   { "day": "Sony", "value": 3},
   { "day": "Sony Ericsson", "value": 3}
 ]
 var json4 = [
-  { "day": "hello", "value": 115000.3 },
-  { "day": "2", "value": 8879.6 },
-  { "day": "7", "value": 20077.1 },
-  { "day": "3", "value": 9173.75 },
-  { "day": "4", "value": 9304.05 },
-  { "day": "5", "value": 9621.25 },
-  { "day": "6", "value": 9520.9 },
-  { "day": "7", "value": 10077.1 },
-  { "day": "8", "value": 9917.9 }
+  { "day": "1", "value": 100 },
+  { "day": "2", "value": 245 },
+  { "day": "3", "value": 342.75 },
+  { "day": "4", "value": 245.05 },
+  { "day": "5", "value": 632.25 },
 ]
 
 var sample1 = []
-
-var sample2_1 = []
-var sample2_2 = []
-var sample2_3 = []
-var sample2_4 = []
-
+var sample2 = []
 var sample3 = []
 var sample4 = []
 
@@ -119,20 +83,18 @@ function Funtion1({ text }) {
 }
 
 function Funtion2({ text }) {
-  sample2_1.length = 0;
-  sample2_2.length = 0;
-  sample2_3.length = 0;
-  sample2_4.length = 0;
+  sample2.length = 0;
+
   fetch('https://canvasjs.com/data/gallery/react/nifty-stock-price.json')
     .then(function (response) {
 
       // return response.json();
-      return json2_3;
+      return json2;
 
     })
     .then(function (data) {
       for (var i = 0; i < data.length; i++) {
-        sample2_1.push({
+        sample2.push({
           label: data[i].day,
           y: data[i].value
         })
@@ -140,28 +102,10 @@ function Funtion2({ text }) {
 
     });
 
-  for (var i = 0; i < json2_1.length; i++) {
-    sample2_1.push({
-      label: json2_1[i].day,
-      y: json2_1[i].value
-    })
-  }
-  for (var i = 0; i < json2_2.length; i++) {
-    sample2_2.push({
-      label: json2_2[i].day,
-      y: json2_2[i].value
-    })
-  }
-  for (var i = 0; i < json2_3.length; i++) {
-    sample2_3.push({
-      label: json2_3[i].day,
-      y: json2_3[i].value
-    })
-  }
-  for (var i = 0; i < json2_4.length; i++) {
-    sample2_4.push({
-      label: json2_4[i].day,
-      y: json2_4[i].value
+  for (var i = 0; i < json2.length; i++) {
+    sample2.push({
+      label: json2[i].day,
+      y: json2[i].value
     })
   }
 
@@ -257,7 +201,7 @@ function Analytics() {
 
     animationEnabled: true,
     title: {
-      text: "Number of New Customers"
+      text: "Good Rating Class Compount to ehe each Year"
     },
     axisY: {
       title: "Number of Customers"
@@ -269,27 +213,7 @@ function Analytics() {
       type: "line",
       name: "Philips",
       showInLegend: true,
-      dataPoints: sample2_1
-    },
-    {
-      type: "spline",
-      name: "Beats",
-      showInLegend: true,
-      dataPoints: sample2_2
-    }
-    ,
-    {
-      type: "spline",
-      name: "sony",
-      showInLegend: true,
-      dataPoints: sample2_3
-    }
-    ,
-    {
-      type: "spline",
-      name: "VoiceBeat      ",
-      showInLegend: true,
-      dataPoints: sample2_4
+      dataPoints: sample2
     }]
   }
 
@@ -298,7 +222,7 @@ function Analytics() {
 
     animationEnabled: true,
     title: {
-      text: "Number of New Customers"
+      text: "Top 10 best Headphone"
     },
     axisY: {
       title: "Number of Customers"
@@ -319,7 +243,7 @@ function Analytics() {
 
     animationEnabled: true,
     title: {
-      text: "Number of New Customers"
+      text: "Ratings"
     },
     axisY: {
       title: "Number of Customers"
