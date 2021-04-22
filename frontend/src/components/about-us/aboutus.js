@@ -51,8 +51,8 @@ function AboutUs(){
                                 <div class="name">Uwin Vidanage</div>
                                 <div class="post">Co-Founder</div>
                                 <div class="links">
-                                <a href="http://github.com/uwin"> <div class="git"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
-                                <a href="https://www.linkedin.com/in/uwinvidanage"><div class="ld"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                <a href="http://github.com/uwin"> <div class="git"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                <a href="https://www.linkedin.com/in/uwinvidanage"><div class="ld"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
                                 </div>
                                 
                             </div>
@@ -63,8 +63,8 @@ function AboutUs(){
                                 <div class="name">Navod</div>
                                 <div class="post">Co-Founder</div>
                                 <div class="links">
-                                   <a href="https://github.com/navodzoysa"> <div class="git"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
-                                   <a href="https://www.linkedin.com/in/navodzoysa/"><div class="ld"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                   <a href="https://github.com/navodzoysa"> <div class="git"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                   <a href="https://www.linkedin.com/in/navodzoysa/"><div class="ld"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
                                 </div>
                                 
                             </div>
@@ -75,8 +75,8 @@ function AboutUs(){
                                 <div class="name">Shanthosh</div>
                                 <div class="post">Co-Founder</div>
                                 <div class="links">
-                                   <a href="https://github.com/shanthosh-srikan"> <div class="git"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
-                                   <a href="https://www.linkedin.com/in/shanthosh-srikantha-49ba94167/"><div class="ld"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                   <a href="https://github.com/shanthosh-srikan"> <div class="git"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                   <a href="https://www.linkedin.com/in/shanthosh-srikantha-49ba94167/"><div class="ld"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
                                 </div>
                                 
                             </div>
@@ -89,8 +89,8 @@ function AboutUs(){
                                 <div class="name">Viraj</div>
                                 <div class="post">Co-Founder</div>
                                 <div class="links">
-                                   <a href="https://github.com/virajprofile"> <div class="git"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
-                                   <a href="https://www.linkedin.com/in/virajprofile/"><div class="ld"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                   <a href="https://github.com/virajprofile"> <div class="git"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                   <a href="https://www.linkedin.com/in/virajprofile/"><div class="ld"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
                                 </div>
                                 
                             </div>
@@ -101,8 +101,8 @@ function AboutUs(){
                                 <div class="name">Dinuvi</div>
                                 <div class="post">Co-Founder</div>
                                 <div class="links">
-                                   <a href="https://www.linkedin.com/in/dinuvi-munasinghe-65a014194/"> <div class="git"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
-                                   <a href="https://github.com/dinuviMunasinghe"><div class="ld"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                   <a href="https://www.linkedin.com/in/dinuvi-munasinghe-65a014194/"> <div class="git"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                   <a href="https://github.com/dinuviMunasinghe"><div class="ld"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
                                 </div>
                                 
                             </div>
@@ -113,8 +113,8 @@ function AboutUs(){
                                 <div class="name">Udari</div>
                                 <div class="post">Co-Founder</div>
                                 <div class="links">
-                                   <a href="https://www.w3schools.com"> <div class="git"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
-                                   <a href="https://www.linkedin.com/in/w-m-udari-priyanvada-welipitiya-bb221b196/"><div class="ld"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                   <a href="https://www.w3schools.com"> <div class="git"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                                   <a href="https://www.linkedin.com/in/w-m-udari-priyanvada-welipitiya-bb221b196/"><div class="ld"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
                                 </div>
                                 
                             </div>
