@@ -7,16 +7,37 @@ const rating = 2.5
 const score = "5%"
 
 function ReviewContainer(){
+  var reportResponse = []
+	var specificationResponse = [] 
+
+	if(localStorage.getItem('mainResponse').length > 0) {
+		let response = JSON.parse(localStorage.getItem('mainResponse'))
+		console.log("Inside report - ", response)
+		// specificationResponse = response
+		reportResponse = response
+	}
+	reportResponse = reportResponse.predictionResult
+	specificationResponse = specificationResponse.specification 
+	console.log('Report response', reportResponse)
+	// console.log('Specification Response ', specificationResponse)
+
   return(
     <div className="reviewBox">
-      <p> <b> {reviewTitle}  </b></p>
-      <div style={{ display: 'flex', justifyContent: "space-between"}}>
-      <p> {rating} ⭐</p> <p style={{color: "red"}} > Score {score} </p>  
-      </div>
-      <div className="reviewText">
-        <p>{reviewText} </p>
-      </div>
+      {reportResponse.map((index) =>(
+        <div>
+          <p> <b> {index.summary}  </b></p>
+
+            <div style={{ display: 'flex', justifyContent: "space-between"}}>
+              <p> {index.overall} ⭐</p> <p style={{color: "red"}} > Score {index.predict} </p>  
+          </div>
+
+          <div className="reviewText">
+            <p>{index.reviewText} </p>
+          </div>
+        </div>
+      ))}
     </div> 
+
   );
 }
 
