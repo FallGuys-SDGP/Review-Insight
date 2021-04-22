@@ -26,16 +26,31 @@
           "arn": "arn:aws:dynamodb:ap-south-1:559461057135:table/User",
           "partitionKeyName": "UserId",
           "partitionKeyType": "S"
+        },
+        "specification": {
+          "tableName": "specification",
+          "region": "ap-south-1",
+          "arn": "arn:aws:dynamodb:ap-south-1:559461057135:table/specification",
+          "partitionKeyName": "asin",
+          "partitionKeyType": "S"
         }
       },
       "function": {
         "getProduct": {
           "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
-          "s3Key": "amplify-builds/getProduct-7a64357a3157356d6e32-build.zip"
+          "s3Key": "amplify-builds/getProduct-4d7269693051382f484f-build.zip"
         },
         "getUser": {
           "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
           "s3Key": "amplify-builds/getUser-30466a4b794154425859-build.zip"
+        },
+        "getSpecification": {
+          "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
+          "s3Key": "amplify-builds/getSpecification-38524478377233432b6f-build.zip"
+        },
+        "getPredictReliability": {
+          "deploymentBucketName": "amplify-amplify7dad7946189a4-staging-193320-deployment",
+          "s3Key": "amplify-builds/getPredictReliability-6f506853537975695344-build.zip"
         }
       },
       "auth": {

@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "../results/Tabs.css";
 import ReviewContainer from "./ReviewContent/ReviewContainer";
 import Specifications from "./Specifications/Specifications";
+import Analytics from "./Analytics/Analytics";
 
 import Report from "./Report/Report";
 
@@ -14,6 +15,7 @@ function Tabs() {
 
   return (
     <div className="container">
+      
       <div className="bloc-tabs">
         <button className={toggleState === 1 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(1)}>
           Report
@@ -25,6 +27,10 @@ function Tabs() {
 
         <button className={toggleState === 3 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(3)}>
           Specification
+        </button>
+
+        <button className={toggleState === 4 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(4)}>
+          Analytics
         </button>
       </div>
 
@@ -44,7 +50,7 @@ function Tabs() {
                     <p>Yes, it fits, but the product was mis-represented as a folding plug. It has fixed prongs which diminish the ability of me to put it in my thin laptop bag. It would not be worth the postage to ship this thing back considering the cost but I am extremely disappointed with this company.</p>
                   </div>
                 </div>  */}
-          <div>
+          <div style={{overflow:"auto", height:"950px"}}>
             <ReviewContainer/>
             <ReviewContainer/>
             <ReviewContainer/>
@@ -58,6 +64,11 @@ function Tabs() {
       
           
         </div>
+
+        <div className={toggleState === 4 ? "content  active-content" : "content"}>
+          <Analytics/>
+        </div>
+
       </div>
     </div>
   );

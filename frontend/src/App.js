@@ -7,31 +7,11 @@ import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import LogIn from './components/LogIn/LogIn';
 import Register from "./components/Register/Register";
-import TestService from './TestServices'
 import AboutUs from './components/about-us/aboutus'
 import Contact from './components/contact/contact'
 
 
 function App(){
-
-    //   this.state = {
-  //     currentUser: null
-  //     }
-  // }
-
-  // unsubscribeFromAuth = null;
-
-  // componentDidMount(){
-  //   this.unsubscribeFromAuth =  WebAuthentication.onAuthStateChanged( user => {
-  //     this.setState({ currentUser : user});
-  //     console.log(user);
-  //   });
-  // }
-
-  // componentWillUnmount(){
-  //   this.unsubscribeFromAuth();
-  // }
-
 
   return(
     <Router>
@@ -59,9 +39,6 @@ function App(){
               <Link to="/home">
                 <li><a>Home</a></li>
               </Link>
-              <Link to="/test">
-                <li><a>Test</a></li>
-              </Link>
             </ul>
           </nav>
         </div>
@@ -73,9 +50,7 @@ function App(){
           <Route path="/login" exact component={LogIn}/>
           <Route path="/register" exact component={Register}/>
           <Route path="/aboutus" exact component={AboutUs}/>
-          <Route path="/test" exat component={TestService}/>
           <Route path="/contact" exact component={Contact}/>
-
         </Switch>
 
       </div> 
@@ -83,5 +58,6 @@ function App(){
   );
 }
 
+
 export default App;
-https://github.com/mthenw/awesome-layers
+
