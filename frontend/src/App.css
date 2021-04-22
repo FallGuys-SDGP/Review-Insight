@@ -1,12 +1,30 @@
-
+.title {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 8px 30px; 
+  /* text-decoration: none; */
+  font-size: 35px;
+  font-weight: bolder;
+}
 
 /* -----------------------------css to the navigation bar----------------------------- */
 .top-nav {
   background-color: #3333cc;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-li > a {
+li {
+  float: right;
+}
+
+li a {
   display: block;
   color: white;
   text-align: center;
@@ -18,25 +36,4 @@ li > a {
 
 li a:hover {
   background-color:   #4d88ff;
-  border-radius: 2em;
 } 
-.app{
-  min-height: 100vh;
-}
-
-nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
- 
-}
-
-nav > ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-decoration: none;
-}
-
-
-

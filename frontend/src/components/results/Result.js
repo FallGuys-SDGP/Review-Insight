@@ -30,7 +30,6 @@ const summaryData = {
 function Result(){
   return(
     <div className="result-container">
-      
         <div className="result-sidebar">
           <div className="res-product-summary">
             <h1 className="res-product-summary-title">Product</h1>
@@ -44,12 +43,9 @@ function Result(){
             </div>
           </div>
         </div>
-        
-        <div className="result-sidebar" >
+        <div>
           <Tabs />
         </div>
-       
-      
     </div>
   );
 }
