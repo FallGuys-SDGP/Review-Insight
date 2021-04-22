@@ -6,7 +6,6 @@ export function fetchProductReveiw (props){
     return axios.get(BASE_URL + props)
       .then(data => {
         if(data !== undefined) {
-          console.log(data.data);
           return data;
         }
         return "No data";

@@ -1,0 +1,8 @@
+{
+  "lambdaLayers": [
+    {
+      "type": "ExternalLayer",
+      "arn": "arn:aws:lambda:ap-south-1:559461057135:layer:sci-kit-learn-pandas-layers:1"
+    }
+  ]
+}
