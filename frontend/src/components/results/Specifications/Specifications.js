@@ -59,10 +59,10 @@ function Specifications() {
                 <td  >{specificationResponse.Brand}</td>
               </tr>
             </div>
-            <div class="setData" style= {{overflow :""}} >
+            <div class="setData">
               <tr >
-                <th>Model</th>
-                <td >{specificationResponse.Model}</td>
+                <th>Model Number</th>
+                <td >{specificationResponse.ModelNo}</td>
               </tr>
             </div>
             <div class="setData">
@@ -75,15 +75,10 @@ function Specifications() {
             <div class="setData">
               <tr >
                 <th>Launch Date</th>
-                <td >{Launch_Date}</td>
+                <td >{specificationResponse.LaunchDate}</td>
               </tr>
             </div>
-            <div class="setData">
-              <tr >
-                <th>Model Number</th>
-                <td >{Model_Number}</td>
-              </tr>
-            </div>
+            
             <div class="setData">
               <tr >
                 <th>Type</th>
@@ -93,7 +88,7 @@ function Specifications() {
             <div class="setData">
               <tr >
                 <th>Headphone Type</th>
-                <td >{Headphone_Type}</td>
+                <td >{specificationResponse.HeadphoneType}</td>
               </tr>
             </div>
             <div class="setData">
@@ -120,25 +115,25 @@ function Specifications() {
             <div class="setData">
               <tr >
               <th>Driver Type</th>
-              <td>{Driver_Type}</td>
+              <td>{specificationResponse.DriverType}</td>
               </tr>
             </div>
             <div class="setData">
               <tr >
               <th>Driver Size (mm)</th>
-              <td>{Driver_Size}</td>
+              <td>{specificationResponse.DriverSize}</td>
               </tr>
             </div>
             <div class="setData">
               <tr >
               <th>Number of Drivers</th>
-              <td>{Number_of_Drivers}</td>
+              <td>{specificationResponse.NumberofDrivers}</td>
               </tr>
             </div>
             <div class="setData">
               <tr >
               <th>Water Resistant</th>
-              <td>{Water_Resistant}</td>
+              <td>{specificationResponse.WaterResistant}</td>
               </tr>
             </div>
             <div class="setData">
@@ -164,14 +159,14 @@ function Specifications() {
             <div class="setData">
               <tr >
               <th>Bluetooth Version</th>
-              <td>{Bluetooth_Version}</td>
+              <td>{specificationResponse.BluetoothVersion}</td>
               </tr>
             </div>
 
             <div class="setData">
               <tr >
               <th>Bluetooth Codec Support</th>
-              <td>{Bluetooth_Codec_Support}</td>
+              <td>{specificationResponse.BluetoothCodecSupport}</td>
               </tr>
             </div>
 
@@ -182,18 +177,18 @@ function Specifications() {
               </tr>
             </div>
 
-            <div class="setData">
+            {/* <div class="setData">
               <tr >
               <th>Charging Port</th>
-              <td>{Charging_Port}</td>
+              <td>{specificationResponse.ChargingPort}</td>
               </tr>
-            </div>
+            </div> */}
 
 
             <div class="setData">
               <tr >
               <th>Battery Life (Hrs)</th>
-              <td>{Battery_Life}</td>
+              <td>{specificationResponse.BatteryLife}</td>
               </tr>
             </div>
           </table>

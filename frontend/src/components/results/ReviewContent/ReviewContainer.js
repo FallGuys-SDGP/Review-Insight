@@ -23,7 +23,7 @@ function ReviewContainer(){
 
   return(
     <div className="reviewBox">
-      {reportResponse.map((index) =>(
+      {/* {reportResponse.map((index) =>(
         <div>
           <p> <b> {index.summary}  </b></p>
 
@@ -35,7 +35,7 @@ function ReviewContainer(){
             <p>{index.reviewText} </p>
           </div>
         </div>
-      ))}
+      ))} */}
     </div> 
 
   );
