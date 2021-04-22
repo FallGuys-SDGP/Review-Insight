@@ -16,7 +16,7 @@ function ReviewContainer(){
 		// specificationResponse = response
 		reportResponse = response
 	}
-	reportResponse = reportResponse.predictionResult
+	reportResponse = reportResponse.predictionResult.reviewData
 	specificationResponse = specificationResponse.specification 
 	console.log('Report response', reportResponse)
 	// console.log('Specification Response ', specificationResponse)
