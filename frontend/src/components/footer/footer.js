@@ -1,64 +1,56 @@
 import React from "react";
+import "./footer.css";
+import facebook from "../../images/linksIcons/facebook.jpg";
+import instagram from "../../images/linksIcons/instagram.jpg";
+import youtube from "../../images/linksIcons/youtube.jpg";
+import twitter from "../../images/linksIcons/twitter.png";
 
-import "../../components/footer/footer.css";
+
+
 
 
 function Footer(){
-    return(
-      
-     <div>
-         <div class="footer">
-                <div class="social-links">
-                    <p>Stay Connect With Us..</p>
-                    <a href="#fb"><img id="fb-icon" title="Facebook" alt="Facebook button" src="images/facebook.png"/></a>
-                    <a href="#twitter"><img id="twitter-icon" title="Twitter" alt="Twitter button" src="images/twitter.png"/></a>
-                    <a href="#youtube"><img id="youtube-icon" title="Youtube" alt="Youtube button" src="images/youtube.png"/></a>
-                </div>
-
-                <div class="navi-links">
-                    <div class="impotant-links">
-                        <p>Important Links</p>
-                        <ul>
-                            <li><a href="https://www.police.lk/" target="_blank">Sri Lankna Police</a></li><br></br>
-                            <li><a href="https://www.army.lk/" target="_blank">Sri Lankan Army</a></li><br></br>
-                        </ul>
-                    </div>
-
-                    <div class="about-site">
-                        <p>About the Site</p>
-                        <ul>
-                            <li><a href="sitemap.html">Site Map</a></li><br></br>
-                            <li><a href="quiz.html">Quiz</a></li><br></br>
-                            <li><a href="members.html">Web Development Team</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="page-links">
-                        <p>Menu</p>
-                        <ul>
-                            <li><a href="index.html">Home</a></li> <br></br>
-                            <li><a href="about.html">About Sri Lanka</a></li> <br></br>
-                            <li><a href="gallery.html">Gallery</a></li><br></br>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <div class="down-logo"> 
-                    <p>Proud Projet By</p>
-                    <img id="footer-logo" src="images/iit-logo.png" title="IIT Logo" alt="IIT LOGO"/>
-                </div>
-            </div>
-            
-
-            <div class="copyrights-note">
-                <p id="copyrights-note-text">Copyright  2020 | &copy; Visit Colombo | All Rights Reserved | Design By: <a href="student2.html">Nathindu Dias</a></p>
-            </div>
+  return(
+   
+   <div  className = "wrapper-footer" >
+        <div className="container-footer">  
+        
+            <div className = "item-footer1"> 57 Ramakrishna Road,Colombo 6</div>
+            <div className = "item-footer1"> +94 112 345567</div>
+            <div className = "item-footer1"> review-insight@gmail.com</div>
         </div>
-     
-    );
-}
-  
-export default Footer;
+        
+        <div>
+              <div className="container-footer"> 
+                <div className = "item-footer2" style={{color:"#aeacb0"}}> About the Comapany</div>
+                <div className = "item-footer2"> We are a Company try to help Online customer to buy genuie product.</div>
+              </div>
 
+              {/* <div class="social-links">
+                    <p>Stay Connect With Us..</p>
+                    <a href="#fb"><img id="fb-icon" title="Facebook" alt="Facebook button" src={faceBook}> 
+                    <a href="#twitter"><img id="twitter-icon" title="Twitter" alt="Twitter button" src={twitter}>
+                    <a href="#youtube"><img id="youtube-icon" title="Youtube" alt="Youtube button" src={youtube}>
+                    
+                </div> */}
+              
+              <div>
+              
+                <div className= 'social-icon1'><img src={facebook} alt="userIcon" height="40px" /></div> 
+                <div className= 'social-icon2'><img src={instagram} alt="userIcon" height="40px" /></div>
+                <div className= 'social-icon3'><img src={twitter} alt="userIcon" height="40px" /></div>
+                <div className= 'social-icon4'><img src={youtube} alt="userIcon" height="40px" /></div>
+
+              </div>
+
+         </div>
+        
+     
+         
+    </div> 
+  );
+
+    
+}
+
+export default Footer;

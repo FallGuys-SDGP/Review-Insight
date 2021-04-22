@@ -3,6 +3,7 @@ import "../../components/home/Home.css";
 import { TextField,Button } from '@material-ui/core';
 import SearchBar from '../../components/home/SearchBar';
 import {fetchProductReveiw} from "../../utils/Services";
+import Footer from "../../components/footer/footer";
 
 function Home(){
   const { useState} = React;
@@ -28,6 +29,7 @@ function Home(){
         </div>
         <SearchBar userEnteredId = { searchId => setSearchId(searchId) } /> 
       </div>  
+      <Footer/>
     </div>
   );
 }

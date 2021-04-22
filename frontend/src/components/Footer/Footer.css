@@ -3,23 +3,72 @@
     display: flex;
     flex-direction:row ;
     justify-content: space-around;
-    background-color: blue; 
+    background-color: #3333cc; 
     padding :2%;
-    
-
+    position: absolute;
+    bottom: 4% ;
+    width:96% ;
+    height:9%;
 }
 
 .container-footer{
+    
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    
 }
 
-.item-footer{
+.item-footer1{
     color: white;
     font-family: sans-serif;
     font-size: medium;
     font-style: bold;
     font-weight: 800;
     margin-bottom: 10px;
+    position: relative;
+    left:-50%;
+    bottom: 10%;
+    
+}
+.item-footer2{
+    color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    font-style: bold;
+    font-weight: 600;
+    margin-bottom: 10px;
+    position:relative;
+    left:20%;
+    bottom:10% ;
+        
+}
+
+.social-icon1{
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    left:55%;
+    bottom: 20%;
+}
+.social-icon2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left:45%;
+    bottom: 20% ;
+}
+.social-icon3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left:35%;
+    bottom:20%;
+}
+.social-icon4{
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    left:25%;
+    bottom: 20%;
 }

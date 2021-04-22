@@ -7,7 +7,7 @@ import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import LogIn from './components/log-in/login';
 import Register from "./components/register/register";
-import TestService from './TestServices'
+// import TestService from './TestServices'
 import AboutUs from './components/about-us/aboutus';
 import Contact from './components/contact/contact';
 import Footer from "./components/footer/footer";
@@ -35,9 +35,7 @@ function App(){
               <Link to="/home">
                 <li><a>Home</a></li>
               </Link>
-              <Link to="/test">
-                <li><a>Test</a></li>
-              </Link>
+      
             </ul>
           </nav>
         </div>
@@ -59,7 +57,5 @@ function App(){
     </Router>
   );
 }
-
-
 export default App;
 
