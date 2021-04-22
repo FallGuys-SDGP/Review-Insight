@@ -15,22 +15,22 @@ const refund = "Accepted";
 function Report(){
 	var reportResponse = []
 
-	if(localStorage.getItem('mainResponse').length > 0) {
-		let response = JSON.parse(localStorage.getItem('mainResponse'))
-		console.log("Inside report - ", response)
-		reportResponse = response
-	}
-	reportResponse = reportResponse.predictionResult
-	console.log('Report response', reportResponse)
+	// if(localStorage.getItem('mainResponse').length > 0) {
+	// 	let response = JSON.parse(localStorage.getItem('mainResponse'))
+	// 	console.log("Inside report - ", response)
+	// 	reportResponse = response
+	// }
+	// reportResponse = reportResponse.predictionResult
+	// console.log('Report response', reportResponse)
 
   return(
 	<div className="report-container">
-		{reportResponse.map((index) =>(
+		{/* {reportResponse.map((index) =>(
 			<div>
 				{index.asin}
 				{index.reviewText}
 			</div>
-		))}
+		))} */}
 		<div className="report-detail-card">
 			<div className="report-box-card">
 				<h3>Brand</h3>
