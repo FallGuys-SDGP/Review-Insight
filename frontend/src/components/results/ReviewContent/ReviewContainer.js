@@ -16,7 +16,7 @@ function ReviewContainer(){
 		// specificationResponse = response
 		reportResponse = response
 	}
-	reportResponse = reportResponse.predictionResult
+	reportResponse = reportResponse.predictionResult.reviewData
 	specificationResponse = specificationResponse.specification 
 	console.log('Report response', reportResponse)
 	// console.log('Specification Response ', specificationResponse)
@@ -28,7 +28,7 @@ function ReviewContainer(){
           <p> <b> {index.summary}  </b></p>
 
             <div style={{ display: 'flex', justifyContent: "space-between"}}>
-              <p> {index.overall} ⭐</p> <p style={{color: "red"}} > Score {index.predict} </p>  
+              <p> {index.overall} ⭐</p> <p style={{color: "red"}} > Score :  {index.predict} </p>  
           </div>
 
           <div className="reviewText">
