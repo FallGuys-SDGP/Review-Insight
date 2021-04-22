@@ -92,7 +92,7 @@ function Specifications() {
           </table>
         </div>
       </div>
-
+    
       <div class="set">
         <div class="subSet">
           <table>
@@ -188,11 +188,6 @@ function Specifications() {
       </div>
 
       <div class="set"></div>
-
-
-
-
-
 
     </div>
   );

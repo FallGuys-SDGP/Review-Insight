@@ -12,29 +12,34 @@ const qualityGrade = "Grade 3";
 const shipping = "60%";
 const refund = "Accepted";
 
+
 function Report(){
 	var reportResponse = []
+	var specificationResponse = [] 
 
 	if(localStorage.getItem('mainResponse').length > 0) {
 		let response = JSON.parse(localStorage.getItem('mainResponse'))
 		console.log("Inside report - ", response)
+		specificationResponse = response
 		reportResponse = response
 	}
 	reportResponse = reportResponse.predictionResult
+	specificationResponse = specificationResponse.specification 
 	console.log('Report response', reportResponse)
+	console.log('Specification Response ', specificationResponse)
 
   return(
 	<div className="report-container">
-		{reportResponse.map((index) =>(
+		{/* {reportResponse.map((index) =>(
 			<div>
 				{index.asin}
 				{index.reviewText}
 			</div>
-		))}
+		))} */}
 		<div className="report-detail-card">
 			<div className="report-box-card">
 				<h3>Brand</h3>
-				<span>{brand}</span>
+				<span>{specificationResponse.Brand}</span>
 			</div>
 			<div className="report-box-card">
 				<h3>Warranty</h3>
