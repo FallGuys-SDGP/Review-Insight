@@ -26,6 +26,19 @@ var Battery_Life = "1"
 
 
 function Specifications() {
+  var reportResponse = []
+	var specificationResponse = [] 
+
+	if(localStorage.getItem('mainResponse').length > 0) {
+		let response = JSON.parse(localStorage.getItem('mainResponse'))
+		console.log("Inside report - ", response)
+		specificationResponse = response
+		reportResponse = response
+	}
+	reportResponse = reportResponse.predictionResult
+	specificationResponse = specificationResponse.specification 
+	console.log('Report response', reportResponse)
+	console.log('Specification Response ', specificationResponse)
 
   return (
     <div >
@@ -40,22 +53,22 @@ function Specifications() {
         <div class="subSet">
           <table>
             <h2>General</h2>
-            <div class="setData">
+            <div class="setData"  >
               <tr >
                 <th>Brand</th>
-                <td >{Brand}</td>
+                <td  >{specificationResponse.Brand}</td>
               </tr>
             </div>
-            <div class="setData">
+            <div class="setData" style= {{overflow :""}} >
               <tr >
                 <th>Model</th>
-                <td >{Model}</td>
+                <td >{specificationResponse.Model}</td>
               </tr>
             </div>
             <div class="setData">
               <tr >
                 <th>Price</th>
-                <td >{Price}</td>
+                <td >{specificationResponse.Price}</td>
               </tr>
             </div>
 
@@ -74,7 +87,7 @@ function Specifications() {
             <div class="setData">
               <tr >
                 <th>Type</th>
-                <td >{Type}</td>
+                <td >{specificationResponse.Type}</td>
               </tr>
             </div>
             <div class="setData">
@@ -86,7 +99,7 @@ function Specifications() {
             <div class="setData">
               <tr >
                 <th>Connectivity</th>
-                <td >{Connectivity}</td>
+                <td >{specificationResponse.Connectivity}</td>
               </tr>
             </div>
           </table>
@@ -101,7 +114,7 @@ function Specifications() {
             <div class="setData">
               <tr >
               <th>Microphone</th>
-              <td>{Microphone}</td>
+              <td>{specificationResponse.Microphone}</td>
               </tr>
             </div>
             <div class="setData">
@@ -131,7 +144,7 @@ function Specifications() {
             <div class="setData">
               <tr >
               <th>Weight (g)</th>
-              <td>{Weight}</td>
+              <td>{specificationResponse.Weight}</td>
               </tr>
             </div>
           </table>
@@ -144,7 +157,7 @@ function Specifications() {
             <div class="setData">
               <tr >
               <th>Bluetooth</th>
-              <td>{Bluetooth}</td>
+              <td>{specificationResponse.Bluetooth}</td>
               </tr>
             </div>
 
@@ -165,7 +178,7 @@ function Specifications() {
             <div class="setData">
               <tr >
               <th>Battery</th>
-              <td>{Battery}</td>
+              <td>{specificationResponse.Battery}</td>
               </tr>
             </div>
 
