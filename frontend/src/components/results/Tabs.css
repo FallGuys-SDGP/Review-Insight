@@ -3,10 +3,10 @@ button {
 }
 
 .container{
-    /* float: right;
-    position: absolute; */
-    /* top: 90px;
-    right: 20px; */
+    float: right;
+    position: absolute;
+    top: 90px;
+    right: 20px;
     /* color: rgb(255, 255, 255); */
     /* padding-left: 20px;
     padding-right: 20px; */
