@@ -48,12 +48,7 @@ function App() {
           <Route path="/contact" exact component={Contact} />
         </Switch>
 
-        <div class="footer">
-          <div class="foterLinks">
-            <p>Review insite</p>
-            </div>
-          <p class="footerCopy">Copyright @2021 | Designed With by Review Insight</p>
-        </div>
+
 
       </div>
     </Router>
