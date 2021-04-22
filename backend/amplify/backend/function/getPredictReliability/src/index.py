@@ -8,10 +8,14 @@ import sys
 from io import StringIO
 from pprint import pprint
 from boto3.dynamodb.conditions import Key, Attr
+import nltk
+from nltk.tokenize import sent_tokenize
+from nltk.tokenize import word_tokenize
+nltk.data.path.append("/tmp")
+nltk.download("punkt", download_dir = "/tmp")
 
 # getting product reviews from asin
 def queryReviews(asin,dynamodb=None):
-  
   if not dynamodb:
     dynamodb = boto3.resource('dynamodb',region_name='ap-south-1')
 
@@ -22,11 +26,52 @@ def queryReviews(asin,dynamodb=None):
   )
   return response['Items']
 
+def breakSentences(df_reviews, word_array):
+  sentence_all = []
+  for index, row in df_reviews.iterrows():
+    sentences_with_feature = []
+    for sen in sent_tokenize(str(row['reviewText'])):
+        l = word_tokenize(sen)
+        if len(set(l).intersection(word_array))>0:
+            sentences_with_feature.append(sen)
+    sentence_all.append(sentences_with_feature)
+  list_of_tuples = list(zip(sentence_all)) 
+  df_sentences = pd.DataFrame(list_of_tuples,columns = ['reviewText'])
+  return df_sentences
+
+def sentiment(my_sentiment_pipeline, sentenceArray, feature):
+  df_feature = sentenceArray
+  count_ng = 0
+  count_nu = 0
+  count_po = 0
+  for index, row in df_feature.iterrows():
+    if(len(row['reviewText'])==0):
+        df_feature.loc[index, feature+'_label'] = 'NA'
+    else:
+        prdict = my_sentiment_pipeline.predict(row['reviewText'])
+        po=0
+        nu=0
+        ng=0
+        for item in prdict:
+            if (item=="pos"):
+                po=po+1
+                count_po=count_po+po
+            elif (item=="neg"):
+                ng=ng+1
+                count_ng=count_ng+ng
+            elif (item=="neu"):
+                nu=nu+1
+                count_nu=count_nu+nu
+        var = {po:"po",ng:"ng",nu:"nu"}
+        sen = var.get(max(var))
+        df_feature.loc[index, feature+'_label'] = sen
+  return df_feature
 
 def handler(event, context):
   # loading from S3 buckets 
   bucket ='review-insight-bucket'
   pipe_line = "serialized_pipeline_model_tfid.pkl"
+  sentiment_pipe_line = "serialize_sentiment_model.pkl"
 
   asin = event['pathParameters']['asin']
   queryResponse = queryReviews(asin)
@@ -48,10 +93,67 @@ def handler(event, context):
 
   df_reviews['predict'] = y_predict 
 
+  my_sentiment_pipeline = pickle.loads(s3.Bucket(bucket).Object(sentiment_pipe_line).get()['Body'].read()) 
+
+  Audio_quality = ["immersive", "satisfaction", "static", "sound"]
+  sentences_with_Audio = breakSentences(df_reviews, Audio_quality)
+  df_Audio = sentiment(my_sentiment_pipeline, sentences_with_Audio, "Audio")
+  df_reviews['Audio_label'] = df_Audio["Audio_label"]
+
+  Build_quality = ["fit", "feel", "comfort", "soft"]
+  sentences_with_Build = breakSentences(df_reviews, Build_quality)
+  df_Build = sentiment(my_sentiment_pipeline, sentences_with_Build, "Build")
+  df_reviews['Build_label'] = df_Build["Build_label"]
+
+  Battery_quality = ["long lasting", "battery"]
+  sentences_with_Battery = breakSentences(df_reviews, Battery_quality)
+  df_Battery = sentiment(my_sentiment_pipeline, sentences_with_Battery, "Battery")
+  df_reviews['Battery_label'] = df_Battery["Battery_label"]
+
+  Price_quality= ["value", "cost", "worth", "Price", "expensive"]
+  sentences_with_Price = breakSentences(df_reviews, Price_quality)
+  df_Price = sentiment(my_sentiment_pipeline, sentences_with_Price, "Price")
+  df_reviews['Price_label']=df_Price['Price_label']
+
+  Connection_quality = ["static", "disconnect", "connection"]
+  sentences_with_Connection = breakSentences(df_reviews, Connection_quality)
+  df_Connection = sentiment(my_sentiment_pipeline, sentences_with_Connection, "Connection")
+  df_reviews['Connection_label'] = df_Connection['Connection_label']
+
+  Warranty_quality = ["guarantee", "warranty"]
+  sentences_with_Warranty = breakSentences(df_reviews, Warranty_quality)
+  df_Warranty = sentiment(my_sentiment_pipeline, sentences_with_Warranty, "Warranty")
+  df_reviews['Warranty_label'] = df_Warranty['Warranty_label']
+
+  Service_quality = ["Reimburse", "refund", "repair", "service ", "commitment"]
+  sentences_with_Service = breakSentences(df_reviews, Service_quality)
+  df_Service = sentiment(my_sentiment_pipeline, sentences_with_Service, "Service")
+  df_reviews['Service_label'] = df_Service['Service_label']
+
+  Shipping_quality = ["delivery", "shipping", "duration", "late", "charge", "fee"]
+  sentences_with_Shipping = breakSentences(df_reviews, Shipping_quality)
+  df_Shipping = sentiment(my_sentiment_pipeline, sentences_with_Shipping, "Shipping")
+  df_reviews['Shipping_label'] = df_Shipping['Shipping_label']
+
+  total_sentiment = my_sentiment_pipeline.predict(x.values.astype('U'))
+  totalPositive = (total_sentiment == "pos").sum()
+  totalNegative = (total_sentiment == "neg").sum()
+  totalNeutral = (total_sentiment == "neu").sum()
+
   json_predict_resposnse = df_reviews.to_json(orient='records') 
   parsed = json.loads(json_predict_resposnse) # to avoid  \\ in response
   
-  return_statement =  parsed
+  return_statement =  {
+    "statistics": {
+      "totalReviews": int((df_reviews.shape[0])),
+      "totalReal": int((df_reviews['predict']=='Real').sum()),
+      "totalFake": int((df_reviews['predict']=='Fake').sum()),
+      "totalPositive": int(totalPositive),
+      "totalNegative": int(totalNegative),
+      "totalNeutral": int(totalNeutral),
+    },
+    "reviewData": parsed
+  }
          
   return {
       'statusCode': 200,
