@@ -65,11 +65,7 @@ function Tabs() {
         </div>
 
         <div className={toggleState === 3 ? "content  active-content" : "content"}>
-
-        <h1><a>Apple EarPods</a>Specifications</h1>
-        <Specifications/>
-      
-          
+          <Specifications/>
         </div>
 
         <div className={toggleState === 4 ? "content  active-content" : "content"}>

@@ -2,15 +2,15 @@ import React from "react";
 import "../Report/Report.css"
 import {Doughnut} from "react-chartjs-2";
 
-const brand = "Apple";
-const warranty = "1 year";
-const quality = "80%";
-const satisfaction = "4.5/5";
-const seller = "RedArt";
-const price = "USD 1.5";
-const qualityGrade = "Grade 3";
-const shipping = "60%";
-const refund = "Accepted";
+let brand = "neutral";
+let warrantySentiment = "neutral";
+let quality = "neutral";
+let satisfaction = "neutral";
+let seller = "neutral";
+let price = "neutral";
+let qualityGrade = "neutral";
+let shipping = "neutral";
+let refund = "neutral";
 
 let summaryData = {
 	labels: [
@@ -75,7 +75,7 @@ function Report(){
 			</div>
 			<div className="report-box-card">
 				<h3>Warranty</h3>
-				<span>{warranty}</span>
+				<span>{warrantySentiment}</span>
 			</div>
 			<div className="report-box-card">
 				<h3>Quality</h3>

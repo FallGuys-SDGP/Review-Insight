@@ -27,7 +27,7 @@
 }
 
 .res-product-img {
-    width: 150px;
+    width: auto;
     height: 200px;
     background-color: skyblue;
     padding: 3px;

@@ -42,11 +42,12 @@ function Specifications() {
 
   return (
     <div >
+      <h1><a>{specificationResponse.Model}</a> Specifications</h1>
       <div class="set">
         
         <div class="subSet">
           <div class="box"> 
-            <img src={logo} className="App-logo" alt="logo" class="img"  ></img>
+            <img src={specificationResponse.image} className="App-logo" class="img"  ></img>
           </div>
           
         </div>
