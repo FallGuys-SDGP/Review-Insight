@@ -1,0 +1,6304 @@
+{
+  "specification": [
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00WU0P6PW"
+          },
+          "Brand": {
+            "S": "Audio-Technica"
+          },
+          "Model": {
+            "S": "ATH-ANC27 Noise-Canceling Headphones"
+          },
+          "Price": {
+            "S": "49,925"
+          },
+          "LaunchDate": {
+            "S": "18th May 2016"
+          },
+          "ModelNo": {
+            "S": "ATH-ANC27"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "53"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "No"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "5"
+          },
+          "Weight": {
+            "S": "256"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0006OQY2S"
+          },
+          "Brand": {
+            "S": "Audio-Technica"
+          },
+          "Model": {
+            "S": "ATH-AD900 Dynamic Headphones"
+          },
+          "Price": {
+            "S": "54,353"
+          },
+          "LaunchDate": {
+            "S": "15th march 2019"
+          },
+          "ModelNo": {
+            "S": "ATH-AD900"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "45"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4.1"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC"
+          },
+          "BatteryLife": {
+            "S": "30"
+          },
+          "Weight": {
+            "S": "242"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00EO3DM0E"
+          },
+          "Brand": {
+            "S": "Audio-Technica"
+          },
+          "Model": {
+            "S": "ATH-CKX5BK Sonic Fuel Headphones"
+          },
+          "Price": {
+            "S": "59,800"
+          },
+          "LaunchDate": {
+            "S": "22nd May 2017"
+          },
+          "ModelNo": {
+            "S": "ATH-CKX5BK"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "42"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "168"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000CMLZEG"
+          },
+          "Brand": {
+            "S": "Audio-Technica"
+          },
+          "Model": {
+            "S": "ATH-AD500  Dynamic Headphones"
+          },
+          "Price": {
+            "S": "59,600"
+          },
+          "LaunchDate": {
+            "S": "23nd March 2017"
+          },
+          "ModelNo": {
+            "S": "ATH-AD500"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "42"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "166"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004KVIZFW"
+          },
+          "Brand": {
+            "S": "Audio-Technica"
+          },
+          "Model": {
+            "S": "ATH-BT04NC Wireless Headphones"
+          },
+          "Price": {
+            "S": "70,077"
+          },
+          "LaunchDate": {
+            "S": "12th March 2018"
+          },
+          "ModelNo": {
+            "S": " ATH-BT04NC"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "45"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4.2"
+          },
+          "BluetoothCodecSupport": {
+            "S": "AAC"
+          },
+          "BatteryLife": {
+            "S": "15"
+          },
+          "Weight": {
+            "S": "310"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00EO3DM0E"
+          },
+          "Brand": {
+            "S": "Audio-Technica"
+          },
+          "Model": {
+            "S": "ATH-CKX5BK Sonic Fuel Headphone"
+          },
+          "Price": {
+            "S": "44,844"
+          },
+          "LaunchDate": {
+            "S": "15th March 2016"
+          },
+          "ModelNo": {
+            "S": "ATH-CKX5BK"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "35"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "18"
+          },
+          "Weight": {
+            "S": "12"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001QTJ1F4"
+          },
+          "Brand": {
+            "S": "Audio-Technica"
+          },
+          "Model": {
+            "S": "ATH-FC700A Portable Headphones"
+          },
+          "Price": {
+            "S": "19,399"
+          },
+          "LaunchDate": {
+            "S": "15th March 2014"
+          },
+          "ModelNo": {
+            "S": "ATH-FC700A"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "14.3"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "25"
+          },
+          "Weight": {
+            "S": "118"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BBDKTS8"
+          },
+          "Brand": {
+            "S": "Audio-Technica"
+          },
+          "Model": {
+            "S": "ATHCLR100LG Headphones"
+          },
+          "Price": {
+            "S": "47,472"
+          },
+          "LaunchDate": {
+            "S": "6th February 2014"
+          },
+          "ModelNo": {
+            "S": "ATHCLR100LG"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "32"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "22"
+          },
+          "Weight": {
+            "S": "85"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004K09H32"
+          },
+          "Brand": {
+            "S": "Audio-Technica"
+          },
+          "Model": {
+            "S": "ATH-ANC23 Headphones"
+          },
+          "Price": {
+            "S": "24,704"
+          },
+          "LaunchDate": {
+            "S": "10th August 2016"
+          },
+          "ModelNo": {
+            "S": "ATH-ANC23"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "23"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "18"
+          },
+          "Weight": {
+            "S": "335"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00YWT3F7A"
+          },
+          "Brand": {
+            "S": "Audio-Technica"
+          },
+          "Model": {
+            "S": "ATH-AVC200 SonicPro Dynamic Headphones"
+          },
+          "Price": {
+            "S": "17,990"
+          },
+          "LaunchDate": {
+            "S": "2nd October 2012"
+          },
+          "ModelNo": {
+            "S": "ATH-AVC200"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "13"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "25"
+          },
+          "Weight": {
+            "S": "12"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B015N52WZM"
+          },
+          "Brand": {
+            "S": "Audio-Technica"
+          },
+          "Model": {
+            "S": "ATH-SPORT4BK SonicSport Headphones"
+          },
+          "Price": {
+            "S": "18,200"
+          },
+          "LaunchDate": {
+            "S": "5th November 2012"
+          },
+          "ModelNo": {
+            "S": "ATH-SPORT4BK"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "15"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4.2"
+          },
+          "BluetoothCodecSupport": {
+            "S": "AAC"
+          },
+          "BatteryLife": {
+            "S": "26"
+          },
+          "Weight": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00D4INF0M"
+          },
+          "Brand": {
+            "S": "Beats"
+          },
+          "Model": {
+            "S": "Executive Over-Ear Noise Cancelling Headphones "
+          },
+          "Price": {
+            "S": "1,999"
+          },
+          "LaunchDate": {
+            "S": "3rd November 2020"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "TWS"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "13"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "IPX4"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "50"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008CQWPHU"
+          },
+          "Brand": {
+            "S": "Beats"
+          },
+          "Model": {
+            "S": "Pro Wired Over-Ear Headphone "
+          },
+          "Price": {
+            "S": "5,999"
+          },
+          "LaunchDate": {
+            "S": "24th February 2021"
+          },
+          "ModelNo": {
+            "S": "S-041354"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "TWS"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "10"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "7"
+          },
+          "Weight": {
+            "S": "52.5"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0054JJ0QW"
+          },
+          "Brand": {
+            "S": "Bose"
+          },
+          "Model": {
+            "S": "quietcomfort 15 acoustic noise cancelling headphones"
+          },
+          "Price": {
+            "S": "4512"
+          },
+          "LaunchDate": {
+            "S": "19th August 2009"
+          },
+          "ModelNo": {
+            "S": "Q-15"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "35"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "35"
+          },
+          "Weight": {
+            "S": "140"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0117RGG8E"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "SoundLink headphones II "
+          },
+          "Price": {
+            "S": "3200"
+          },
+          "LaunchDate": {
+            "S": "3rd January 2009"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "around-ear"
+          },
+          "Connectivity": {
+            "S": " wireless "
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "-"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "-"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0117RFP6I"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "QuietComfort 25 Acoustic Noise Cancelling Headphones"
+          },
+          "Price": {
+            "S": "13,965"
+          },
+          "LaunchDate": {
+            "S": "20th March 2019"
+          },
+          "ModelNo": {
+            "S": "QuietComfort 25"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "TWS"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "51"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "AAC"
+          },
+          "BatteryLife": {
+            "S": "17"
+          },
+          "Weight": {
+            "S": "4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B005KJM30G"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "OE2 audio headphones "
+          },
+          "Price": {
+            "S": "4,499"
+          },
+          "LaunchDate": {
+            "S": "30th October 2019"
+          },
+          "ModelNo": {
+            "S": "OE2"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "TWS"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "dynamic"
+          },
+          "DriverSize": {
+            "S": "12"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "IPX4"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "45.6"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0117RFYQE"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "SoundTrue Ultra headphones "
+          },
+          "Price": {
+            "S": " 1,499"
+          },
+          "LaunchDate": {
+            "S": "22nd October 2018"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "16"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "Sweat Proof"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4.1"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "12"
+          },
+          "Weight": {
+            "S": "45"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00009MK3T"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "TriPort Headphones"
+          },
+          "Price": {
+            "S": "1,199"
+          },
+          "LaunchDate": {
+            "S": "24th April 2019"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Around Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "32"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "No"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "18"
+          },
+          "Weight": {
+            "S": "41.5"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000KLZ7VG"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "TriPort In-Ear Headphones "
+          },
+          "Price": {
+            "S": "3,999"
+          },
+          "LaunchDate": {
+            "S": "28th November 2018"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "5.8"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "Sweat Proof"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "4"
+          },
+          "Weight": {
+            "S": "52"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B01E3SNNGW"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "SoundSport Headphones"
+          },
+          "Price": {
+            "S": "19,999"
+          },
+          "LaunchDate": {
+            "S": "18th June 2016"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless "
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "50"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "3.5"
+          },
+          "Weight": {
+            "S": "100"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000HWV8QG"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "Around Ear Headphones "
+          },
+          "Price": {
+            "S": "13,965"
+          },
+          "LaunchDate": {
+            "S": "20th March 2019"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Around Ear"
+          },
+          "Connectivity": {
+            "S": "TWS"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "32"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "AAC"
+          },
+          "BatteryLife": {
+            "S": "28"
+          },
+          "Weight": {
+            "S": "4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00M58CMTM"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "SoundLink Headphones "
+          },
+          "Price": {
+            "S": "7895"
+          },
+          "LaunchDate": {
+            "S": "31st May 2003"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "42"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "25"
+          },
+          "Weight": {
+            "S": "31.1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008YUNHK8"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "AE2i Audio Headphones "
+          },
+          "Price": {
+            "S": " 379.00"
+          },
+          "LaunchDate": {
+            "S": "16th May 2017"
+          },
+          "ModelNo": {
+            "S": "AE2i"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "8"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "Sweat Proof"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "23"
+          },
+          "Weight": {
+            "S": "36.4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0030XXH1S"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "QuietComfort 3 Acoustic Noise Cancelling Headphones"
+          },
+          "Price": {
+            "S": "45,700"
+          },
+          "LaunchDate": {
+            "S": "42717"
+          },
+          "ModelNo": {
+            "S": "QuietComfort 3"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "45"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "6"
+          },
+          "Weight": {
+            "S": "4.6"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00Q784XX4"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "Sound Link Headphones Ear Cushion Kit"
+          },
+          "Price": {
+            "S": "79,000"
+          },
+          "LaunchDate": {
+            "S": "-"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "24"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "12"
+          },
+          "Weight": {
+            "S": "124"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00OBOQ6XG"
+          },
+          "Brand": {
+            "S": "Bose "
+          },
+          "Model": {
+            "S": "Mobile Headphones"
+          },
+          "Price": {
+            "S": "4,999"
+          },
+          "LaunchDate": {
+            "S": "22nd August 2017"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "40"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC"
+          },
+          "BatteryLife": {
+            "S": "16"
+          },
+          "Weight": {
+            "S": "186"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B007HIR3MG"
+          },
+          "Brand": {
+            "S": "JVC"
+          },
+          "Model": {
+            "S": "JVC HAFX101V headphone"
+          },
+          "Price": {
+            "S": "8,521"
+          },
+          "LaunchDate": {
+            "S": "3rd February 2011"
+          },
+          "ModelNo": {
+            "S": "HAFX101V"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On ear, in ear, over ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "10"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "18"
+          },
+          "Weight": {
+            "S": "396"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003AIL2F6"
+          },
+          "Brand": {
+            "S": "JVC"
+          },
+          "Model": {
+            "S": "HAFX67B Air Cushion Headphone "
+          },
+          "Price": {
+            "S": "$56.99"
+          },
+          "LaunchDate": {
+            "S": "8th March 2019"
+          },
+          "ModelNo": {
+            "S": "HAFX67B"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "32"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "IPX2"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "1.7"
+          },
+          "Weight": {
+            "S": "39.6"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000U07C1U"
+          },
+          "Brand": {
+            "S": "JVC"
+          },
+          "Model": {
+            "S": "HANC250 Noise Cancelling Headphones "
+          },
+          "Price": {
+            "S": "12,990"
+          },
+          "LaunchDate": {
+            "S": "20th March 2019"
+          },
+          "ModelNo": {
+            "S": "HANC250"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "-"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "13"
+          },
+          "Weight": {
+            "S": "40"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001VPN4R4"
+          },
+          "Brand": {
+            "S": "JVC"
+          },
+          "Model": {
+            "S": "HANCX78 Noise Cancelling Headphones "
+          },
+          "Price": {
+            "S": "9,990"
+          },
+          "LaunchDate": {
+            "S": "18th March 2019"
+          },
+          "ModelNo": {
+            "S": "HANCX78"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "-"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "3"
+          },
+          "Weight": {
+            "S": "6"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0013OWPV4"
+          },
+          "Brand": {
+            "S": "JVC"
+          },
+          "Model": {
+            "S": "HARX700 Precision Sound Headphones "
+          },
+          "Price": {
+            "S": "13,859"
+          },
+          "LaunchDate": {
+            "S": "26th December 2018"
+          },
+          "ModelNo": {
+            "S": "HARX700"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "-"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "AAC"
+          },
+          "BatteryLife": {
+            "S": "160"
+          },
+          "Weight": {
+            "S": "11"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008P8EW4O"
+          },
+          "Brand": {
+            "S": "JVC"
+          },
+          "Model": {
+            "S": "HAS140P  Headband Headphones "
+          },
+          "Price": {
+            "S": "1,499"
+          },
+          "LaunchDate": {
+            "S": "8th February 2018"
+          },
+          "ModelNo": {
+            "S": "HAS140P"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "-"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "27"
+          },
+          "Weight": {
+            "S": "160"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003ZUXX3I"
+          },
+          "Brand": {
+            "S": "JVC"
+          },
+          "Model": {
+            "S": "HAS600A Foldable Headphone "
+          },
+          "Price": {
+            "S": "319"
+          },
+          "LaunchDate": {
+            "S": "10th November 2017"
+          },
+          "ModelNo": {
+            "S": "HAS600A"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Around-The-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "-"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "AAC"
+          },
+          "BatteryLife": {
+            "S": "6"
+          },
+          "Weight": {
+            "S": "85"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0013OWPVO"
+          },
+          "Brand": {
+            "S": "JVC"
+          },
+          "Model": {
+            "S": "HAS700 Headphones "
+          },
+          "Price": {
+            "S": "7,215"
+          },
+          "LaunchDate": {
+            "S": "10th November 2017"
+          },
+          "ModelNo": {
+            "S": "HAS700"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "12"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4.1"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "5.5"
+          },
+          "Weight": {
+            "S": "104"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00I4KPBF2"
+          },
+          "Brand": {
+            "S": "JVC"
+          },
+          "Model": {
+            "S": "KENWOOD Headphones HA-FX850"
+          },
+          "Price": {
+            "S": "9,499"
+          },
+          "LaunchDate": {
+            "S": "11th November 2017"
+          },
+          "ModelNo": {
+            "S": "HA-FX850"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "13"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "25"
+          },
+          "Weight": {
+            "S": "51"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0079LETBO"
+          },
+          "Brand": {
+            "S": "JVC"
+          },
+          "Model": {
+            "S": "HAS200B Foldable Headphone"
+          },
+          "Price": {
+            "S": "5,990"
+          },
+          "LaunchDate": {
+            "S": "30th November 2017"
+          },
+          "ModelNo": {
+            "S": "HAS200B"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "-"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4.2"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "22"
+          },
+          "Weight": {
+            "S": "8"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00DZASZKY"
+          },
+          "Brand": {
+            "S": "JVC"
+          },
+          "Model": {
+            "S": "HAFR37A Marshmallow Headphones with Mic"
+          },
+          "Price": {
+            "S": "13,999"
+          },
+          "LaunchDate": {
+            "S": "16th October 2017"
+          },
+          "ModelNo": {
+            "S": "HAFR37A"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "TWS"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "-"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4.2"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "6"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008VGQ4VO"
+          },
+          "Brand": {
+            "S": "Klipsch"
+          },
+          "Model": {
+            "S": "Klipsch Image S4 - II White Headphones"
+          },
+          "Price": {
+            "S": "8,054"
+          },
+          "LaunchDate": {
+            "S": "August 2012"
+          },
+          "ModelNo": {
+            "S": "S4 - II "
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": " In-Ear "
+          },
+          "Connectivity": {
+            "S": "Cable"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "12"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "12"
+          },
+          "Weight": {
+            "S": "11.907"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001R4M6KU"
+          },
+          "Brand": {
+            "S": "koss"
+          },
+          "Model": {
+            "S": " QZ900 Noise Cancellation Headphone"
+          },
+          "Price": {
+            "S": "$34.99"
+          },
+          "LaunchDate": {
+            "S": "37755"
+          },
+          "ModelNo": {
+            "S": "QZ900"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "28"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "22"
+          },
+          "Weight": {
+            "S": "5.2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0006B486K"
+          },
+          "Brand": {
+            "S": "Koss"
+          },
+          "Model": {
+            "S": "KSC75 Specifications"
+          },
+          "Price": {
+            "S": "Rs.2,750.00"
+          },
+          "LaunchDate": {
+            "S": "-"
+          },
+          "ModelNo": {
+            "S": "KSC75"
+          },
+          "Type": {
+            "S": "Headphone"
+          },
+          "HeadphoneType": {
+            "S": "On Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "14"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "5"
+          },
+          "Weight": {
+            "S": "43"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00X0PCBT0"
+          },
+          "Brand": {
+            "S": "MEElectronics"
+          },
+          "Model": {
+            "S": "Sport-Fi M6"
+          },
+          "Price": {
+            "S": "51445"
+          },
+          "LaunchDate": {
+            "S": "29 Feb 2016"
+          },
+          "ModelNo": {
+            "S": "Sport-Fi M6"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Corded"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "9"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "15"
+          },
+          "Weight": {
+            "S": "29"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0083E5GUE"
+          },
+          "Brand": {
+            "S": "MEElectronics "
+          },
+          "Model": {
+            "S": "A161P Noise-Canceling Headphones with Balanced Armature Technology"
+          },
+          "Price": {
+            "S": "549"
+          },
+          "LaunchDate": {
+            "S": "28th May 2018"
+          },
+          "ModelNo": {
+            "S": "A161P"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear "
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "15"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "No"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "22"
+          },
+          "Weight": {
+            "S": "50"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0038W0K1G"
+          },
+          "Brand": {
+            "S": "MEElectronics"
+          },
+          "Model": {
+            "S": "M9-BK Hi-Fi Sound  Headphones"
+          },
+          "Price": {
+            "S": " 1,499.00"
+          },
+          "LaunchDate": {
+            "S": "9th September 2020"
+          },
+          "ModelNo": {
+            "S": "M9-BK "
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "10"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "IPX5"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "30"
+          },
+          "Weight": {
+            "S": "30"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B006DBQHZM"
+          },
+          "Brand": {
+            "S": "MEElectronics"
+          },
+          "Model": {
+            "S": "M16P In Ear Headphones"
+          },
+          "Price": {
+            "S": "56,770"
+          },
+          "LaunchDate": {
+            "S": "40729"
+          },
+          "ModelNo": {
+            "S": "M16P"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Around Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "32"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "AAC"
+          },
+          "BatteryLife": {
+            "S": "6"
+          },
+          "Weight": {
+            "S": "260"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003VTZPPC"
+          },
+          "Brand": {
+            "S": "MEElectronics"
+          },
+          "Model": {
+            "S": "M11P+RD Sound-Isolation In-Ear Headphones with Microphone and Remote "
+          },
+          "Price": {
+            "S": " 1,799"
+          },
+          "LaunchDate": {
+            "S": "Feb-21"
+          },
+          "ModelNo": {
+            "S": "M11P+RD"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "10"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "IPX5"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "33"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004OBZ2ZO"
+          },
+          "Brand": {
+            "S": "MEElectronics"
+          },
+          "Model": {
+            "S": "M16-MT Headphones "
+          },
+          "Price": {
+            "S": "10,999"
+          },
+          "LaunchDate": {
+            "S": "11th June 2016"
+          },
+          "ModelNo": {
+            "S": "M16-MT"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "10"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "5"
+          },
+          "Weight": {
+            "S": "11"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B004OBZ2UY"
+          },
+          "Brand": {
+            "S": "MEElectronics"
+          },
+          "Model": {
+            "S": "M31-LV Headphones"
+          },
+          "Price": {
+            "S": "499"
+          },
+          "LaunchDate": {
+            "S": "10th October 2017"
+          },
+          "ModelNo": {
+            "S": "M31-LV "
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "8"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "18"
+          },
+          "Weight": {
+            "S": "34"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000UPBTMI"
+          },
+          "Brand": {
+            "S": "Nike"
+          },
+          "Model": {
+            "S": "SHJ020 Lightweight Neckband Headphone "
+          },
+          "Price": {
+            "S": "2,990"
+          },
+          "LaunchDate": {
+            "S": "14th Octomber"
+          },
+          "ModelNo": {
+            "S": "SHJ020 "
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "10"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "IP55"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "17"
+          },
+          "Weight": {
+            "S": "4.3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000UPA7M6"
+          },
+          "Brand": {
+            "S": "Nike"
+          },
+          "Model": {
+            "S": "SHJ045 Headband Headphone "
+          },
+          "Price": {
+            "S": "2,990"
+          },
+          "LaunchDate": {
+            "S": "14th Octomber 2020"
+          },
+          "ModelNo": {
+            "S": "SHJ045 "
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "TWS"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "10"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "IP55"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "7"
+          },
+          "Weight": {
+            "S": "4.3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000UPBTXM"
+          },
+          "Brand": {
+            "S": "Nike"
+          },
+          "Model": {
+            "S": "SHJ080 Sport Skylon Earhook Headphones "
+          },
+          "Price": {
+            "S": "$29.95"
+          },
+          "LaunchDate": {
+            "S": "-"
+          },
+          "ModelNo": {
+            "S": "SHJ080"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "9.2"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "IPX5"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "28"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000UPA7LW"
+          },
+          "Brand": {
+            "S": "Nike "
+          },
+          "Model": {
+            "S": "SHJ023 Lightweight Neckband Headphone "
+          },
+          "Price": {
+            "S": "4,999"
+          },
+          "LaunchDate": {
+            "S": "30th October 2020"
+          },
+          "ModelNo": {
+            "S": "SHJ023"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "TWS"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "7"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "IP54"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "55.5"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000UPDWIC"
+          },
+          "Brand": {
+            "S": "Nike "
+          },
+          "Model": {
+            "S": "SHJ036 Flexible Earhook Headphone "
+          },
+          "Price": {
+            "S": "4,499"
+          },
+          "LaunchDate": {
+            "S": "Feb-21"
+          },
+          "ModelNo": {
+            "S": "SHJ036"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "TWS"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "10"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "IPX4"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "45.6"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003ELYQGG"
+          },
+          "Brand": {
+            "S": "Panasonic"
+          },
+          "Model": {
+            "S": "RP-HJE120-D Earbuds"
+          },
+          "Price": {
+            "S": "8,054"
+          },
+          "LaunchDate": {
+            "S": "13th April 2017"
+          },
+          "ModelNo": {
+            "S": "RP-HJE120-D"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "9"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "4.2"
+          },
+          "Weight": {
+            "S": "4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00A17IAOA"
+          },
+          "Brand": {
+            "S": "Panasonic"
+          },
+          "Model": {
+            "S": "RP-DH1250 Wired Headphones"
+          },
+          "Price": {
+            "S": "61,598"
+          },
+          "LaunchDate": {
+            "S": "13th April 2017"
+          },
+          "ModelNo": {
+            "S": "RP-DH1250"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "36"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "18"
+          },
+          "Weight": {
+            "S": "975.22"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00004T8R2"
+          },
+          "Brand": {
+            "S": "Panasonic"
+          },
+          "Model": {
+            "S": "RP-HT21 Lightweight Headphones"
+          },
+          "Price": {
+            "S": "$7.99"
+          },
+          "LaunchDate": {
+            "S": "6th Octomber 2017"
+          },
+          "ModelNo": {
+            "S": "RP-HT21"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "30"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "5"
+          },
+          "Weight": {
+            "S": "138.08"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0002ICGCK"
+          },
+          "Brand": {
+            "S": "Panasonic"
+          },
+          "Model": {
+            "S": "RP-WF930E Wireless Headphones"
+          },
+          "Price": {
+            "S": "33,869"
+          },
+          "LaunchDate": {
+            "S": "17th March 2012"
+          },
+          "ModelNo": {
+            "S": "RP-WF930E"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "38"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "23"
+          },
+          "Weight": {
+            "S": "240"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0014IK2QY"
+          },
+          "Brand": {
+            "S": "Panasonic"
+          },
+          "Model": {
+            "S": "RP-HX70 SLIMZ Monitor Headphones"
+          },
+          "Price": {
+            "S": "20,042"
+          },
+          "LaunchDate": {
+            "S": "17th March 2012"
+          },
+          "ModelNo": {
+            "S": "RP-HX70 "
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "40"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "4"
+          },
+          "Weight": {
+            "S": "338"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00O2Y2MZG"
+          },
+          "Brand": {
+            "S": "Philips"
+          },
+          "Model": {
+            "S": "X2/27 Fidelio Over Ear Headphone"
+          },
+          "Price": {
+            "S": "48,699"
+          },
+          "LaunchDate": {
+            "S": "15th August 2012"
+          },
+          "ModelNo": {
+            "S": "X2/27 Fidelio"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "34"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "166"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00BLG5CSM"
+          },
+          "Brand": {
+            "S": "Philips"
+          },
+          "Model": {
+            "S": "SHQ1200/28 Sports Headphones"
+          },
+          "Price": {
+            "S": "8,054"
+          },
+          "LaunchDate": {
+            "S": "-"
+          },
+          "ModelNo": {
+            "S": "SHQ1200/28"
+          },
+          "Type": {
+            "S": "Headphone"
+          },
+          "HeadphoneType": {
+            "S": "In Ear"
+          },
+          "Connectivity": {
+            "S": "wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "32"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "25"
+          },
+          "Weight": {
+            "S": "9.92"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B001QGETI6"
+          },
+          "Brand": {
+            "S": "Philips"
+          },
+          "Model": {
+            "S": "SHE9550/27 Headphones"
+          },
+          "Price": {
+            "S": "999"
+          },
+          "LaunchDate": {
+            "S": "11th September 2012"
+          },
+          "ModelNo": {
+            "S": "SHE9550/27"
+          },
+          "Type": {
+            "S": "Headphone"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "15"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "16"
+          },
+          "Weight": {
+            "S": "219"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B010KH825C"
+          },
+          "Brand": {
+            "S": "Powerbeats2 "
+          },
+          "Model": {
+            "S": "Wireless Headphone -Old Model"
+          },
+          "Price": {
+            "S": "4,999"
+          },
+          "LaunchDate": {
+            "S": "22nd August 2017"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "40"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "16"
+          },
+          "Weight": {
+            "S": "186"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002DGTGO0"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "HD448 Wired Headphones"
+          },
+          "Price": {
+            "S": "60,499"
+          },
+          "LaunchDate": {
+            "S": "17th March 2012"
+          },
+          "ModelNo": {
+            "S": "HD448"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "28"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "No"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "3.45"
+          },
+          "Weight": {
+            "S": "196"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002DGTGO0"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "Sennheiser HD448 Wired Headphones"
+          },
+          "Price": {
+            "S": "60,499"
+          },
+          "LaunchDate": {
+            "S": "17th March 2012"
+          },
+          "ModelNo": {
+            "S": "HD448"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "8"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "385"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00Z288XTA"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "CXC 700 Travel Headphones"
+          },
+          "Price": {
+            "S": "38,054"
+          },
+          "LaunchDate": {
+            "S": "1st January 2017"
+          },
+          "ModelNo": {
+            "S": "CXC 700"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": " Ear-Canal "
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "54"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "230"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00ZAF2DRI"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "OCX 685i Adidas Sports Headphones "
+          },
+          "Price": {
+            "S": "54,353"
+          },
+          "LaunchDate": {
+            "S": "1st January 2017"
+          },
+          "ModelNo": {
+            "S": "OCX 685i"
+          },
+          "Type": {
+            "S": "Headphone"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear "
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "45"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "6"
+          },
+          "Weight": {
+            "S": "238"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B003LPTAYI"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "HD 202 II Professional headphones"
+          },
+          "Price": {
+            "S": "2,990"
+          },
+          "LaunchDate": {
+            "S": "1st January 2017"
+          },
+          "ModelNo": {
+            "S": "HD 202 II "
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over The Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "15"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "165"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0007XJSQC"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "HD 201 Lightweight Over-Ear Headphones"
+          },
+          "Price": {
+            "S": "$79.99"
+          },
+          "LaunchDate": {
+            "S": "-"
+          },
+          "ModelNo": {
+            "S": "HD 201 "
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "21"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "130"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00TV08IZY"
+          },
+          "Brand": {
+            "S": "sennheiser"
+          },
+          "Model": {
+            "S": "HDR 175 Accessory RF Headphone "
+          },
+          "Price": {
+            "S": "Rs.1,700.00"
+          },
+          "LaunchDate": {
+            "S": "1st January 2017"
+          },
+          "ModelNo": {
+            "S": "HDR 175 "
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "40"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "No"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "22"
+          },
+          "Weight": {
+            "S": "396"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000E6G9RI"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "CX300-B Stereo Headphone"
+          },
+          "Price": {
+            "S": "8956"
+          },
+          "LaunchDate": {
+            "S": "15th March 2016"
+          },
+          "ModelNo": {
+            "S": "CX300-B"
+          },
+          "Type": {
+            "S": "Headphone"
+          },
+          "HeadphoneType": {
+            "S": "In Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "23"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "23"
+          },
+          "Weight": {
+            "S": "130"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000AM8WQM"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "PX 100 Portable Foldable Hi-Fi Headphones"
+          },
+          "Price": {
+            "S": "$195.00"
+          },
+          "LaunchDate": {
+            "S": "19th November 2012"
+          },
+          "ModelNo": {
+            "S": "PX-100"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "47"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "60"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000OOZVD8"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "PXC 350 Headphones"
+          },
+          "Price": {
+            "S": "36,262"
+          },
+          "LaunchDate": {
+            "S": "12th August 2013"
+          },
+          "ModelNo": {
+            "S": "PXC 350"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "40"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "6"
+          },
+          "Weight": {
+            "S": "230"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00004SD89"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "HD590 Full Size Headphone"
+          },
+          "Price": {
+            "S": "30,059"
+          },
+          "LaunchDate": {
+            "S": "16th October 2013"
+          },
+          "ModelNo": {
+            "S": "HD590"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "42"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "22"
+          },
+          "Weight": {
+            "S": "219.99"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00004SD87"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "HD500 Open Fusion Full-Size Headphones "
+          },
+          "Price": {
+            "S": "32,199"
+          },
+          "LaunchDate": {
+            "S": "12th August 2014"
+          },
+          "ModelNo": {
+            "S": "HD500"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "37"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "76"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00004SD88"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "HD570 Open Dynamic Hi-Fi Stereo Headphones "
+          },
+          "Price": {
+            "S": "25,839"
+          },
+          "LaunchDate": {
+            "S": "9th December 2015"
+          },
+          "ModelNo": {
+            "S": "HD570"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "45"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "30"
+          },
+          "Weight": {
+            "S": "21.82"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00004SY4H"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "HD 600 Open Back Professional Headphone"
+          },
+          "Price": {
+            "S": "27,999"
+          },
+          "LaunchDate": {
+            "S": "17th March 2012"
+          },
+          "ModelNo": {
+            "S": "HD 600"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "16"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "15"
+          },
+          "Weight": {
+            "S": "399"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00004Z0BN"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "MX400  Headphone with Carrying Case"
+          },
+          "Price": {
+            "S": "25,249"
+          },
+          "LaunchDate": {
+            "S": "16th March 2012"
+          },
+          "ModelNo": {
+            "S": "MX400"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "8"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "27"
+          },
+          "Weight": {
+            "S": "40"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00004Z0BO"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "MX500 Lightweight Headphone with Carrying Case"
+          },
+          "Price": {
+            "S": "23,579"
+          },
+          "LaunchDate": {
+            "S": "6th November 2015"
+          },
+          "ModelNo": {
+            "S": "MX500 "
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "17"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "22"
+          },
+          "Weight": {
+            "S": "55"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00004Z0BP"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "EH2200 Professional HiFi Studio Headphones"
+          },
+          "Price": {
+            "S": "16,990"
+          },
+          "LaunchDate": {
+            "S": "-"
+          },
+          "ModelNo": {
+            "S": "EH2200"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "TWS"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "7"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "No"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5.1"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC,aptX"
+          },
+          "BatteryLife": {
+            "S": "6"
+          },
+          "Weight": {
+            "S": "6"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00005R8Q1"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "RS 85 HiFi Stereo Wireless Headphones "
+          },
+          "Price": {
+            "S": "2,990"
+          },
+          "LaunchDate": {
+            "S": "1st January 2017"
+          },
+          "ModelNo": {
+            "S": "RS 85"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "23"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "No"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "22"
+          },
+          "Weight": {
+            "S": "396"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00005R8PV"
+          },
+          "Brand": {
+            "S": "Sennheiser"
+          },
+          "Model": {
+            "S": "RS 45 HiFi Stereo Headphones"
+          },
+          "Price": {
+            "S": "4,999"
+          },
+          "LaunchDate": {
+            "S": "17th March 2012"
+          },
+          "ModelNo": {
+            "S": "RS 45"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless "
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "34"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "17"
+          },
+          "Weight": {
+            "S": "12"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00000DMA3"
+          },
+          "Brand": {
+            "S": "Sony"
+          },
+          "Model": {
+            "S": "MDR-NC20 Noise Canceling Headphones with Foldable Headband"
+          },
+          "Price": {
+            "S": "48,048"
+          },
+          "LaunchDate": {
+            "S": "7th October 2013"
+          },
+          "ModelNo": {
+            "S": "MDR-NC20"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "50"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "22"
+          },
+          "Weight": {
+            "S": "28.3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00007EDM8"
+          },
+          "Brand": {
+            "S": "Sony"
+          },
+          "Model": {
+            "S": "MDR-J10 H. Headphones"
+          },
+          "Price": {
+            "S": "49,000"
+          },
+          "LaunchDate": {
+            "S": "-"
+          },
+          "ModelNo": {
+            "S": "MDR-J10 H"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "16"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "28"
+          },
+          "Weight": {
+            "S": "10"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001WRSJ"
+          },
+          "Brand": {
+            "S": "Sony"
+          },
+          "Model": {
+            "S": "MDRV6 Studio Monitor Headphones with CCAW Voice Coil"
+          },
+          "Price": {
+            "S": "$199.99"
+          },
+          "LaunchDate": {
+            "S": "24th July 2019"
+          },
+          "ModelNo": {
+            "S": "MDRV6"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "40"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "No"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4.2"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC,aptX,aptX HD,LDAC"
+          },
+          "BatteryLife": {
+            "S": "30"
+          },
+          "Weight": {
+            "S": "254"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001W0DI"
+          },
+          "Brand": {
+            "S": "Sony"
+          },
+          "Model": {
+            "S": "Studio Monitor MDR-V600 Stereo Headphone"
+          },
+          "Price": {
+            "S": "16,990"
+          },
+          "LaunchDate": {
+            "S": "24th July 2019"
+          },
+          "ModelNo": {
+            "S": "MDR-V600"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "40"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "No"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4.2"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC,aptX,aptX HD,LDAC"
+          },
+          "BatteryLife": {
+            "S": "30"
+          },
+          "Weight": {
+            "S": "254"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001W0DD"
+          },
+          "Brand": {
+            "S": "Sony"
+          },
+          "Model": {
+            "S": "MDR-V300 Monitor Series Headphones with Folding Design"
+          },
+          "Price": {
+            "S": " 690.00"
+          },
+          "LaunchDate": {
+            "S": "2014"
+          },
+          "ModelNo": {
+            "S": "MDR-V300"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In Ear"
+          },
+          "Connectivity": {
+            "S": "wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "45"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "20"
+          },
+          "Weight": {
+            "S": "4.54"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00001Z3H8"
+          },
+          "Brand": {
+            "S": "Sony"
+          },
+          "Model": {
+            "S": "SRFHM55 Sports Walkman AM/FM Stereo Headphone Radio"
+          },
+          "Price": {
+            "S": "29,990"
+          },
+          "LaunchDate": {
+            "S": "August 2020"
+          },
+          "ModelNo": {
+            "S": "SRFHM55"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "40"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC,LDAC"
+          },
+          "BatteryLife": {
+            "S": "28"
+          },
+          "Weight": {
+            "S": "519.9"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00XQNGMBO"
+          },
+          "Brand": {
+            "S": "V-MODA"
+          },
+          "Model": {
+            "S": "Crossfade LP Noise-Isolating Metal Headphone"
+          },
+          "Price": {
+            "S": "7451"
+          },
+          "LaunchDate": {
+            "S": "-"
+          },
+          "ModelNo": {
+            "S": "Crossfade"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "25"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "Yes"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "22"
+          },
+          "Weight": {
+            "S": "260"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00K3K8TKA"
+          },
+          "Brand": {
+            "S": "V-MODA"
+          },
+          "Model": {
+            "S": "XL Cushions Headphones"
+          },
+          "Price": {
+            "S": "23,770"
+          },
+          "LaunchDate": {
+            "S": "14th April 2015"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "14.8"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SBC,AAC"
+          },
+          "BatteryLife": {
+            "S": "8"
+          },
+          "Weight": {
+            "S": "340"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00JJVW7E8"
+          },
+          "Brand": {
+            "S": "Beats"
+          },
+          "Model": {
+            "S": "Mixr Headphone "
+          },
+          "Price": {
+            "S": "30,772"
+          },
+          "LaunchDate": {
+            "S": "17th March 2012"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On Ear "
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "41"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5"
+          },
+          "BluetoothCodecSupport": {
+            "S": "AAC"
+          },
+          "BatteryLife": {
+            "S": "25"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0151VM8HU"
+          },
+          "Brand": {
+            "S": "Beats"
+          },
+          "Model": {
+            "S": "Wireless Headphone "
+          },
+          "Price": {
+            "S": "20,652"
+          },
+          "LaunchDate": {
+            "S": "9th July 2015"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "-"
+          },
+          "DriverSize": {
+            "S": "23"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "-"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B008EQ1ZJM"
+          },
+          "Brand": {
+            "S": "Beats"
+          },
+          "Model": {
+            "S": "Solo HD Headphone "
+          },
+          "Price": {
+            "S": "35,356"
+          },
+          "LaunchDate": {
+            "S": "10th October 2017"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "-"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "8"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "-"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B018IZ9C2K"
+          },
+          "Brand": {
+            "S": "Beats"
+          },
+          "Model": {
+            "S": "Beats Solo2 Headphone"
+          },
+          "Price": {
+            "S": "40,000"
+          },
+          "LaunchDate": {
+            "S": "17th Feb 2016"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "On-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "20"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "SCB"
+          },
+          "BatteryLife": {
+            "S": "-"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00GBVKN54"
+          },
+          "Brand": {
+            "S": "Beats"
+          },
+          "Model": {
+            "S": "Beats Studio Headphone "
+          },
+          "Price": {
+            "S": "42,7899"
+          },
+          "LaunchDate": {
+            "S": "20th Octomber 2017"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "Over-Ear"
+          },
+          "Connectivity": {
+            "S": "Wireless"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "45"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "-"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00005QBU9"
+          },
+          "Brand": {
+            "S": "Sony"
+          },
+          "Model": {
+            "S": "MDR-V150 Monitor Series Headphones"
+          },
+          "Price": {
+            "S": "25,770"
+          },
+          "LaunchDate": {
+            "S": "14th April 2014"
+          },
+          "ModelNo": {
+            "S": "MDR-V150"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "-"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "-"
+          },
+          "DriverSize": {
+            "S": "-"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "5.1"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "30"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00006IS50"
+          },
+          "Brand": {
+            "S": "Sony"
+          },
+          "Model": {
+            "S": "MDR-A34L Vertical In-The-Ear Headphones"
+          },
+          "Price": {
+            "S": "28,761"
+          },
+          "LaunchDate": {
+            "S": "24th July 2019"
+          },
+          "ModelNo": {
+            "S": "MDR-A34L"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "-"
+          },
+          "DriverType": {
+            "S": "-"
+          },
+          "DriverSize": {
+            "S": "-"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "Yes"
+          },
+          "BluetoothVersion": {
+            "S": "4.2"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "30"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B00005BYER"
+          },
+          "Brand": {
+            "S": "Sony"
+          },
+          "Model": {
+            "S": "MDR-W20G Sports Vertical Headphones"
+          },
+          "Price": {
+            "S": "30,772"
+          },
+          "LaunchDate": {
+            "S": "5th September 2009"
+          },
+          "ModelNo": {
+            "S": "MDR-W20G"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "22"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "No"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "-"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B0002SQ3Z6"
+          },
+          "Brand": {
+            "S": "Sony"
+          },
+          "Model": {
+            "S": "MDR-G42LP Street Style Headphones"
+          },
+          "Price": {
+            "S": "16,900"
+          },
+          "LaunchDate": {
+            "S": "16th October 2013"
+          },
+          "ModelNo": {
+            "S": "MDR-G42LP"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": ""
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "12"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "-"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B000EZZL4G"
+          },
+          "Brand": {
+            "S": "V-MODA"
+          },
+          "Model": {
+            "S": "Bass Freq Stereo Headphone"
+          },
+          "Price": {
+            "S": "22,452"
+          },
+          "LaunchDate": {
+            "S": "25th July 2015"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "No"
+          },
+          "DriverType": {
+            "S": "-"
+          },
+          "DriverSize": {
+            "S": "25"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "-"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "asin": {
+            "S": "B002XYUHFY"
+          },
+          "Brand": {
+            "S": "V-MODA"
+          },
+          "Model": {
+            "S": "Fazer Noise-Isolating Metal Headphone with Universal One-Button Mic "
+          },
+          "Price": {
+            "S": "25,462"
+          },
+          "LaunchDate": {
+            "S": "20th September 2009"
+          },
+          "ModelNo": {
+            "S": "-"
+          },
+          "Type": {
+            "S": "Headphones"
+          },
+          "HeadphoneType": {
+            "S": "In-Ear"
+          },
+          "Connectivity": {
+            "S": "Wired"
+          },
+          "Microphone": {
+            "S": "Yes"
+          },
+          "DriverType": {
+            "S": "Dynamic"
+          },
+          "DriverSize": {
+            "S": "37"
+          },
+          "NumberofDrivers": {
+            "S": "1"
+          },
+          "WaterResistant": {
+            "S": "-"
+          },
+          "Bluetooth": {
+            "S": "-"
+          },
+          "BluetoothVersion": {
+            "S": "-"
+          },
+          "BluetoothCodecSupport": {
+            "S": "-"
+          },
+          "BatteryLife": {
+            "S": "-"
+          },
+          "Weight": {
+            "S": "-"
+          }
+        }
+      }
+    }
+  ]
+}

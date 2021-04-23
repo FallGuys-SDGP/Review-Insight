@@ -30,6 +30,8 @@ exports.handler = async (event, context) => {
             responseBody = "Product asin not found"
             statusCode = 200
         }
+        // responseBody = JSON.stringify(data.Item);
+        // statusCode = 200;
     } catch (err) {
         responseBody = "Unable to get product data";
         statusCode = 403;
