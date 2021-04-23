@@ -19,9 +19,9 @@ function AboutUs() {
             <div class="main">
                 <h1 style={{ fontSize: "50px" }}>Hi there, we’re Review Insight</h1>
 
-                <p class="about">Fakespot's mission is to bring trust and transparency to the
+                <p class="about">Review Insight's mission is to bring trust and transparency to the
                 Internet by eliminating misinformation and fraud, starting
-                with eCommerce. Fakespot protects consumers while saving them
+                with eCommerce. Review Insight protects consumers while saving them
                 both time and money by using AI to detect fraudulent product
                 reviews and third-party sellers in real-time. Our proprietary
                 technology analyzes billions of consumer reviews to quickly identify
