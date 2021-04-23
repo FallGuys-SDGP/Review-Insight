@@ -33,13 +33,18 @@
 	flex-direction: row;
 	background-color: #0b64ca;
 	color: black;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	border-radius: 15px;
 	margin-top: 2%;
+
 }
 
 .report-chart-box {
-
+	padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: skyblue;
+    border-radius: 10px;
+	width: 70%;
 }
 
 .report-seller-box {

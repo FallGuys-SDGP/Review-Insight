@@ -41,28 +41,28 @@ def breakSentences(df_reviews, word_array):
 
 def sentiment(my_sentiment_pipeline, sentenceArray, feature):
   df_feature = sentenceArray
-  count_ng = 0
-  count_nu = 0
-  count_po = 0
+  count_neg = 0
+  count_neu = 0
+  count_pos = 0
   for index, row in df_feature.iterrows():
     if(len(row['reviewText'])==0):
         df_feature.loc[index, feature+'_label'] = 'NA'
     else:
         prdict = my_sentiment_pipeline.predict(row['reviewText'])
-        po=0
-        nu=0
-        ng=0
+        pos=0
+        neu=0
+        neg=0
         for item in prdict:
             if (item=="pos"):
-                po=po+1
-                count_po=count_po+po
+                pos=pos+1
+                count_pos=count_pos+pos
             elif (item=="neg"):
-                ng=ng+1
-                count_ng=count_ng+ng
+                neg=neg+1
+                count_neg=count_neg+neg
             elif (item=="neu"):
-                nu=nu+1
-                count_nu=count_nu+nu
-        var = {po:"po",ng:"ng",nu:"nu"}
+                neu=neu+1
+                count_neu=count_neu+neu
+        var = {pos:"pos",neg:"neg",neu:"neu"}
         sen = var.get(max(var))
         df_feature.loc[index, feature+'_label'] = sen
   return df_feature
@@ -142,7 +142,16 @@ def handler(event, context):
 
   json_predict_resposnse = df_reviews.to_json(orient='records') 
   parsed = json.loads(json_predict_resposnse) # to avoid  \\ in response
-  
+
+  df_reviews['Audio_label'] = df_reviews['Audio_label'].replace('NA', np.NaN)
+  df_reviews['Build_label'] = df_reviews['Build_label'].replace('NA', np.NaN)
+  df_reviews['Battery_label'] = df_reviews['Battery_label'].replace('NA', np.NaN)
+  df_reviews['Price_label'] = df_reviews['Price_label'].replace('NA', np.NaN)
+  df_reviews['Connection_label'] = df_reviews['Connection_label'].replace('NA', np.NaN)
+  df_reviews['Warranty_label'] = df_reviews['Warranty_label'].replace('NA', np.NaN)
+  df_reviews['Service_label'] = df_reviews['Service_label'].replace('NA', np.NaN)
+  df_reviews['Shipping_label'] = df_reviews['Shipping_label'].replace('NA', np.NaN) 
+
   return_statement =  {
     "statistics": {
       "totalReviews": int((df_reviews.shape[0])),
@@ -151,6 +160,14 @@ def handler(event, context):
       "totalPositive": int(totalPositive),
       "totalNegative": int(totalNegative),
       "totalNeutral": int(totalNeutral),
+      "audioSentiment": df_reviews['Audio_label'].mode().to_dict(),
+      "buildSentiment": df_reviews['Build_label'].mode().to_dict(),
+      "batterySentiment": df_reviews['Battery_label'].mode().to_dict(),
+      "priceSentiment": df_reviews['Price_label'].mode().to_dict(),
+      "connectionSentiment": df_reviews['Connection_label'].mode().to_dict(),
+      "warrantySentiment": df_reviews['Warranty_label'].mode().to_dict(),
+      "serviceSentiment": df_reviews['Service_label'].mode().to_dict(),
+      "shippingSentiment": df_reviews['Shipping_label'].mode().to_dict()
     },
     "reviewData": parsed
   }
