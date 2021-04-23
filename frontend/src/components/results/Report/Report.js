@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import {Card, CardContent, CardHeader, Typography} from "@material-ui/core";
+import React from "react";
 import "../Report/Report.css"
+import {Doughnut} from "react-chartjs-2";
 
 const brand = "Apple";
 const warranty = "1 year";
@@ -11,6 +11,24 @@ const price = "USD 1.5";
 const qualityGrade = "Grade 3";
 const shipping = "60%";
 const refund = "Accepted";
+
+let summaryData = {
+	labels: [
+		'Real',
+		'Fake'
+	],
+	datasets: [{
+		data: [300, 50],
+		backgroundColor: [
+		'#36A2EB',
+		'#FF6384'
+		],
+		hoverBackgroundColor: [
+		'#36A2EB',
+		'#FF6384'
+		]
+	}]
+};
 
 
 function Report(){
@@ -23,19 +41,34 @@ function Report(){
 		specificationResponse = response
 		reportResponse = response
 	}
-	reportResponse = reportResponse.predictionResult.reviewData
+	reportResponse = reportResponse.predictionResult
 	specificationResponse = specificationResponse.specification 
 	console.log('Report response', reportResponse)
 	console.log('Specification Response ', specificationResponse)
 
+	summaryData = {
+		labels: [
+		  'Real - ' + reportResponse.statistics.totalReal,
+		  'Fake - ' + reportResponse.statistics.totalFake,
+		],
+		datasets: [{
+		  data: [
+			parseInt(reportResponse.statistics.totalReal), 
+			parseInt(reportResponse.statistics.totalFake)
+		  ],
+		  backgroundColor: [
+		  '#36A2EB',
+		  '#FF6384'
+		  ],
+		  hoverBackgroundColor: [
+		  '#36A2EB',
+		  '#FF6384'
+		  ]
+		}]
+	  };
+
   return(
 	<div className="report-container">
-		{/* {reportResponse.map((index) =>(
-			<div>
-				{index.asin}
-				{index.reviewText}
-			</div>
-		))} */}
 		<div className="report-detail-card">
 			<div className="report-box-card">
 				<h3>Brand</h3>
@@ -56,11 +89,8 @@ function Report(){
 		</div>
 		<div className="report-chart-card">
 			<div className="report-chart-box">
-				<h3 style={{color: "white"}}>Review Percentage</h3>
-			</div>
-			<div className="report-seller-box">
-				<h3>Seller</h3>
-				<span>{seller}</span>
+				<h3 style={{color: "white", textAlign: "center"}}>Review Percentage</h3>
+				<Doughnut data={summaryData}></Doughnut>
 			</div>
 		</div>
 		<div className="report-word-cloud">

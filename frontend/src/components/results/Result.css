@@ -18,18 +18,18 @@
     border-radius: 25px;
     margin-top: 1%;
     margin-bottom: 3%;
+    text-align: center;
 }
 
 .res-product-summary-title {
-    margin-left: 33%;
+    text-align: center;
     color: white;
 }
 
 .res-product-img {
     width: 150px;
     height: 200px;
-    margin-left: 29%;
-    background-color: white;
+    background-color: skyblue;
     padding: 3px;
     border-radius: 10px;
 }
@@ -44,13 +44,13 @@
     padding: 25px;
 }
 .summary-title{
-    margin-left: 33%;
+    text-align: center;
     color: white;
 }
 
 .summary-chart-box {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: white;
+    background-color: skyblue;
     border-radius: 10px;
 }
