@@ -68,7 +68,7 @@ function f2( text ) {
   }
   if(text === 'NA') {
     sy2 = {
-      backgroundColor: "gray",
+      backgroundColor: "rgb(208, 211, 208);",
     }
   }
   if(text === 'po') {
@@ -264,7 +264,7 @@ function ReviewContainer() {
           {f7(index.Shipping_label)}
           {f8(index.Warranty_label)}
 
-          <p>{test}</p>
+ 
 
 
 
