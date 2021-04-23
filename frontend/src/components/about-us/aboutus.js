@@ -100,8 +100,8 @@ function AboutUs() {
                         <div class="namee">Dinuvi</div>
                         <div class="poost">Co-Founder</div>
                         <div class="links">
-                            <a href="https://www.linkedin.com/in/dinuvi-munasinghe-65a014194/"> <div class="git"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
-                            <a href="https://github.com/dinuviMunasinghe"><div class="ld"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                            <a href="https://github.com/dinuviMunasinghe"> <div class="git"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                            <a href="https://www.linkedin.com/in/dinuvi-munasinghe-65a014194/"><div class="ld"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
                         </div>
 
                     </div>
@@ -112,7 +112,7 @@ function AboutUs() {
                         <div class="namee">Udari</div>
                         <div class="poost">Co-Founder</div>
                         <div class="links">
-                            <a href="https://www.w3schools.com"> <div class="git"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
+                            <a href="https://github.com/udariwelipitiya"> <div class="git"><img src={github} className="App-logo" alt="logo" height="100%" ></img></div></a>
                             <a href="https://www.linkedin.com/in/w-m-udari-priyanvada-welipitiya-bb221b196/"><div class="ld"><img src={linkedIn} className="App-logo" alt="logo" height="100%" ></img></div></a>
                         </div>
 
