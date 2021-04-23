@@ -29,7 +29,7 @@ function Home(){
           A tool to predict the reliability of online reviews using machine learning
         </div>
         <SearchBar userEnteredId = { searchId => setSearchId(searchId) } /> 
-      </div>  
+      </div> 
     </div>
   );
 }
