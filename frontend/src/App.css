@@ -37,3 +37,55 @@ li a {
 li a:hover {
   background-color:   #4d88ff;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  width: 100%;
+  height: 80px;
+  background-color: #3333cc;
+  color: aliceblue;
+  position:  bottom;
+  display: flex;
+}
+
+.footerCopy{
+  width: 70%;
+  height: 80%;
+  text-align: right;
+
+}
+
+.foterLinks{
+  width: 30%;
+  height: 80%;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 10px;
+}

@@ -7,10 +7,11 @@ import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import AboutUs from './components/about-us/aboutus'
 import Contact from './components/contact/contact'
+import Footer from './components/Footer/Footer'
 
 
-function App(){
-  return(
+function App() {
+  return (
     <Router>
       <div className="app">
         <div class="top-nav">
@@ -39,8 +40,7 @@ function App(){
           <Route path="/aboutus" exact component={AboutUs}/>
           <Route path="/contact" exact component={Contact}/>
         </Switch>
-
-      </div> 
+      </div>
     </Router>
   );
 }

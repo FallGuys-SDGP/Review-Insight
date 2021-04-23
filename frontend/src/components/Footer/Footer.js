@@ -6,39 +6,18 @@ import "./Footer.css";
 
 
 
-function Footer(){
-  return(
-   
-   <div  className = "wrapper-footer" >
-        <div className="container-footer">  
-        
-            <div className = "item-footer"> 57 Ramakrishna Road,Colombo 6</div>
-            <div className = "item-footer"> +94 112 345567</div>
-            <div className = "item-footer"> review-insight@gmail.com</div>
-        </div>
-        
-        <div>
-              <div className="container-footer"> 
-                <div className = "item-footer" style={{color:"green"}}> About the Comapany</div>
-                <div className = "item-footer"> We are a Company try to help Online customer to buy genuie product.</div>
-              </div>
-              
-              <div>
-              
-                {/* <div className= 'social-icon'><img src={faceBook} alt="userIcon" height="40px" /></div> */}
-                {/* <div className= 'social-icon'><img src={instagram} alt="userIcon" height="40px" /></div>
-                <div className= 'social-icon'><img src={twitter} alt="userIcon" height="40px" /></div> */}
+function Footer() {
+  return (
 
-              </div>
-
-         </div>
-        
-     
-         
-    </div> 
+    <div class="footer">
+      <div class="foterLinks">
+        <p>Review insite</p>
+      </div>
+      <p class="footerCopy">Copyright @2021 | Designed With by Review Insight</p>
+    </div>
   );
 
-    
+
 }
 
 export default Footer;
