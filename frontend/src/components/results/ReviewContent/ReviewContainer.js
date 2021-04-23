@@ -39,7 +39,7 @@ let test="yes"
 
 
 function f1( text ) {
-  if(text === 'nu') {
+  if(text === 'neu') {
     sy1 = {
       backgroundColor: "yellow",
     }
@@ -49,19 +49,19 @@ function f1( text ) {
       backgroundColor: "gray",
     }
   }
-  if(text === 'po') {
+  if(text === 'pos') {
     sy1 = {
       backgroundColor: "green",
     }
   }
-  if(text === 'ne') {
+  if(text === 'neg') {
     sy1 = {
       backgroundColor: "red",
     }
   }
 }
 function f2( text ) {
-  if(text === 'nu') {
+  if(text === 'neu') {
     sy2 = {
       backgroundColor: "yellow",
     }
@@ -71,12 +71,12 @@ function f2( text ) {
       backgroundColor: "rgb(208, 211, 208);",
     }
   }
-  if(text === 'po') {
+  if(text === 'pos') {
     sy2 = {
       backgroundColor: "green",
     }
   }
-  if(text === 'ne') {
+  if(text === 'neg') {
     sy2 = {
       backgroundColor: "red",
     }
@@ -84,7 +84,7 @@ function f2( text ) {
 }
 
 function f3( text ) {
-  if(text === 'nu') {
+  if(text === 'neu') {
     sy3 = {
       backgroundColor: "yellow",
     }
@@ -99,7 +99,7 @@ function f3( text ) {
       backgroundColor: "green",
     }
   }
-  if(text === 'ne') {
+  if(text === 'neg') {
     sy3 = {
       backgroundColor: "red",
     }
@@ -107,7 +107,7 @@ function f3( text ) {
 }
 
 function f4( text ) {
-  if(text === 'nu') {
+  if(text === 'neu') {
     sy4 = {
       backgroundColor: "yellow",
     }
@@ -117,12 +117,12 @@ function f4( text ) {
       backgroundColor: "gray",
     }
   }
-  if(text === 'po') {
+  if(text === 'pos') {
     sy4 = {
       backgroundColor: "green",
     }
   }
-  if(text === 'ne') {
+  if(text === 'neg') {
     sy4 = {
       backgroundColor: "red",
     }
@@ -130,7 +130,7 @@ function f4( text ) {
 }
 
 function f5( text ) {
-  if(text === 'nu') {
+  if(text === 'neu') {
     sy5 = {
       backgroundColor: "yellow",
     }
@@ -140,12 +140,12 @@ function f5( text ) {
       backgroundColor: "gray",
     }
   }
-  if(text === 'po') {
+  if(text === 'pos') {
     sy5 = {
       backgroundColor: "green",
     }
   }
-  if(text === 'ne') {
+  if(text === 'neg') {
     sy5 = {
       backgroundColor: "red",
     }
@@ -153,7 +153,7 @@ function f5( text ) {
 }
 
 function f6( text ) {
-  if(text === 'nu') {
+  if(text === 'neu') {
     sy6 = {
       backgroundColor: "yellow",
     }
@@ -163,12 +163,12 @@ function f6( text ) {
       backgroundColor: "gray",
     }
   }
-  if(text === 'po') {
+  if(text === 'pos') {
     sy6 = {
       backgroundColor: "green",
     }
   }
-  if(text === 'ne') {
+  if(text === 'neg') {
     sy6 = {
       backgroundColor: "red",
     }
@@ -176,7 +176,7 @@ function f6( text ) {
 }
 
 function f7( text ) {
-  if(text === 'nu') {
+  if(text === 'neu') {
     sy7 = {
       backgroundColor: "yellow",
     }
@@ -186,12 +186,12 @@ function f7( text ) {
       backgroundColor: "gray",
     }
   }
-  if(text === 'po') {
+  if(text === 'pos') {
     sy7 = {
       backgroundColor: "green",
     }
   }
-  if(text === 'ne') {
+  if(text === 'neg') {
     sy7 = {
       backgroundColor: "red",
     }
@@ -199,7 +199,7 @@ function f7( text ) {
 }
 
 function f8( text ) {
-  if(text === 'nu') {
+  if(text === 'neu') {
     sy8 = {
       backgroundColor: "yellow",
     }
@@ -209,12 +209,12 @@ function f8( text ) {
       backgroundColor: "gray",
     }
   }
-  if(text === 'po') {
+  if(text === 'pos') {
     sy8 = {
       backgroundColor: "green",
     }
   }
-  if(text === 'ne') {
+  if(text === 'neg') {
     sy8 = {
       backgroundColor: "red",
     }
