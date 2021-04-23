@@ -1,0 +1,20 @@
+.footer{
+    width: 100%;
+    background-color: #3333cc;
+    color: aliceblue;
+    position: fixed;
+    bottom: -3.5%;
+  }
+  
+  .footerCopy{
+    width: 70%;
+  }
+  
+  .foterLinks{
+    width: 30%;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 10px;
+    top: 20px;
+  }
+  

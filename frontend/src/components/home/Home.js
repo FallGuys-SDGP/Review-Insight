@@ -3,25 +3,23 @@ import "../../components/home/Home.css";
 import { TextField,Button } from '@material-ui/core';
 import SearchBar from '../../components/home/SearchBar';
 import {fetchProductReveiw} from "../../utils/Services";
+import { useHistory } from "react-router-dom";
 
 function Home(){
-  const { useEffect, useState} = React;
-  const [ProductId, setProductId] = useState('0232');
-  const [ProductTitle, setProductTitle] = useState('Headset');
-  const [ProductBrand, setProductBrand] = useState('Apple');
-  const [ProductImage, setProductImage] = useState('');
+  const { useState} = React;
   const [searchId, setSearchId] = useState(' ');
-
+  const [receivedResponse, setReceivedResponse] = useState(false);
+  let history = useHistory();
 
   if(searchId !== ' ') {
     fetchProductReveiw(searchId).then(productData => {
-      if(searchId !== productData.data){
-        setProductId(productData.data.asin);
-        setProductTitle(productData.data.title);
-        setProductBrand(productData.data.brand);
-        setProductImage(productData.data.image);
+      if(!receivedResponse){
+        console.log(productData.data)
+        localStorage.setItem('mainResponse', JSON.stringify(productData.data))
+        history.push('/result')
+        setReceivedResponse(true)
       }
-      });
+    });
   }
 
   return(
@@ -31,7 +29,7 @@ function Home(){
           A tool to predict the reliability of online reviews using machine learning
         </div>
         <SearchBar userEnteredId = { searchId => setSearchId(searchId) } /> 
-      </div>  
+      </div> 
     </div>
   );
 }

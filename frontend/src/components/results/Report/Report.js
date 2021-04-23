@@ -1,29 +1,81 @@
 import React from "react";
-import {Card, CardContent, CardHeader, Typography} from "@material-ui/core";
 import "../Report/Report.css"
+import {Doughnut} from "react-chartjs-2";
 
-const brand = "Apple";
-const warranty = "1 year";
-const quality = "80%";
-const satisfaction = "4.5/5";
-const seller = "RedArt";
-const price = "USD 1.5";
-const qualityGrade = "Grade 3";
-const shipping = "60%";
-const refund = "Accepted";
+let brand = "neutral";
+let warrantySentiment = "neutral";
+let quality = "neutral";
+let satisfaction = "neutral";
+let seller = "neutral";
+let price = "neutral";
+let qualityGrade = "neutral";
+let shipping = "neutral";
+let refund = "neutral";
+
+let summaryData = {
+	labels: [
+		'Real',
+		'Fake'
+	],
+	datasets: [{
+		data: [300, 50],
+		backgroundColor: [
+		'#36A2EB',
+		'#FF6384'
+		],
+		hoverBackgroundColor: [
+		'#36A2EB',
+		'#FF6384'
+		]
+	}]
+};
 
 function Report(){
+	var reportResponse = []
+	var specificationResponse = [] 
+
+	if(localStorage.getItem('mainResponse').length > 0) {
+		let response = JSON.parse(localStorage.getItem('mainResponse'))
+		console.log("Inside report - ", response)
+		specificationResponse = response
+		reportResponse = response
+	}
+	reportResponse = reportResponse.predictionResult
+	specificationResponse = specificationResponse.specification 
+	console.log('Report response', reportResponse)
+	console.log('Specification Response ', specificationResponse)
+
+	summaryData = {
+		labels: [
+		  'Real - ' + reportResponse.statistics.totalReal,
+		  'Fake - ' + reportResponse.statistics.totalFake,
+		],
+		datasets: [{
+		  data: [
+			parseInt(reportResponse.statistics.totalReal), 
+			parseInt(reportResponse.statistics.totalFake)
+		  ],
+		  backgroundColor: [
+		  '#36A2EB',
+		  '#FF6384'
+		  ],
+		  hoverBackgroundColor: [
+		  '#36A2EB',
+		  '#FF6384'
+		  ]
+		}]
+	  };
 
   return(
 	<div className="report-container">
 		<div className="report-detail-card">
 			<div className="report-box-card">
 				<h3>Brand</h3>
-				<span>{brand}</span>
+				<span>{specificationResponse.Brand}</span>
 			</div>
 			<div className="report-box-card">
 				<h3>Warranty</h3>
-				<span>{warranty}</span>
+				<span>{warrantySentiment}</span>
 			</div>
 			<div className="report-box-card">
 				<h3>Quality</h3>
@@ -36,15 +88,9 @@ function Report(){
 		</div>
 		<div className="report-chart-card">
 			<div className="report-chart-box">
-				<h3 style={{color: "white"}}>Review Percentage</h3>
+				<h3 style={{color: "white", textAlign: "center"}}>Review Percentage</h3>
+				<Doughnut data={summaryData}></Doughnut>
 			</div>
-			<div className="report-seller-box">
-				<h3>Seller</h3>
-				<span>{seller}</span>
-			</div>
-		</div>
-		<div className="report-word-cloud">
-			<h3 style={{color: "white"}}>Word Cloud</h3>
 		</div>
 		<div className="report-price-card">
 			<div className="report-price-box">

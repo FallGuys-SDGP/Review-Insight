@@ -5,14 +5,13 @@ import "./App.css";
 import "./components/results/Tabs.css";
 import "./components/home/Home.css";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
-import LogIn from './components/log-in/login';
-import Register from "./components/register/register";
 import AboutUs from './components/about-us/aboutus'
 import Contact from './components/contact/contact'
+import Footer from './components/Footer/Footer'
 
 
-function App(){
-  return(
+function App() {
+  return (
     <Router>
       <div className="app">
         <div class="top-nav">
@@ -21,9 +20,6 @@ function App(){
           </dic>
           <nav>
             <ul class="nav-links">
-              <Link to="/login">
-                <li><a>Log In / Register </a></li>
-              </Link>
               <Link to="/contact">
                 <li><a>Contact</a></li>
               </Link>
@@ -41,16 +37,14 @@ function App(){
           <Route path="/" exact component={Home}/>
           <Route path="/home" exact component={Home}/>
           <Route path="/result" exact component={Result}/>
-          <Route path="/login" exact component={LogIn}/>
-          <Route path="/register" exact component={Register}/>
-          <Route path="/aboutus" exact component={AboutUs}/>+
+          <Route path="/aboutus" exact component={AboutUs}/>
           <Route path="/contact" exact component={Contact}/>
-
         </Switch>
-
-      </div> 
+      </div>
+      <Footer/>
     </Router>
   );
 }
+
 
 export default App;

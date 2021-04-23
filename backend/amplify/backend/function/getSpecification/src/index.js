@@ -22,8 +22,16 @@ exports.handler = async (event, context) => {
 
     try {
         const data = await documentClient.get(params).promise();
-        responseBody = JSON.stringify(data.Item);
-        statusCode = 200;
+        if(data.Item.asin == asin) {
+            responseBody = data.Item
+            statusCode = 200;
+        }
+        else{
+            responseBody = "Product asin not found"
+            statusCode = 200
+        }
+        // responseBody = JSON.stringify(data.Item);
+        // statusCode = 200;
     } catch (err) {
         responseBody = "Unable to get product data";
         statusCode = 403;
@@ -38,7 +46,7 @@ exports.handler = async (event, context) => {
             "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
             "content-type": "text/html"
         },
-        body: responseBody
+        body: JSON.stringify(responseBody)
     }
     return response;
 }
