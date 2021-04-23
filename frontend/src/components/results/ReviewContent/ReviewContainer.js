@@ -6,37 +6,335 @@ const reviewText = "Yes, it fits, but the product was mis-represented, but the p
 const rating = 2.5
 const score = "5%"
 
-function ReviewContainer(){
+
+
+let sy1 = {
+  backgroundColor: "rgb(28, 15, 136)",
+};
+let sy2 = {
+  backgroundColor: "rgb(28, 15, 136)",
+};
+let sy3 = {
+  backgroundColor: "rgb(28, 15, 136)",
+};
+let sy4 = {
+  backgroundColor: "rgb(28, 15, 136)",
+};
+let sy5 = {
+  backgroundColor: "rgb(28, 15, 136)",
+};
+let sy6 = {
+  backgroundColor: "rgb(28, 15, 136)",
+};
+let sy7 = {
+  backgroundColor: "rgb(28, 15, 136)",
+};
+let sy8 = {
+  backgroundColor: "rgb(28, 15, 136)",
+};
+
+
+
+let test="yes"
+
+
+function f1( text ) {
+  if(text === 'nu') {
+    sy1 = {
+      backgroundColor: "yellow",
+    }
+  }
+  if(text === 'NA') {
+    sy1 = {
+      backgroundColor: "gray",
+    }
+  }
+  if(text === 'po') {
+    sy1 = {
+      backgroundColor: "green",
+    }
+  }
+  if(text === 'ne') {
+    sy1 = {
+      backgroundColor: "red",
+    }
+  }
+}
+function f2( text ) {
+  if(text === 'nu') {
+    sy2 = {
+      backgroundColor: "yellow",
+    }
+  }
+  if(text === 'NA') {
+    sy2 = {
+      backgroundColor: "gray",
+    }
+  }
+  if(text === 'po') {
+    sy2 = {
+      backgroundColor: "green",
+    }
+  }
+  if(text === 'ne') {
+    sy2 = {
+      backgroundColor: "red",
+    }
+  }
+}
+
+function f3( text ) {
+  if(text === 'nu') {
+    sy3 = {
+      backgroundColor: "yellow",
+    }
+  }
+  if(text === 'NA') {
+    sy3 = {
+      backgroundColor: "gray",
+    }
+  }
+  if(text === 'po') {
+    sy3 = {
+      backgroundColor: "green",
+    }
+  }
+  if(text === 'ne') {
+    sy3 = {
+      backgroundColor: "red",
+    }
+  }
+}
+
+function f4( text ) {
+  if(text === 'nu') {
+    sy4 = {
+      backgroundColor: "yellow",
+    }
+  }
+  if(text === 'NA') {
+    sy4 = {
+      backgroundColor: "gray",
+    }
+  }
+  if(text === 'po') {
+    sy4 = {
+      backgroundColor: "green",
+    }
+  }
+  if(text === 'ne') {
+    sy4 = {
+      backgroundColor: "red",
+    }
+  }
+}
+
+function f5( text ) {
+  if(text === 'nu') {
+    sy5 = {
+      backgroundColor: "yellow",
+    }
+  }
+  if(text === 'NA') {
+    sy5 = {
+      backgroundColor: "gray",
+    }
+  }
+  if(text === 'po') {
+    sy5 = {
+      backgroundColor: "green",
+    }
+  }
+  if(text === 'ne') {
+    sy5 = {
+      backgroundColor: "red",
+    }
+  }
+}
+
+function f6( text ) {
+  if(text === 'nu') {
+    sy6 = {
+      backgroundColor: "yellow",
+    }
+  }
+  if(text === 'NA') {
+    sy6 = {
+      backgroundColor: "gray",
+    }
+  }
+  if(text === 'po') {
+    sy6 = {
+      backgroundColor: "green",
+    }
+  }
+  if(text === 'ne') {
+    sy6 = {
+      backgroundColor: "red",
+    }
+  }
+}
+
+function f7( text ) {
+  if(text === 'nu') {
+    sy7 = {
+      backgroundColor: "yellow",
+    }
+  }
+  if(text === 'NA') {
+    sy7 = {
+      backgroundColor: "gray",
+    }
+  }
+  if(text === 'po') {
+    sy7 = {
+      backgroundColor: "green",
+    }
+  }
+  if(text === 'ne') {
+    sy7 = {
+      backgroundColor: "red",
+    }
+  }
+}
+
+function f8( text ) {
+  if(text === 'nu') {
+    sy8 = {
+      backgroundColor: "yellow",
+    }
+  }
+  if(text === 'NA') {
+    sy8 = {
+      backgroundColor: "gray",
+    }
+  }
+  if(text === 'po') {
+    sy8 = {
+      backgroundColor: "green",
+    }
+  }
+  if(text === 'ne') {
+    sy8 = {
+      backgroundColor: "red",
+    }
+  }
+}
+
+
+
+
+
+
+
+
+function ReviewContainer() {
+
+
   var reportResponse = []
-	var specificationResponse = [] 
+  var specificationResponse = []
 
-	if(localStorage.getItem('mainResponse').length > 0) {
-		let response = JSON.parse(localStorage.getItem('mainResponse'))
-		console.log("Inside report - ", response)
-		// specificationResponse = response
-		reportResponse = response
-	}
-	reportResponse = reportResponse.predictionResult.reviewData
-	specificationResponse = specificationResponse.specification 
-	console.log('Report response', reportResponse)
-	// console.log('Specification Response ', specificationResponse)
+  if (localStorage.getItem('mainResponse').length > 0) {
+    let response = JSON.parse(localStorage.getItem('mainResponse'))
+    console.log("Inside report - ", response)
+    // specificationResponse = response
+    reportResponse = response
+  }
+  reportResponse = reportResponse.predictionResult.reviewData
+  specificationResponse = specificationResponse.specification
+  console.log('Report response', reportResponse)
+  // console.log('Specification Response ', specificationResponse)
 
-  return(
+
+
+
+  return (
+
+
     <div className="reviewBox">
-      {reportResponse.map((index) =>(
-        <div>
-          <p> <b> {index.summary}  </b></p>
+      {reportResponse.map((index) => (
+        <div className="oneReview">
 
-            <div style={{ display: 'flex', justifyContent: "space-between"}}>
-              <p> {index.overall} ⭐</p> <p style={{color: "red"}} > Score :  {index.predict} </p>  
-          </div>
+          {f1(index.Audio_label)}
+          {f2(index.Battery_label)}
+          {f3(index.Build_label)}
+          {f4(index.Connection_label)}
+          {f5(index.Price_label)}
+          {f6(index.Service_label)}
+          {f7(index.Shipping_label)}
+          {f8(index.Warranty_label)}
 
-          <div className="reviewText">
-            <p>{index.reviewText} </p>
+          <p>{test}</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div>
+            <p> <b> {index.summary}  </b></p>
+
+            <div style={{ display: 'flex', justifyContent: "space-between" }}>
+              <p> {index.overall} ⭐</p> <p style={{ color: "red" }} > Score :  {index.predict} </p>
+            </div>
+
+            <div className="reviewText">
+              <p>{index.reviewText} </p>
+            </div>
+            <div className="itemSet">
+              <div style={sy1} id="i1" className="items">
+                <span> <p className="iteamName">Audio</p></span>
+                {/* <span> <div className="iteamStatus"></div></span> */}
+              </div>
+
+              <div style={sy2} id="i2" className="items">
+                <span> <p className="iteamName">Battery</p></span>
+                {/* <span> <div className="iteamStatus"></div></span> */}
+              </div>
+
+              <div style={sy3} id="i3" className="items">
+                <span> <p className="iteamName">Build</p></span>
+                {/* <span> <div className="iteamStatus"></div></span> */}
+              </div>
+
+              <div style={sy4} id="i4" className="items">
+                <span> <p className="iteamName">Connection</p></span>
+                {/* <span> <div className="iteamStatus"></div></span> */}
+              </div>
+
+              <div style={sy5} id="i5" className="items">
+                <span> <p className="iteamName">Price</p></span>
+                {/* <span> <div className="iteamStatus"></div></span> */}
+              </div>
+
+              <div style={sy6} id="i6" className="items">
+                <span> <p className="iteamName">Service</p></span>
+                {/* <span> <div className="iteamStatus"></div></span> */}
+              </div>
+
+              <div style={sy7} id="i7" className="items">
+                <span> <p className="iteamName">Shipping</p></span>
+                {/* <span> <div className="iteamStatus"></div></span> */}
+              </div>
+
+              <div style={sy8} id="i8" className="items">
+                <span> <p className="iteamName">Warranty</p></span>
+                {/* <span> <div className="iteamStatus"></div></span> */}
+              </div>
+            </div>
           </div>
         </div>
       ))}
-    </div> 
+
+    </div>
+
 
   );
 }
