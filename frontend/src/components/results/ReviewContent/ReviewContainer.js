@@ -68,7 +68,7 @@ function f2( text ) {
   }
   if(text === 'NA') {
     sy2 = {
-      backgroundColor: "rgb(208, 211, 208);",
+      backgroundColor: "gray",
     }
   }
   if(text === 'pos') {
@@ -94,7 +94,7 @@ function f3( text ) {
       backgroundColor: "gray",
     }
   }
-  if(text === 'po') {
+  if(text === 'pos') {
     sy3 = {
       backgroundColor: "green",
     }
