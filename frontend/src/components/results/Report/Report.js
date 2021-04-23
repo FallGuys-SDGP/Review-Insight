@@ -30,7 +30,6 @@ let summaryData = {
 	}]
 };
 
-
 function Report(){
 	var reportResponse = []
 	var specificationResponse = [] 
@@ -92,9 +91,6 @@ function Report(){
 				<h3 style={{color: "white", textAlign: "center"}}>Review Percentage</h3>
 				<Doughnut data={summaryData}></Doughnut>
 			</div>
-		</div>
-		<div className="report-word-cloud">
-			<h3 style={{color: "white"}}>Word Cloud</h3>
 		</div>
 		<div className="report-price-card">
 			<div className="report-price-box">
