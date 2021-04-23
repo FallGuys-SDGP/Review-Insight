@@ -1,16 +1,87 @@
-.reviewBox {
-    width: 80%;
-    height: 'auto';
-    background-Color: skyblue;
-    border-Radius: 25px;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-.reviewText {
+
+.oneReview {
     width: 'auto';
     height: 'auto';
-    background-Color: lightblue;
+    background-Color: rgb(93, 195, 230);
     border-Radius: 25px;
-    padding: 10px
+    padding: 10px;
+    margin: 10px;
 
 }
+
+.reviewText{
+    background-Color: lightblue;
+    border-Radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.items{
+    width: auto;
+    
+    display: flex;
+    margin: 5px;
+    border-Radius: 10px;
+    padding-right: 10px;
+}
+
+.iteamName{
+    padding-left: 15px;
+}
+
+.iteamStatus{
+    width: 20px;
+    height: 20px;
+    border-Radius: 10px;
+    background-color: green;
+    margin-left: 10px;
+    margin-top: 17px;
+}
+
+.itemSet{
+    display: flex;
+    
+}
+
+
+/* #i1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 15, 136);
+}
+#i2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 15, 136);
+}
+#i3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 15, 136);
+}
+#i4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(134, 111, 7);
+}
+#i5{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 15, 136);
+}
+#i6{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 15, 136);
+}
+#i7{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(62, 131, 5);
+}
+
+#i8{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(62, 131, 5);
+} */

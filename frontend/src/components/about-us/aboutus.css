@@ -38,10 +38,10 @@
     height: 100%;
 }
 .details{
-    width: 50%;
+    width: 100%;
     height: auto;
-    margin: 8px;
-    padding-top: 10px;
+    padding: 10px;
+
 }
 
 .links{
@@ -53,6 +53,7 @@
 .name{
     font-weight: bold;
     font-size: 25px;
+    width: 100%;
 }
 
 .git{
@@ -81,4 +82,17 @@
 .about{
     width: 70%;
     text-align: justify;
+    font-size: 20px;
+}
+
+
+
+
+.poost{
+    font-size: 20px;
+}
+
+.namee{
+    font-weight: bold;
+    font-size: 30px;
 }
