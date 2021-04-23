@@ -47,7 +47,7 @@ function Specifications() {
         
         <div class="subSet">
           <div class="box"> 
-            <img src={specificationResponse.image} className="App-logo" class="img"  ></img>
+            <img src={specificationResponse.image} className="App-logo" alt="logo" class="img"  ></img>
           </div>
           
         </div>
