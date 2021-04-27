@@ -52,15 +52,6 @@ function Tabs() {
                 </div>  */}
           <div style={{overflow:"auto", height:"950px"}}>
             <ReviewContainer/>
-            <ReviewContainer/>
-            <ReviewContainer/>
-            <ReviewContainer/>
-            <ReviewContainer/>
-            <ReviewContainer/>      
-            <ReviewContainer/>
-            <ReviewContainer/>
-            <ReviewContainer/>
-            <ReviewContainer/>
           </div>
         </div>
 
