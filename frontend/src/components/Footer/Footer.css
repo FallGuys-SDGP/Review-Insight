@@ -1,7 +1,13 @@
+
 .footer-wrapper{
   display: flex;
   flex-direction:column ;
   background-color: #143D59;
+  position: relative;
+  margin-top: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   
 }
 

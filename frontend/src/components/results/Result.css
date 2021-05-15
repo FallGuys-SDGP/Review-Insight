@@ -1,6 +1,7 @@
 .result-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     height: 100vh;
 }
 
@@ -8,17 +9,20 @@
     display: flex;
     flex-direction: column;
     margin-top: 1%;
+    height: 100vh;
+    justify-content: space-around;
 }
 
 .res-product-summary{
     background-color: #317bdd;
-    height: 400px;
-    width: 550px;
-    margin-left: 20px;
+    margin-left: 1%;
     border-radius: 25px;
     margin-top: 1%;
     margin-bottom: 3%;
     text-align: center;
+    height: 400px;
+    width: 550px;
+    margin-left: 5%;
 }
 
 .res-product-summary-title {
@@ -43,6 +47,7 @@
     margin-top: 1%;
     padding: 25px;
 }
+
 .summary-title{
     text-align: center;
     color: white;

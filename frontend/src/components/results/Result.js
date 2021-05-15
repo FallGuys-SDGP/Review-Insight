@@ -67,21 +67,24 @@ function Result(){
   return(
     <div className="result-container">
         <div className="result-sidebar">
+          
           <div className="res-product-summary">
             <h1 className="res-product-summary-title">{specificationResponse.Brand}</h1>
             <h3 style={{color: "white", textAlign: "center"}}>{specificationResponse.Model}</h3>
             <img className="res-product-img" src={specificationResponse.image}/>
           </div>
+
           <div className="summary">
             <h1 className="summary-title">Summary</h1>
             <div className="summary-chart-box">
               <Doughnut data={summaryData}></Doughnut>
             </div>
           </div>
+
         </div>
-        <div>
-          <Tabs />
-        </div>
+        
+        <Tabs />
+        
     </div>
   );
 }

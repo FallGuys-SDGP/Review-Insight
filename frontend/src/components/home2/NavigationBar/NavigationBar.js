@@ -13,13 +13,12 @@ function NavigationBar() {
             </ul>
 
             <ul className="nav-links" >
-                <li> <a> <Link to="/"> Home         </Link> </a> </li>
+                <li> <a> <Link to="/"> Home             </Link> </a> </li>
                 <li> <a> <Link to="/explore"> Explore   </Link> </a> </li>
                 <li> <a> <Link to="/aboutus"> About Us  </Link> </a> </li>
                 <li> <a> <Link to="/contact"> Contact   </Link> </a> </li>
-                <li> <a> <Link to="/help"> Help         </Link> </a> </li>
                 <li id= "nav-btn"> <a> <Link to="/login"> Login       </Link> </a> </li>
-                <li id = "nav-btn"> <a> <Link to="/signup"> Sign-Up    </Link> </a> </li>
+                <li id = "nav-btn"> <a> <Link to="/register"> Register    </Link> </a> </li>
             </ul>
 
         </div>

@@ -1,15 +1,10 @@
-button {
-    border: none;
+.container{
+    margin-top: 1%;
+   
 }
 
-.container{
-    float: right;
-    position: absolute;
-    top: 90px;
-    right: 20px;
-    /* color: rgb(255, 255, 255); */
-    /* padding-left: 20px;
-    padding-right: 20px; */
+button {
+    border: none;
 }
 
 .bloc-tabs {
@@ -50,7 +45,7 @@ button {
     background-color: #317bdd;
     height: 1000px;
     width: 1100px;
-    padding: 100px 0px 10px 150px;
+    padding: 10px 0px 10px 150px;
 }
 
 th {
@@ -59,6 +54,8 @@ th {
   }
 
 .review-tab-set{
-    /* overflow:auto;  */
+    
      overflow-y: hidden;
   }
+
+  

@@ -13,7 +13,7 @@ function SearchBar(props) {
     return (
         <div className="search-box">
             <div>
-                <input type="search" className='search-bar' style={{ fontSize: '25px' }} placeholder={props.placeholder} onChange={props.handleChange} />
+                <input type="search" className='search-bar'  onChange={getId}  style={{ fontSize: '25px' }} placeholder={props.placeholder} />
             </div>
             <div>
                 <button id="btn-search" onClick={()=>props.userEnteredId(id)} > Search </button>
