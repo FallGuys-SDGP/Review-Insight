@@ -1,0 +1,24 @@
+.main-wrapper{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    background-color: #F4B41A;
+    height: 50vh;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+.main-container h2 {
+    color:white;
+    font-size: 3em;
+    font-weight: 600;
+}
+ .main-container p{
+    font-size: 1.5em;
+ }
+
