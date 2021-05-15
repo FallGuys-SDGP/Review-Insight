@@ -1,0 +1,28 @@
+  .login-wrapper{
+    display: flex;
+    justify-content: center;
+    height:70vh;
+  }
+
+.container-login{
+    text-align: center;
+    display :flex ;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+.btn-submit{
+    padding: 100px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: medium;
+}
+
+
+
+.card-login{
+    width: 60%;
+    margin-bottom: 5%;
+    text-align: center;
+    height: 100%;
+}
