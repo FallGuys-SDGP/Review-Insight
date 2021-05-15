@@ -9,6 +9,9 @@ import AboutUs from './components/about-us/aboutus'
 import Contact from './components/contact/contact'
 import Footer from './components/Footer/Footer'
 import NavigationBar from "./components/home2/NavigationBar/NavigationBar";
+import Explore from "./components/Explore/Explore";
+import LogIn from "./components/LogIn/LogIn";
+import Register from "./components/Register/Register";
 
 
 function App() {
@@ -22,7 +25,10 @@ function App() {
         <Route exact path="/result" component={Result} />
         <Route exact path="/aboutus" component={AboutUs} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/result" component={Result} />
+        <Route exact path="/explore" component={Explore} />
+        <Route exact path="/login" component={LogIn} />
+        <Route exact path="/register" component={Register} />
+       
 
       </Switch>
 
