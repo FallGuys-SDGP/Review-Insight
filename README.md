@@ -33,11 +33,11 @@ Steps to run locally
 Contributors for this project
 -----------------------------
 
-[Uwin Vidanage(https://github.com/uwin)
-[Navod Zoysa](https://github.com/navodzoysa)
-[Shanthosh Srikantha](https://github.com/ShanthoshSrikantha)
-[Dinuvi Munasinghe](https://github.com/dinuviMunasinghe)
-[Viraj Sameera](https://github.com/virajprofile)
-[Udari Welipitiya](https://github.com/udariwelipitiya)
+[Uwin Vidanage](https://github.com/uwin) <br>
+[Navod Zoysa](https://github.com/navodzoysa) <br>
+[Shanthosh Srikantha](https://github.com/ShanthoshSrikantha) <br>
+[Dinuvi Munasinghe](https://github.com/dinuviMunasinghe) <br>
+[Viraj Sameera](https://github.com/virajprofile) <br>
+[Udari Welipitiya](https://github.com/udariwelipitiya) <br>
 
 Documentation done by [Navod Zoysa](https://github.com/navodzoysa)
