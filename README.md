@@ -29,3 +29,15 @@ Steps to run locally
 1. Go into frontend directory using <code> cd .\frontend\\</code> then run <code> npm install </code>
 2. Ater npm has installed all the packages run <code>npm start</code>
 3. The web application will open on your localhost at port 3000
+
+Contributors for this project
+-----------------------------
+
+[Uwin Vidanage(https://github.com/uwin)
+[Navod Zoysa](https://github.com/navodzoysa)
+[Shanthosh Srikantha](https://github.com/ShanthoshSrikantha)
+[Dinuvi Munasinghe](https://github.com/dinuviMunasinghe)
+[Viraj Sameera](https://github.com/virajprofile)
+[Udari Welipitiya](https://github.com/udariwelipitiya)
+
+Documentation done by [Navod Zoysa](https://github.com/navodzoysa)
