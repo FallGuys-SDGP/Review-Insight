@@ -1,4 +1,4 @@
-What is Review-Insight?
+What is Review Insight?
 =======================
 
 A tool to predict the reliability of online reviews using machine learning.
