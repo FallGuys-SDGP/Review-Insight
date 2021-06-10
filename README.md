@@ -40,4 +40,4 @@ Contributors for this project
 [Viraj Sameera](https://github.com/virajprofile) <br>
 [Udari Welipitiya](https://github.com/udariwelipitiya) <br>
 
-Documentation done by [Navod Zoysa](https://github.com/navodzoysa)
+<p align = "center"> Documentation done by <a href="https://github.com/navodzoysa">Navod Zoysa</a> </p>
