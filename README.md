@@ -40,4 +40,4 @@ Contributors for this project
 [Viraj Sameera](https://github.com/virajprofile) <br>
 [Udari Welipitiya](https://github.com/udariwelipitiya) <br>
 
-<p align = "center">In memory of our dear friend and project lead <a href="https://github.com/uwin">Uwin Vidanage (1999-2021)</a>. We couldn't have done this project without you.</p>
+<p align = "center">In memory of our dear friend and project lead <a href="https://github.com/uwin">Uwin Vidanage (1999-2021)</a>. <br>We couldn't have done this project without you.</p>
